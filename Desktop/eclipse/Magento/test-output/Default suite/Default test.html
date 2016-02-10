@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 01 17:50:52 IST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>23 seconds (23958 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestNGFramework_TestCases.SampleTestNGTest2.addGiftWrapping()'><b>addGiftWrapping</b><br>Test class: TestNGFramework_TestCases.SampleTestNGTest2<br/>
+<a href="#Output-91912419" onClick='toggleBox("Output-91912419", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-91912419" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-91912419">
+<---------- Started the TestCase : TC12_AddGiftWrapping ----------><br/>
+Launch the Application URL.<br/>
+Enter the Username as : admin<br/>
+Enter the Password as : 123123a<br/>
+Click on Login button.<br/>
+POP-UP window is displayed.<br/>
+Close the POP-UP window<br/>
+User Login is successfull.<br/>
+Mouse-hover on the sales tab in the top menu.<br/>
+Click on Gift Wrapping text link under the sales tab.<br/>
+Click on 'Add Gift Wrapping' button.<br/>
+Entered the String Value in 'Gift Wrapping Design' Text-box is : PlTs_App<br/>
+Option selected in the field 'WebSites' is : 'Private Sales Website' <br/>
+Option selected from the 'Status' dropdown list is : Disabled <br/>
+Enter the Price Value : 20<br/>
+Click on the Save button<br/>
+Output text message is displayed as : The gift wrapping has been saved.<br/>
+The gift wrapping design is created with the name  : PlTs_App<br/>
+Click on Log-Out text link.<br/>
+User logged-Out successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>TestNGFramework_TestCases.SampleTestNGTest2@6c1a5b54</td></tr>
+</table><p>
+</body>
+</html>

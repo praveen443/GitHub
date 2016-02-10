@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [CrossBrowser Testing]" parallel="tests">
+  <parameter name="browser" value="IE"/>
+  <test name="IE(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="Testcases.MultiBrowser">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="Gmail_Launch"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Testcases.MultiBrowser -->
+    </classes>
+  </test> <!-- IE(failed) -->
+</suite> <!-- Failed suite [CrossBrowser Testing] -->

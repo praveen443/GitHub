@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Magento_TestSuite">
+              <span class="suite-name border-passed">Magento_TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Magento_TestSuite">
+                    <span>C:\Users\praveen\Desktop\eclipse\Magento\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Magento_TestSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Magento_TestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Magento_TestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Magento_TestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Magento_TestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Magento_TestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Magento_TestSuite" class="hide-methods passed suite-Magento_TestSuite"> (hide)</a> <!-- hide-methods passed suite-Magento_TestSuite -->
+                      <a href="#" panel-name="suite-Magento_TestSuite" class="show-methods passed suite-Magento_TestSuite"> (show)</a> <!-- show-methods passed suite-Magento_TestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-Magento_TestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Magento_TestSuite" title="TestNGFramework_TestCases.SampleTestNGTest2" hash-for-method="addGiftWrapping">addGiftWrapping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Magento_TestSuite" title="TestNGFramework_TestCases.SampleTestNGTest1" hash-for-method="loginAndLogOut">loginAndLogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Magento_TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Magento_TestSuite" class="panel Magento_TestSuite">
+          <div class="suite-Magento_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGFramework_TestCases.SampleTestNGTest2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addGiftWrapping">
+                  </a> <!-- addGiftWrapping -->
+                  <span class="method-name">addGiftWrapping</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Magento_TestSuite-class-passed -->
+          <div class="suite-Magento_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGFramework_TestCases.SampleTestNGTest1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAndLogOut">
+                  </a> <!-- loginAndLogOut -->
+                  <span class="method-name">loginAndLogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Magento_TestSuite-class-passed -->
+        </div> <!-- panel Magento_TestSuite -->
+        <div panel-name="test-xml-Magento_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\praveen\Desktop\eclipse\Magento\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Magento_TestSuite&quot;&gt;
+  &lt;test name=&quot;MagentoTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestNGFramework_TestCases.SampleTestNGTest1&quot;/&gt;
+      &lt;class name=&quot;TestNGFramework_TestCases.SampleTestNGTest2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MagentoTest --&gt;
+&lt;/suite&gt; &lt;!-- Magento_TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Magento_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Magento_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MagentoTest (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Magento_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Magento_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Magento_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Magento_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Magento_TestSuite');
+function tableData_Magento_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addGiftWrapping')
+data.setCell(0, 2, 'TestNGFramework_TestCases.SampleTestNGTest2')
+data.setCell(0, 3, 32354);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginAndLogOut')
+data.setCell(1, 2, 'TestNGFramework_TestCases.SampleTestNGTest1')
+data.setCell(1, 3, 28543);
+window.suiteTableData['Magento_TestSuite']= { tableData: data, tableDiv: 'times-div-Magento_TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Magento_TestSuite">
+              </div> <!-- times-div-Magento_TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Magento_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Magento_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addGiftWrapping</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><---------- Started the TestCase : TC12_AddGiftWrapping ----------></span>
+                <span class="reporter-method-output">Maximize the browser window</span>
+                <span class="reporter-method-output">Launch the Application URL.</span>
+                <span class="reporter-method-output">Enter the Username as : admin</span>
+                <span class="reporter-method-output">Enter the Password as : 123123a</span>
+                <span class="reporter-method-output">Click on Login button.</span>
+                <span class="reporter-method-output">POP-UP window is displayed.</span>
+                <span class="reporter-method-output">Close the POP-UP window</span>
+                <span class="reporter-method-output">User Login is successfull.</span>
+                <span class="reporter-method-output">Mouse-hover on the sales tab in the top menu.</span>
+                <span class="reporter-method-output">Click on Gift Wrapping text link under the sales tab.</span>
+                <span class="reporter-method-output">Click on 'Add Gift Wrapping' button.</span>
+                <span class="reporter-method-output">Entered the String Value in 'Gift Wrapping Design' Text-box is : HDqy_App</span>
+                <span class="reporter-method-output">Enter the Price Value : 94</span>
+                <span class="reporter-method-output">Click on the Save button</span>
+                <span class="reporter-method-output">Click on Log-Out text link.</span>
+                <span class="reporter-method-output">User logged-Out successfully.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginAndLogOut</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><------- Started the TestCase : TC1_LoginAndLogOut -------></span>
+                <span class="reporter-method-output">Maximize the browser window</span>
+                <span class="reporter-method-output">Launch the Application URL.</span>
+                <span class="reporter-method-output">Enter the Username as : admin</span>
+                <span class="reporter-method-output">Enter the Password as : 123123a</span>
+                <span class="reporter-method-output">Click on Login button.</span>
+                <span class="reporter-method-output">POP-UP window is displayed.</span>
+                <span class="reporter-method-output">Close the POP-UP window</span>
+                <span class="reporter-method-output">User Login is successfull.</span>
+                <span class="reporter-method-output">Click on Log-Out text link.</span>
+                <span class="reporter-method-output">User logged-Out successfully.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Magento_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Magento_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGFramework_TestCases.SampleTestNGTest1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginAndLogOut</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=loginAndLogOut status=SUCCESS method=SampleTestNGTest1.loginAndLogOut()[pri:0, inst...)</span>
+                <span class="method-start">28543 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGFramework_TestCases.SampleTestNGTest2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addGiftWrapping</span>
+                <span class="method-start">31553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=addGiftWrapping status=SUCCESS method=SampleTestNGTest2.addGiftWrapping()[pri:0, in...)</span>
+                <span class="method-start">63907 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

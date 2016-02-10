@@ -1,0 +1,225 @@
+     [echo] build logged to build_06-10-2015_(150712).log
+build:  duration 0 seconds
+
+setClassPath:
+[pathconvert] Set property test.classpath = C:\Users\praveen\Desktop\eclipse\Magento:C:\Users\praveen\Desktop\eclipse\Magento\lib\SaxonLiaison.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\commons-codec-1.9.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\commons-logging-1.1.3.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\junit-4.12.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\mail-1.4.7.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\maven-plugin-api-3.3.3.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-3.12-20150511.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-3.12.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-examples-3.12-20150511.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-excelant-3.12-20150511.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-ooxml-3.12-20150511.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-ooxml-schemas-3.12-20150511.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-scratchpad-3.12-20150511.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\saxon-8.7.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\selenium-server-standalone-2.46.0.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\selenium-server-standalone-2.47.1.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\testng-6.9.6.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\xmlbeans-2.6.0.jar
+setClassPath:  duration 0 seconds
+
+loadTestNG:
+loadTestNG:  duration 0 seconds
+
+compile:
+    [mkdir] Created dir: C:\Users\praveen\Desktop\eclipse\Magento\build
+     [echo] classpath:C:\Users\praveen\Desktop\eclipse\Magento:C:\Users\praveen\Desktop\eclipse\Magento\lib\SaxonLiaison.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\commons-codec-1.9.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\commons-logging-1.1.3.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\junit-4.12.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\mail-1.4.7.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\maven-plugin-api-3.3.3.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-3.12-20150511.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-3.12.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-examples-3.12-20150511.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-excelant-3.12-20150511.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-ooxml-3.12-20150511.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-ooxml-schemas-3.12-20150511.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-scratchpad-3.12-20150511.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\saxon-8.7.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\selenium-server-standalone-2.46.0.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\selenium-server-standalone-2.47.1.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\testng-6.9.6.jar:C:\Users\praveen\Desktop\eclipse\Magento\lib\xmlbeans-2.6.0.jar
+     [echo] compiling..........
+    [javac] Actions\AlertHandling.java added as Actions\AlertHandling.class doesn't exist.
+    [javac] Actions\Application.java added as Actions\Application.class doesn't exist.
+    [javac] Actions\DriverObject.java added as Actions\DriverObject.class doesn't exist.
+    [javac] Actions\Magento_ReusableFunctions.java added as Actions\Magento_ReusableFunctions.class doesn't exist.
+    [javac] Actions\MouseHoverOperation.java added as Actions\MouseHoverOperation.class doesn't exist.
+    [javac] Actions\SelectBrowser.java added as Actions\SelectBrowser.class doesn't exist.
+    [javac] Actions\TakeSScreenshot.java added as Actions\TakeSScreenshot.class doesn't exist.
+    [javac] PageObjects\CreateNewOrder_Page.java added as PageObjects\CreateNewOrder_Page.class doesn't exist.
+    [javac] PageObjects\EditgiftWrappingDesign_Page.java added as PageObjects\EditgiftWrappingDesign_Page.class doesn't exist.
+    [javac] PageObjects\Home_Page.java added as PageObjects\Home_Page.class doesn't exist.
+    [javac] PageObjects\Login_Page.java added as PageObjects\Login_Page.class doesn't exist.
+    [javac] PageObjects\ManageCustomersPage.java added as PageObjects\ManageCustomersPage.class doesn't exist.
+    [javac] PageObjects\ManageGiftWrapping_Page.java added as PageObjects\ManageGiftWrapping_Page.class doesn't exist.
+    [javac] PageObjects\NewCreditMemoForOrder_Page.java added as PageObjects\NewCreditMemoForOrder_Page.class doesn't exist.
+    [javac] PageObjects\NewCustomerPage.java added as PageObjects\NewCustomerPage.class doesn't exist.
+    [javac] PageObjects\NewGiftWrapping_Page.java added as PageObjects\NewGiftWrapping_Page.class doesn't exist.
+    [javac] PageObjects\OrdersPage.java added as PageObjects\OrdersPage.class doesn't exist.
+    [javac] PageObjects\Properties.java added as PageObjects\Properties.class doesn't exist.
+    [javac] TestNGFramework_TestCases\SampleTestNGTest1.java added as TestNGFramework_TestCases\SampleTestNGTest1.class doesn't exist.
+    [javac] TestNGFramework_TestCases\SampleTestNGTest2.java added as TestNGFramework_TestCases\SampleTestNGTest2.class doesn't exist.
+    [javac] TestNGFramework_TestCases\TC11_CreateCreditMemos_ForCompletedOrders.java added as TestNGFramework_TestCases\TC11_CreateCreditMemos_ForCompletedOrders.class doesn't exist.
+    [javac] TestNGFramework_TestCases\TC12_AddGiftWrapping.java added as TestNGFramework_TestCases\TC12_AddGiftWrapping.class doesn't exist.
+    [javac] TestNGFramework_TestCases\TC13_ChangetheStatusOf_GiftWrapping.java added as TestNGFramework_TestCases\TC13_ChangetheStatusOf_GiftWrapping.class doesn't exist.
+    [javac] TestNGFramework_TestCases\TC14_Delete_SelectedGiftWrappingDesign.java added as TestNGFramework_TestCases\TC14_Delete_SelectedGiftWrappingDesign.class doesn't exist.
+    [javac] TestNGFramework_TestCases\TC15_Edit_ExistingGiftWrapping.java added as TestNGFramework_TestCases\TC15_Edit_ExistingGiftWrapping.class doesn't exist.
+    [javac] TestNGFramework_TestCases\TC1_LoginAndLogOut.java added as TestNGFramework_TestCases\TC1_LoginAndLogOut.class doesn't exist.
+    [javac] TestNGFramework_TestCases\TC26_CreateNewCustomer.java added as TestNGFramework_TestCases\TC26_CreateNewCustomer.class doesn't exist.
+    [javac] TestNGFramework_TestCases\TC27_SearchCustomer_basedOn_CustomerName.java added as TestNGFramework_TestCases\TC27_SearchCustomer_basedOn_CustomerName.class doesn't exist.
+    [javac] TestNGFramework_TestCases\TC28_EditCustomer_BasedOn_TheCustomerName.java added as TestNGFramework_TestCases\TC28_EditCustomer_BasedOn_TheCustomerName.class doesn't exist.
+    [javac] TestNGFramework_TestCases\TC29_DeleteCustomer_basedOnCustomerName.java added as TestNGFramework_TestCases\TC29_DeleteCustomer_basedOnCustomerName.class doesn't exist.
+    [javac] TestNGFramework_TestCases\TC2_CreateNewOrder_ExistingCustomer.java added as TestNGFramework_TestCases\TC2_CreateNewOrder_ExistingCustomer.class doesn't exist.
+    [javac] TestNGFramework_TestCases\TC30_ValidateCustomerResetFilter.java added as TestNGFramework_TestCases\TC30_ValidateCustomerResetFilter.class doesn't exist.
+    [javac] TestNGFramework_TestCases\TC32_AddNewCustomerAttribute.java added as TestNGFramework_TestCases\TC32_AddNewCustomerAttribute.class doesn't exist.
+    [javac] TestNGFramework_TestCases\TC33_ValidateCustomerAttributeResetFilter.java added as TestNGFramework_TestCases\TC33_ValidateCustomerAttributeResetFilter.class doesn't exist.
+    [javac] TestNGFramework_TestCases\TC34_AddNewCustomerAddressAttribute.java added as TestNGFramework_TestCases\TC34_AddNewCustomerAddressAttribute.class doesn't exist.
+    [javac] TestNGFramework_TestCases\TC35_ValidateCustomerAddressAttributeResetFilter.java added as TestNGFramework_TestCases\TC35_ValidateCustomerAddressAttributeResetFilter.class doesn't exist.
+    [javac] TestNGFramework_TestCases\TC3_CreateNewOrder_ForNewCustomer.java added as TestNGFramework_TestCases\TC3_CreateNewOrder_ForNewCustomer.class doesn't exist.
+    [javac] TestNGFramework_TestCases\TC4_SearchOrder_basedOnOrderNumber.java added as TestNGFramework_TestCases\TC4_SearchOrder_basedOnOrderNumber.class doesn't exist.
+    [javac] Utility\Constant.java added as Utility\Constant.class doesn't exist.
+    [javac] Utility\ExcelFunctions.java added as Utility\ExcelFunctions.class doesn't exist.
+    [javac] Utility\GenericFunctions.java added as Utility\GenericFunctions.class doesn't exist.
+    [javac] C:\Users\praveen\Desktop\eclipse\Magento\src\Utility\Param.properties skipped - don't know how to handle it
+    [javac] Utility\ScreenshotUtility.java added as Utility\ScreenshotUtility.class doesn't exist.
+    [javac] Utility\TakeSScreenshot.java added as Utility\TakeSScreenshot.class doesn't exist.
+    [javac] Utility\TakeScreenShot.java added as Utility\TakeScreenShot.class doesn't exist.
+    [javac] C:\Users\praveen\Desktop\eclipse\Magento\src\Utility\testng.xml skipped - don't know how to handle it
+    [javac] WithoutTestNG_TestCases\ReadDataFromExcelSheet.java added as WithoutTestNG_TestCases\ReadDataFromExcelSheet.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC11_CreateCreditMemos_ForCompletedOrders.java added as WithoutTestNG_TestCases\TC11_CreateCreditMemos_ForCompletedOrders.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC12_AddGiftWrapping.java added as WithoutTestNG_TestCases\TC12_AddGiftWrapping.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC13_ChangetheStatusOf_GiftWrapping.java added as WithoutTestNG_TestCases\TC13_ChangetheStatusOf_GiftWrapping.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC14_DeleteGiftWrapping.java added as WithoutTestNG_TestCases\TC14_DeleteGiftWrapping.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC15_Edit_ExistingGiftWrapping.java added as WithoutTestNG_TestCases\TC15_Edit_ExistingGiftWrapping.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC16_AddNewCondition.java added as WithoutTestNG_TestCases\TC16_AddNewCondition.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC1_Magento_LoginAndLogOut.java added as WithoutTestNG_TestCases\TC1_Magento_LoginAndLogOut.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC26_CreateNewCustomer.java added as WithoutTestNG_TestCases\TC26_CreateNewCustomer.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC27_SearchCustomer_basedOn_CustomerName.java added as WithoutTestNG_TestCases\TC27_SearchCustomer_basedOn_CustomerName.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC28_EditCustomer_basedOn_CustomerName.java added as WithoutTestNG_TestCases\TC28_EditCustomer_basedOn_CustomerName.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC29_DeleteCustomer_basedOnCustomerName.java added as WithoutTestNG_TestCases\TC29_DeleteCustomer_basedOnCustomerName.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC2_CreateNewOrder_ExistingCustomer.java added as WithoutTestNG_TestCases\TC2_CreateNewOrder_ExistingCustomer.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC30_ValidateCustomerResetFilter.java added as WithoutTestNG_TestCases\TC30_ValidateCustomerResetFilter.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC31_DeleteMultipleCustomersbyID.java added as WithoutTestNG_TestCases\TC31_DeleteMultipleCustomersbyID.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC32_AddNewCustomerAttribute.java added as WithoutTestNG_TestCases\TC32_AddNewCustomerAttribute.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC33_ValidateCustomerAttributeResetFilter.java added as WithoutTestNG_TestCases\TC33_ValidateCustomerAttributeResetFilter.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC34_AddNewCustomerAddressAttribute.java added as WithoutTestNG_TestCases\TC34_AddNewCustomerAddressAttribute.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC35_ValidateCustomerAddressAttributeResetFilter.java added as WithoutTestNG_TestCases\TC35_ValidateCustomerAddressAttributeResetFilter.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC3_CreateNewOrder_For_NewCustomer.java added as WithoutTestNG_TestCases\TC3_CreateNewOrder_For_NewCustomer.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\TC4_SearchOrder_BasedOnOrderNumber.java added as WithoutTestNG_TestCases\TC4_SearchOrder_BasedOnOrderNumber.class doesn't exist.
+    [javac] WithoutTestNG_TestCases\sample.java added as WithoutTestNG_TestCases\sample.class doesn't exist.
+    [javac] Compiling 66 source files to C:\Users\praveen\Desktop\eclipse\Magento\build
+    [javac] Using modern compiler
+    [javac] Compilation arguments:
+'-d'
+'C:\Users\praveen\Desktop\eclipse\Magento\build'
+'-classpath'
+'C:\Users\praveen\Desktop\eclipse\Magento\build;C:\Users\praveen\Desktop\eclipse\Magento;C:\Users\praveen\Desktop\eclipse\Magento\lib\SaxonLiaison.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\commons-codec-1.9.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\commons-logging-1.1.3.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\junit-4.12.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\mail-1.4.7.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\maven-plugin-api-3.3.3.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-3.12-20150511.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-3.12.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-examples-3.12-20150511.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-excelant-3.12-20150511.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-ooxml-3.12-20150511.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-ooxml-schemas-3.12-20150511.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-scratchpad-3.12-20150511.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\saxon-8.7.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\selenium-server-standalone-2.46.0.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\selenium-server-standalone-2.47.1.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\testng-6.9.6.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\xmlbeans-2.6.0.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-launcher.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-antlr.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-apache-bcel.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-apache-bsf.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-apache-log4j.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-apache-oro.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-apache-regexp.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-apache-resolver.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-apache-xalan2.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-commons-logging.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-commons-net.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-jai.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-javamail.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-jdepend.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-jmf.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-jsch.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-junit.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-junit4.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-netrexx.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-swing.jar;C:\Program Files\apache-ant-1.9.4\lib\ant-testutil.jar;C:\Program Files\apache-ant-1.9.4\lib\ant.jar;C:\Program Files\apache-ant-1.9.4\lib\java-mail-1.4.4.jar;C:\Program Files\apache-ant-1.9.4\lib\javax.activation.jar;C:\Program Files\Java\jdk1.8.0_25\lib\tools.jar'
+'-sourcepath'
+'C:\Users\praveen\Desktop\eclipse\Magento\src'
+'-g:none'
+
+The ' characters around the executable and arguments are
+not part of the command.
+    [javac] Files to be compiled:
+    C:\Users\praveen\Desktop\eclipse\Magento\src\Actions\AlertHandling.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\Actions\Application.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\Actions\DriverObject.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\Actions\Magento_ReusableFunctions.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\Actions\MouseHoverOperation.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\Actions\SelectBrowser.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\Actions\TakeSScreenshot.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\PageObjects\CreateNewOrder_Page.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\PageObjects\EditgiftWrappingDesign_Page.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\PageObjects\Home_Page.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\PageObjects\Login_Page.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\PageObjects\ManageCustomersPage.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\PageObjects\ManageGiftWrapping_Page.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\PageObjects\NewCreditMemoForOrder_Page.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\PageObjects\NewCustomerPage.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\PageObjects\NewGiftWrapping_Page.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\PageObjects\OrdersPage.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\PageObjects\Properties.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\SampleTestNGTest1.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\SampleTestNGTest2.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\TC11_CreateCreditMemos_ForCompletedOrders.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\TC12_AddGiftWrapping.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\TC13_ChangetheStatusOf_GiftWrapping.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\TC14_Delete_SelectedGiftWrappingDesign.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\TC15_Edit_ExistingGiftWrapping.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\TC1_LoginAndLogOut.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\TC26_CreateNewCustomer.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\TC27_SearchCustomer_basedOn_CustomerName.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\TC28_EditCustomer_BasedOn_TheCustomerName.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\TC29_DeleteCustomer_basedOnCustomerName.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\TC2_CreateNewOrder_ExistingCustomer.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\TC30_ValidateCustomerResetFilter.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\TC32_AddNewCustomerAttribute.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\TC33_ValidateCustomerAttributeResetFilter.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\TC34_AddNewCustomerAddressAttribute.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\TC35_ValidateCustomerAddressAttributeResetFilter.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\TC3_CreateNewOrder_ForNewCustomer.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\TestNGFramework_TestCases\TC4_SearchOrder_basedOnOrderNumber.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\Utility\Constant.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\Utility\ExcelFunctions.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\Utility\GenericFunctions.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\Utility\ScreenshotUtility.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\Utility\TakeSScreenshot.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\Utility\TakeScreenShot.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\ReadDataFromExcelSheet.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC11_CreateCreditMemos_ForCompletedOrders.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC12_AddGiftWrapping.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC13_ChangetheStatusOf_GiftWrapping.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC14_DeleteGiftWrapping.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC15_Edit_ExistingGiftWrapping.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC16_AddNewCondition.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC1_Magento_LoginAndLogOut.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC26_CreateNewCustomer.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC27_SearchCustomer_basedOn_CustomerName.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC28_EditCustomer_basedOn_CustomerName.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC29_DeleteCustomer_basedOnCustomerName.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC2_CreateNewOrder_ExistingCustomer.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC30_ValidateCustomerResetFilter.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC31_DeleteMultipleCustomersbyID.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC32_AddNewCustomerAttribute.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC33_ValidateCustomerAttributeResetFilter.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC34_AddNewCustomerAddressAttribute.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC35_ValidateCustomerAddressAttributeResetFilter.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC3_CreateNewOrder_For_NewCustomer.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\TC4_SearchOrder_BasedOnOrderNumber.java
+    C:\Users\praveen\Desktop\eclipse\Magento\src\WithoutTestNG_TestCases\sample.java
+compile:  duration 1 second
+
+executeApp:
+   [testng] Executing 'C:\Program Files\Java\jdk1.8.0_25\jre\bin\java.exe' with arguments:
+'-ea'
+'-classpath'
+'C:\Users\praveen\Desktop\eclipse\Magento;C:\Users\praveen\Desktop\eclipse\Magento\lib\SaxonLiaison.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\commons-codec-1.9.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\commons-logging-1.1.3.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\junit-4.12.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\mail-1.4.7.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\maven-plugin-api-3.3.3.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-3.12-20150511.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-3.12.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-examples-3.12-20150511.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-excelant-3.12-20150511.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-ooxml-3.12-20150511.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-ooxml-schemas-3.12-20150511.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\poi-scratchpad-3.12-20150511.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\saxon-8.7.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\selenium-server-standalone-2.46.0.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\selenium-server-standalone-2.47.1.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\testng-6.9.6.jar;C:\Users\praveen\Desktop\eclipse\Magento\lib\xmlbeans-2.6.0.jar;C:\Users\praveen\Desktop\eclipse\Magento\build'
+'org.testng.TestNG'
+'@C:\Users\praveen\AppData\Local\Temp\testng4303993927782815978'
+
+The ' characters around the executable and arguments are
+not part of the command.
+   [testng] [TestNG] [ERROR] org.xml.sax.SAXParseException; lineNumber: 7; columnNumber: 18; Open quote is expected for attribute "{1}" associated with an  element type  "name".
+   [testng] The tests failed.
+executeApp:  duration 0 seconds
+
+makexsltReport:
+   [delete] Deleting directory C:\Users\praveen\Desktop\eclipse\Magento\testng-xslt
+   [delete] Deleting C:\Users\praveen\Desktop\eclipse\Magento\testng-xslt\index.html
+   [delete] Deleting C:\Users\praveen\Desktop\eclipse\Magento\testng-xslt\Magento_TestSuite.html
+   [delete] Deleting C:\Users\praveen\Desktop\eclipse\Magento\testng-xslt\Magento_TestSuite_groups.html
+   [delete] Deleting C:\Users\praveen\Desktop\eclipse\Magento\testng-xslt\Magento_TestSuite_MagentoTest.html
+   [delete] Deleting C:\Users\praveen\Desktop\eclipse\Magento\testng-xslt\main.js
+   [delete] Deleting C:\Users\praveen\Desktop\eclipse\Magento\testng-xslt\navigation.html
+   [delete] Deleting C:\Users\praveen\Desktop\eclipse\Magento\testng-xslt\overview-chart.svg
+   [delete] Deleting C:\Users\praveen\Desktop\eclipse\Magento\testng-xslt\overview.html
+   [delete] Deleting C:\Users\praveen\Desktop\eclipse\Magento\testng-xslt\reporterOutput.html
+   [delete] Deleting C:\Users\praveen\Desktop\eclipse\Magento\testng-xslt\style.css
+   [delete] Deleting directory C:\Users\praveen\Desktop\eclipse\Magento\testng-xslt
+    [mkdir] Created dir: C:\Users\praveen\Desktop\eclipse\Magento\testng-xslt
+     [xslt] Using class SaxonLiaison
+     [xslt] Processing C:\Users\praveen\Desktop\eclipse\Magento\test-output\testng-results.xml to C:\Users\praveen\Desktop\eclipse\Magento\testng-xslt\index.html
+     [xslt] Loading stylesheet C:\Users\praveen\Desktop\eclipse\Magento\testng-results.xsl
+makexsltReport:  duration 0 seconds
+
+ZipReport:
+     [echo]  Deleting the existing Report.zip file from the base directory.
+     [echo]  Creating the new Report.zip file in the base directory.
+      [zip] Magento_TestSuite.html added as Magento_TestSuite.html is outdated.
+      [zip] Magento_TestSuite_MagentoTest.html added as Magento_TestSuite_MagentoTest.html is outdated.
+      [zip] Magento_TestSuite_groups.html added as Magento_TestSuite_groups.html is outdated.
+      [zip] index.html added as index.html is outdated.
+      [zip] main.js added as main.js is outdated.
+      [zip] navigation.html added as navigation.html is outdated.
+      [zip] overview-chart.svg added as overview-chart.svg is outdated.
+      [zip] overview.html added as overview.html is outdated.
+      [zip] reporterOutput.html added as reporterOutput.html is outdated.
+      [zip] style.css added as style.css is outdated.
+      [zip] No sources found.
+      [zip] Building zip: C:\Users\praveen\Desktop\eclipse\Magento\Report.zip
+      [zip] adding entry Magento_TestSuite.html
+      [zip] adding entry Magento_TestSuite_MagentoTest.html
+      [zip] adding entry Magento_TestSuite_groups.html
+      [zip] adding entry index.html
+      [zip] adding entry main.js
+      [zip] adding entry navigation.html
+      [zip] adding entry overview-chart.svg
+      [zip] adding entry overview.html
+      [zip] adding entry reporterOutput.html
+      [zip] adding entry style.css
+ZipReport:  duration 0 seconds
+
+BUILD SUCCESSFUL

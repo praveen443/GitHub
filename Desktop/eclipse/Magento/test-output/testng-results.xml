@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<------- Started the TestCase : TC1_LoginAndLogOut ------->]]>
+    </line>
+    <line>
+      <![CDATA[Maximize the browser window]]>
+    </line>
+    <line>
+      <![CDATA[Launch the Application URL.]]>
+    </line>
+    <line>
+      <![CDATA[Enter the Username as : admin]]>
+    </line>
+    <line>
+      <![CDATA[Enter the Password as : 123123a]]>
+    </line>
+    <line>
+      <![CDATA[Click on Login button.]]>
+    </line>
+    <line>
+      <![CDATA[POP-UP window is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Close the POP-UP window]]>
+    </line>
+    <line>
+      <![CDATA[User Login is successfull.]]>
+    </line>
+    <line>
+      <![CDATA[Click on Log-Out text link.]]>
+    </line>
+    <line>
+      <![CDATA[User logged-Out successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Closed the browser]]>
+    </line>
+    <line>
+      <![CDATA[<-------- Ended the TestCase: TC1_LoginAndLogOut -------->]]>
+    </line>
+    <line>
+      <![CDATA[<---------- Started the TestCase : TC12_AddGiftWrapping ---------->]]>
+    </line>
+    <line>
+      <![CDATA[Maximize the browser window]]>
+    </line>
+    <line>
+      <![CDATA[Launch the Application URL.]]>
+    </line>
+    <line>
+      <![CDATA[Enter the Username as : admin]]>
+    </line>
+    <line>
+      <![CDATA[Enter the Password as : 123123a]]>
+    </line>
+    <line>
+      <![CDATA[Click on Login button.]]>
+    </line>
+    <line>
+      <![CDATA[POP-UP window is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Close the POP-UP window]]>
+    </line>
+    <line>
+      <![CDATA[User Login is successfull.]]>
+    </line>
+    <line>
+      <![CDATA[Mouse-hover on the sales tab in the top menu.]]>
+    </line>
+    <line>
+      <![CDATA[Click on Gift Wrapping text link under the sales tab.]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Add Gift Wrapping' button.]]>
+    </line>
+    <line>
+      <![CDATA[Entered the String Value in 'Gift Wrapping Design' Text-box is : HDqy_App]]>
+    </line>
+    <line>
+      <![CDATA[Enter the Price Value : 94]]>
+    </line>
+    <line>
+      <![CDATA[Click on the Save button]]>
+    </line>
+    <line>
+      <![CDATA[Click on Log-Out text link.]]>
+    </line>
+    <line>
+      <![CDATA[User logged-Out successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Closed the browser]]>
+    </line>
+    <line>
+      <![CDATA[<-------- Ended the TestCase: TC12_AddGiftWrapping -------->]]>
+    </line>
+  </reporter-output>
+  <suite name="Magento_TestSuite" duration-ms="66917" started-at="2015-10-07T07:14:52Z" finished-at="2015-10-07T07:15:59Z">
+    <groups>
+    </groups>
+    <test name="MagentoTest" duration-ms="66917" started-at="2015-10-07T07:14:52Z" finished-at="2015-10-07T07:15:59Z">
+      <class name="TestNGFramework_TestCases.SampleTestNGTest1">
+        <test-method status="PASS" signature="loginAndLogOut()[pri:0, instance:TestNGFramework_TestCases.SampleTestNGTest1@31b7dea0]" name="loginAndLogOut" duration-ms="28543" started-at="2015-10-07T12:44:52Z" finished-at="2015-10-07T12:45:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<------- Started the TestCase : TC1_LoginAndLogOut ------->]]>
+            </line>
+            <line>
+              <![CDATA[Maximize the browser window]]>
+            </line>
+            <line>
+              <![CDATA[Launch the Application URL.]]>
+            </line>
+            <line>
+              <![CDATA[Enter the Username as : admin]]>
+            </line>
+            <line>
+              <![CDATA[Enter the Password as : 123123a]]>
+            </line>
+            <line>
+              <![CDATA[Click on Login button.]]>
+            </line>
+            <line>
+              <![CDATA[POP-UP window is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Close the POP-UP window]]>
+            </line>
+            <line>
+              <![CDATA[User Login is successfull.]]>
+            </line>
+            <line>
+              <![CDATA[Click on Log-Out text link.]]>
+            </line>
+            <line>
+              <![CDATA[User logged-Out successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAndLogOut -->
+        <test-method status="PASS" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:TestNGFramework_TestCases.SampleTestNGTest1@31b7dea0]" name="CloseBrowser" is-config="true" duration-ms="3010" started-at="2015-10-07T12:45:21Z" finished-at="2015-10-07T12:45:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAndLogOut status=SUCCESS method=SampleTestNGTest1.loginAndLogOut()[pri:0, instance:TestNGFramework_TestCases.SampleTestNGTest1@31b7dea0] output=<------- Started the TestCase : TC1_LoginAndLogOut ------->]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Closed the browser]]>
+            </line>
+            <line>
+              <![CDATA[<-------- Ended the TestCase: TC1_LoginAndLogOut -------->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestNGFramework_TestCases.SampleTestNGTest1 -->
+      <class name="TestNGFramework_TestCases.SampleTestNGTest2">
+        <test-method status="PASS" signature="addGiftWrapping()[pri:0, instance:TestNGFramework_TestCases.SampleTestNGTest2@ba4d54]" name="addGiftWrapping" duration-ms="32354" started-at="2015-10-07T12:45:24Z" finished-at="2015-10-07T12:45:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<---------- Started the TestCase : TC12_AddGiftWrapping ---------->]]>
+            </line>
+            <line>
+              <![CDATA[Maximize the browser window]]>
+            </line>
+            <line>
+              <![CDATA[Launch the Application URL.]]>
+            </line>
+            <line>
+              <![CDATA[Enter the Username as : admin]]>
+            </line>
+            <line>
+              <![CDATA[Enter the Password as : 123123a]]>
+            </line>
+            <line>
+              <![CDATA[Click on Login button.]]>
+            </line>
+            <line>
+              <![CDATA[POP-UP window is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Close the POP-UP window]]>
+            </line>
+            <line>
+              <![CDATA[User Login is successfull.]]>
+            </line>
+            <line>
+              <![CDATA[Mouse-hover on the sales tab in the top menu.]]>
+            </line>
+            <line>
+              <![CDATA[Click on Gift Wrapping text link under the sales tab.]]>
+            </line>
+            <line>
+              <![CDATA[Click on 'Add Gift Wrapping' button.]]>
+            </line>
+            <line>
+              <![CDATA[Entered the String Value in 'Gift Wrapping Design' Text-box is : HDqy_App]]>
+            </line>
+            <line>
+              <![CDATA[Enter the Price Value : 94]]>
+            </line>
+            <line>
+              <![CDATA[Click on the Save button]]>
+            </line>
+            <line>
+              <![CDATA[Click on Log-Out text link.]]>
+            </line>
+            <line>
+              <![CDATA[User logged-Out successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addGiftWrapping -->
+        <test-method status="PASS" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:TestNGFramework_TestCases.SampleTestNGTest2@ba4d54]" name="CloseBrowser" is-config="true" duration-ms="3000" started-at="2015-10-07T12:45:56Z" finished-at="2015-10-07T12:45:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addGiftWrapping status=SUCCESS method=SampleTestNGTest2.addGiftWrapping()[pri:0, instance:TestNGFramework_TestCases.SampleTestNGTest2@ba4d54] output=<---------- Started the TestCase : TC12_AddGiftWrapping ---------->]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Closed the browser]]>
+            </line>
+            <line>
+              <![CDATA[<-------- Ended the TestCase: TC12_AddGiftWrapping -------->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestNGFramework_TestCases.SampleTestNGTest2 -->
+    </test> <!-- MagentoTest -->
+  </suite> <!-- Magento_TestSuite -->
+</testng-results>

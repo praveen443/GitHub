@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Magento_TestSuite]">
+  <test name="MagentoTest(failed)">
+    <classes>
+      <class name="TestNGFramework_TestCases.SampleTestNGTest1">
+        <methods>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- TestNGFramework_TestCases.SampleTestNGTest1 -->
+      <class name="TestNGFramework_TestCases.SampleTestNGTest2">
+        <methods>
+          <include name="addGiftWrapping"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- TestNGFramework_TestCases.SampleTestNGTest2 -->
+    </classes>
+  </test> <!-- MagentoTest(failed) -->
+</suite> <!-- Failed suite [Magento_TestSuite] -->

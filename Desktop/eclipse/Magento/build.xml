@@ -1,0 +1,139 @@
+<project name="MagentoApp" basedir=".">
+ 
+ <!-- Defining property -->  
+    <property name="project.dir" value="${basedir}" />
+    <property name="build.dir" value="${basedir}/build" />
+    <property name="jar.dir" value="${basedir}/lib" />
+    <property name="src.dir" value="${basedir}/src" />
+    <property name="ng.result" value="test-output" />
+    <property name="lib.dir" value="${basedir}/lib"/>
+ 
+ <!-- Setting Classpath for jar files  -->  
+    <target name="setClassPath">
+         <path id="classpath_jars">
+         <pathelement path="${basedir}/" />
+             <fileset dir="${jar.dir}">
+                  <include name="*.jar" />
+             </fileset>
+         </path>
+         <pathconvert pathsep=":" property="test.classpath" refid="classpath_jars" />
+    </target>
+    
+ <!-- Loading Testng -->  
+     <target name="loadTestNG" depends="setClassPath">
+              <taskdef resource="testngtasks" classpath="${test.classpath}" />
+     </target>
+
+<!-- Delete and Creates a new folder - 'lib' in my root project. -->
+<!-- Loads all the jar files into the lib folder of my project. -->  
+     <target name="loadJarFiles" depends="setClassPath"> 	   
+	    <delete dir="${basedir}/lib"/>
+	    <echo message="deleting existing lib folder"/>
+	    	  
+	    <mkdir dir="${basedir}/lib"/>
+	    <echo message="Creating new lib folder"/>
+	   
+     </target>
+            
+ <!-- Deleting directories -->  
+      <target name="clean">
+            <echo message="deleting existing build directory " />
+            <delete dir="${build.dir}" />
+     </target>
+ 
+<!-- build -->      
+<target name="build">
+  
+   <tstamp>
+     <format property="timestamp" pattern="dd-MM-yyyy_(HHmmss)"/>
+   </tstamp>
+
+   <property name="build.log.dir" location="${basedir}/buildlogs"/>
+        <mkdir dir="${build.log.dir}"/>
+   <property name="build.log.filename" value="build_${timestamp}.log"/>
+   <record name="${build.log.dir}/${build.log.filename}" append="false" loglevel="verbose"/>
+        <echo message="build logged to ${build.log.filename}"/>
+
+</target>
+
+<!-- Compile -->
+<target name="compile" depends="build,setClassPath,loadTestNG">
+
+<mkdir dir="${build.dir}"/>
+
+<echo message="classpath:${test.classpath}"/>
+
+<echo message="compiling.........."/>
+
+<javac classpath="${test.classpath}" srcdir="${src.dir}" destdir="${build.dir}" includeantruntime="true"/>
+
+</target>
+
+<!-- executeApp -->
+<target name="executeApp" depends="clean,compile">
+	<testng classpath="${test.classpath}:${build.dir}">
+		<xmlfileset dir="${basedir}" includes="testng.xml"/>
+	</testng>
+</target>
+
+<!-- makexsltreports-->
+<target name="makexsltReport" depends="executeApp">
+	
+	<delete dir="${basedir}/testng-xslt"/>
+	<mkdir dir="${basedir}/testng-xslt"/>
+
+	<xslt processor="SaxonLiaison" out="${basedir}/testng-xslt/index.html" style="${basedir}/testng-results.xsl" in="${basedir}/test-output/testng-results.xml">
+		<param name="testNgXslt.outputDir" expression="${basedir}/testng-xslt/"/>
+		<param name="testNGXslt.sortTestCaseLinks" expression="true"/>
+		<param name="testNgXslt.testDetailsFilter" expression="FAIL,SKIP,PASS,BY_CLASS"/>
+		<param name="testNgXslt.showRuntimeTotals" expression="true"/>
+		
+		<classpath refid="classpath_jars"/>
+	</xslt>
+
+</target>
+
+ <!-- Create ZipReport -->
+ <target name="ZipReport" depends="makexsltReport">
+   
+    <delete dir="${basedir}/Report.zip"/>
+    <echo> Deleting the existing Report.zip file from the base directory.</echo>
+    <echo> Creating the new Report.zip file in the base directory.</echo>
+	<zip basedir="${basedir}/testng-xslt/" destfile="${basedir}/Report.zip"/>
+	<zipfileset dir="${basedir}/">
+		<include name="Report.zip"/>
+	</zipfileset> 
+
+ </target> 
+
+<!-- using javax.mail.jar and javax.activation.jar trying to send report as zip file -->  
+ <target name="sendMail" depends="ZipReport"> 
+
+  <!-- Compressing all the output file of XSLT report  -->
+  <!-- <zip basedir="${project.dir}/testng-xslt/" destfile="${project.dir}/Report.zip"/> -->
+   <zip destfile="${project.dir}/testng-xslt/Report.zip" basedir="${project.dir}/testng-xslt/" />
+  <mail
+ 	 
+ 	 tolist   = "npraveen.443@gmail.com"
+  	 from     = "saivarma.443@gmail.com"
+     subject  = "Magento Application Test-Results Report"
+     mailhost = "smtp.gmail.com"
+     mailport = "465"
+     ssl      = "true"
+     user     = "saivarma.443@gmail.com"
+     password = "srihanuman443" >
+  
+     <attachments>
+        <fileset dir="${project.dir}/testng-xslt/">
+           <include name="**/*.zip"/>
+        </fileset>        	 
+     </attachments>
+    
+  </mail>
+  
+ </target> 
+   
+</project>
+
+
+
