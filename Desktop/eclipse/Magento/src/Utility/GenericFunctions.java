@@ -8,18 +8,17 @@ import java.util.Random;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.Reporter;
 
-public class GenericFunctions 
-{
+public class GenericFunctions {
 	
 //----------------------------------------------------------------------------------------------------
-//Method-1   : RandomCitySelection_FromArrayList (Ref:- TC3).
-//PURPOSE    : Created this method to select the random city name from the array list.
-//Author     : Praveen varma.
-//CreatedDate: 01-09-2015.
+//Method-1  : RandomCitySelection_FromArrayList (Ref:- TC3).
+//Summary   : Created this method to select the random city name from the array list.
+//Author    : Praveen varma.
+//Version   : 01-09-2015.
 //----------------------------------------------------------------------------------------------------
 
-	public static String RandomCitySelection_FromArrayList()
-	{
+	public static String RandomCitySelection_FromArrayList(){
+		
 		//Array list containing distinct city values
      	String[] City = {"California","Chicago","Africa","NewYork","SiliconValley","Virginia","Texas","Paris"};
 
@@ -46,8 +45,8 @@ public class GenericFunctions
 //----------------------------------------------------------------------------------------------------
 	   
 	
-	public static String string_LastNameGeneration() 
-	{
+	public static String string_LastNameGeneration() {
+		
 		//For generating the 4-characters alphabetic random string
 	    String generatedString = RandomStringUtils.randomAlphabetic(4);
 	    
@@ -71,8 +70,8 @@ public class GenericFunctions
 //CreatedDate: 01-09-2015.
 //----------------------------------------------------------------------------------------------------
 	
-	public static String RndPhoneNumGenerator() 
-	{
+	public static String RndPhoneNumGenerator() {
+		
 		String randomPhoneNumGeneartor = RandomStringUtils.randomNumeric(10);
 		Reporter.log("Entered the PhoneNumber : "+randomPhoneNumGeneartor);
 		System.out.println("Entered the PhoneNumber : "+randomPhoneNumGeneartor);  // RandomStringUtils.randomNumeric(10);
@@ -91,8 +90,8 @@ public class GenericFunctions
 //CreatedDate: 01-09-2015.
 //----------------------------------------------------------------------------------------------------
 	
-	public static String RndZipCodeGeneartor() 
-	{
+	public static String RndZipCodeGeneartor() {
+		
 		String RandomZipCodeGeneartor = RandomStringUtils.randomNumeric(6);
 		Reporter.log("Entered the ZipCode : "+RandomZipCodeGeneartor);
 		System.out.println("Entered the ZipCode : "+RandomZipCodeGeneartor);
@@ -113,8 +112,8 @@ public class GenericFunctions
 //----------------------------------------------------------------------------------------------------
 	
 	//To get the current directory of the system
-	public static void GetCurrentWorkingDirectory()
-	{
+	public static void GetCurrentWorkingDirectory(){
+		
 		//Here in this program,
 		//we are getting the current directory of the system with the help of getproperty() method as shown in below
 		String CurrentDirectory = System.getProperty("User.dir");
@@ -133,8 +132,8 @@ public class GenericFunctions
 //----------------------------------------------------------------------------------------------------
 	
 	 //Created function to pick the random order number from the arraylist (Ref - TC4)
-	 public static String PickRandomOrderNumber()
-	 {			
+	 public static String PickRandomOrderNumber(){
+		 
 		//Array list containing distinct city values
 	    String[] RandomOrderNumber = {"100000201","100000202","100000203","100000204","100000209","100000211",
 	     			                  "100000205","100000206","100000207","100000208","100000210","100000212"};
@@ -163,8 +162,8 @@ public class GenericFunctions
 //----------------------------------------------------------------------------------------------------
 	 
 	//Created this function to generate the random two digit integer (Ref - TC: 11)
-	public static String Random_2digitInteger() 
-	{
+	public static String Random_2digitInteger() {
+		
 		String randomNumber = RandomStringUtils.randomNumeric(2);
 		System.out.println("Entered the 2-digit Number : "+randomNumber); 
 		
@@ -212,8 +211,8 @@ public class GenericFunctions
 //CreatedDate: 01-09-2015.
 //----------------------------------------------------------------------------------------------------
 	 
-	public static String string_GiftWrappingDesign() 
-	{
+	public static String string_GiftWrappingDesign() {
+		
 		//For generating the 4-characters alphabetic random string
 		String generatedString = RandomStringUtils.randomAlphabetic(4)+"_App";
 		    
@@ -238,8 +237,8 @@ public class GenericFunctions
 //----------------------------------------------------------------------------------------------------
 			 
 	//Created this function to generate the random two digit integer (Ref - TC: 11)
-	public static String Random_PriceValue() 
-	{
+	public static String Random_PriceValue() {
+		
 		 String randomPriceValue = RandomStringUtils.randomNumeric(2);
 		 //System.out.println("Price Value is entered as: "+ randomPriceValue);	
 		 Reporter.log("Enter the Price Value : "+ randomPriceValue);	
@@ -257,8 +256,8 @@ public class GenericFunctions
 //CreatedDate: 21-09-2015.
 //----------------------------------------------------------------------------------------------------
 	 	 
-	public static String string_EmailID() 
-	{
+	public static String string_EmailID() {
+		
 	 	 //For generating the random Email-Id with 8 characters alphaNumeric string
 	 	 String generatedString = Constant.FirstName+RandomStringUtils.randomNumeric(4)+"@yahoomail.com";
 	 		    
@@ -281,8 +280,8 @@ public class GenericFunctions
 //CreatedDate: 21-09-2015.
 //----------------------------------------------------------------------------------------------------
 		 	 
-    public static String string_RandomPassword() 
-    {
+    public static String string_RandomPassword() {
+    	
 		 //For generating the random string password with 6-characters  
 		 String generatedString = RandomStringUtils.randomAlphabetic(6);
 		 		    

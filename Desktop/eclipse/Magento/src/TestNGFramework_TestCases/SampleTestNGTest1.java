@@ -10,12 +10,10 @@ import Actions.DriverObject;
 import Actions.Magento_ReusableFunctions;
 
 
-public class SampleTestNGTest1 extends DriverObject 
-{
+public class SampleTestNGTest1 extends DriverObject{
 
 @Test
-  public void loginAndLogOut() throws Exception
-  {				
+public void loginAndLogOut() throws Exception{				
 	    System.out.println("<------- Started the TestCase : TC1_LoginAndLogOut ------->");		  	  
 	    Reporter.log("<------- Started the TestCase : TC1_LoginAndLogOut ------->");	
 	    
@@ -46,8 +44,8 @@ public class SampleTestNGTest1 extends DriverObject
 	}
 				 	  
 	@AfterMethod
-    public void CloseBrowser(ITestResult result) throws Exception
-    {
+    public void CloseBrowser(ITestResult result) throws Exception{
+		
         //If the Testcase fail then only it enters to if condition block           
         //.getStatus will return Test "Pass" or "Fail"    
             

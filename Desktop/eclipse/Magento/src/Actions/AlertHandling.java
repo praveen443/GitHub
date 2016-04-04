@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 
-public class AlertHandling extends Application {	
+public class AlertHandling extends Application {
 	
   // Check if alert exists
   public static void checkAlert(WebDriver driver) {

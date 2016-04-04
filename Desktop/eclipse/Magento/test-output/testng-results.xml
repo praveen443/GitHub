@@ -77,10 +77,10 @@
       <![CDATA[Click on 'Add Gift Wrapping' button.]]>
     </line>
     <line>
-      <![CDATA[Entered the String Value in 'Gift Wrapping Design' Text-box is : HDqy_App]]>
+      <![CDATA[Entered the String Value in 'Gift Wrapping Design' Text-box is : ftIE_App]]>
     </line>
     <line>
-      <![CDATA[Enter the Price Value : 94]]>
+      <![CDATA[Enter the Price Value : 21]]>
     </line>
     <line>
       <![CDATA[Click on the Save button]]>
@@ -98,12 +98,12 @@
       <![CDATA[<-------- Ended the TestCase: TC12_AddGiftWrapping -------->]]>
     </line>
   </reporter-output>
-  <suite name="Magento_TestSuite" duration-ms="66917" started-at="2015-10-07T07:14:52Z" finished-at="2015-10-07T07:15:59Z">
+  <suite name="Magento_TestSuite" duration-ms="44570" started-at="2015-12-11T07:07:37Z" finished-at="2015-12-11T07:08:22Z">
     <groups>
     </groups>
-    <test name="MagentoTest" duration-ms="66917" started-at="2015-10-07T07:14:52Z" finished-at="2015-10-07T07:15:59Z">
+    <test name="MagentoTest" duration-ms="44570" started-at="2015-12-11T07:07:37Z" finished-at="2015-12-11T07:08:22Z">
       <class name="TestNGFramework_TestCases.SampleTestNGTest1">
-        <test-method status="PASS" signature="loginAndLogOut()[pri:0, instance:TestNGFramework_TestCases.SampleTestNGTest1@31b7dea0]" name="loginAndLogOut" duration-ms="28543" started-at="2015-10-07T12:44:52Z" finished-at="2015-10-07T12:45:21Z">
+        <test-method status="PASS" signature="loginAndLogOut()[pri:0, instance:TestNGFramework_TestCases.SampleTestNGTest1@31b7dea0]" name="loginAndLogOut" duration-ms="18671" started-at="2015-12-11T12:37:37Z" finished-at="2015-12-11T12:37:56Z">
           <reporter-output>
             <line>
               <![CDATA[<------- Started the TestCase : TC1_LoginAndLogOut ------->]]>
@@ -140,7 +140,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginAndLogOut -->
-        <test-method status="PASS" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:TestNGFramework_TestCases.SampleTestNGTest1@31b7dea0]" name="CloseBrowser" is-config="true" duration-ms="3010" started-at="2015-10-07T12:45:21Z" finished-at="2015-10-07T12:45:24Z">
+        <test-method status="PASS" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:TestNGFramework_TestCases.SampleTestNGTest1@31b7dea0]" name="CloseBrowser" is-config="true" duration-ms="3009" started-at="2015-12-11T12:37:56Z" finished-at="2015-12-11T12:37:59Z">
           <params>
             <param index="0">
               <value>
@@ -159,7 +159,7 @@
         </test-method> <!-- CloseBrowser -->
       </class> <!-- TestNGFramework_TestCases.SampleTestNGTest1 -->
       <class name="TestNGFramework_TestCases.SampleTestNGTest2">
-        <test-method status="PASS" signature="addGiftWrapping()[pri:0, instance:TestNGFramework_TestCases.SampleTestNGTest2@ba4d54]" name="addGiftWrapping" duration-ms="32354" started-at="2015-10-07T12:45:24Z" finished-at="2015-10-07T12:45:56Z">
+        <test-method status="PASS" signature="addGiftWrapping()[pri:0, instance:TestNGFramework_TestCases.SampleTestNGTest2@ba4d54]" name="addGiftWrapping" duration-ms="19872" started-at="2015-12-11T12:37:59Z" finished-at="2015-12-11T12:38:19Z">
           <reporter-output>
             <line>
               <![CDATA[<---------- Started the TestCase : TC12_AddGiftWrapping ---------->]]>
@@ -198,10 +198,10 @@
               <![CDATA[Click on 'Add Gift Wrapping' button.]]>
             </line>
             <line>
-              <![CDATA[Entered the String Value in 'Gift Wrapping Design' Text-box is : HDqy_App]]>
+              <![CDATA[Entered the String Value in 'Gift Wrapping Design' Text-box is : ftIE_App]]>
             </line>
             <line>
-              <![CDATA[Enter the Price Value : 94]]>
+              <![CDATA[Enter the Price Value : 21]]>
             </line>
             <line>
               <![CDATA[Click on the Save button]]>
@@ -214,7 +214,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- addGiftWrapping -->
-        <test-method status="PASS" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:TestNGFramework_TestCases.SampleTestNGTest2@ba4d54]" name="CloseBrowser" is-config="true" duration-ms="3000" started-at="2015-10-07T12:45:56Z" finished-at="2015-10-07T12:45:59Z">
+        <test-method status="PASS" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:TestNGFramework_TestCases.SampleTestNGTest2@ba4d54]" name="CloseBrowser" is-config="true" duration-ms="3006" started-at="2015-12-11T12:38:19Z" finished-at="2015-12-11T12:38:22Z">
           <params>
             <param index="0">
               <value>

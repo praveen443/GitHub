@@ -10,11 +10,11 @@ import Actions.DriverObject;
 import Actions.Magento_ReusableFunctions;
 import Actions.TakeSScreenshot;
 
-public class SampleTestNGTest2 extends DriverObject
-{
+public class SampleTestNGTest2 extends DriverObject{
+	
 	@Test
-	public void addGiftWrapping() throws Exception
-	{				
+	public void addGiftWrapping() throws Exception{	
+		
 		  Reporter.log("<---------- Started the TestCase : TC12_AddGiftWrapping ---------->");
 	      System.out.println("<---------- Started the TestCase : TC12_AddGiftWrapping ---------->");	
 		    
@@ -49,8 +49,8 @@ public class SampleTestNGTest2 extends DriverObject
 	}
 					 	  
 	@AfterMethod
-	public void CloseBrowser(ITestResult result) throws Exception
-	{
+	public void CloseBrowser(ITestResult result) throws Exception{
+		
 	      //If the Testcase fail then only it enters to if condition block           
 	      //.getStatus will return Test "Pass" or "Fail"    
 	            
