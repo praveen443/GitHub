@@ -1,4 +1,4 @@
-package utils.dataFactory.database.staging;
+/*package utils.dataFactory.database.staging;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -61,16 +61,16 @@ import utils.date.DateTimeConversion;
 
 
 public class ReservationDecorator implements Reservation {
-	/*
+	
 	 * General variables
-	 */
+	 
 	private String environment;
 	private Map<String, String> conversationIDs = new HashMap<String, String>();
 	private Datatable datatable = new Datatable();
 	
-	/*
+	
 	 * Quickbook & book request variables
-	 */
+	 
 	private String primaryGuestFirstName;
 	private String primaryGuestLastName;
 	private String numberOfAdults;
@@ -98,9 +98,9 @@ public class ReservationDecorator implements Reservation {
 	private String primaryGuestState = "";
 	private String primaryGuestPostalCode = "";
 
-	/*
+	
 	 * Retrieve response variables
-	 */
+	 
 	private String travelPlanId;
 	private String travelPlanSegmentId;
 	private String travelComponentGroupingId;
@@ -110,17 +110,17 @@ public class ReservationDecorator implements Reservation {
 	private String[] guestIds;
 	private String[] partyIds;
 	
-	/*
+	
 	 * Assign room variables
-	 */
+	 
 	
 	private String roomNumber;
 	private String resourceId;
 	private String assignmentOwnerNumber;
 	
-	/*
+	
 	 * Make payment variables
-	 */
+	 
 	
 	private String folioId;
 	private String depositDue;
@@ -155,18 +155,18 @@ public class ReservationDecorator implements Reservation {
 	private String[] cardPaymentMethods = new String[2];
 	private String[] cardPaymentTypes = new String[2];
 	
-	/*
+	
 	 * DVC variables
-	 */
+	 
 	private String DVCMemberID;		//same as the DVC member ID
 	private String membershipRefID;
 	private String vacationType;
 	private String resortLocation;
 	private String DVCresortCode;
 	
-	/*
+	
 	 * Guest Media info
-	 */
+	 
 	private String kttwId;
 	private String[] kttwIds;
 	private String encoderId;
@@ -176,30 +176,30 @@ public class ReservationDecorator implements Reservation {
 	private String guestRoomIndicator;
 	private String mediaAccessId;
 	
-	/*
+	
 	 * Tickets variables
-	 */
+	 
 	private String[] admissionComponentId;
 	private String[] baseAdmissionProductId;
 	
 	
-	/*
+	
 	 * Global variables for Guest Access Services
-	 */
+	 
 	public static String gaKttwId;
 	public static String gaPartyId;
 	public static String gaTravelPlanId;
 	
-	/*
+	
 	 * Charge Account fields
-	 */
+	 
 	private String[] chargeAcctIds;
 	private String pinNumber;
 	private String[] pinNumbers;
 	
-	/*
+	
 	 * Event Booking fields
-	 */
+	 
 	private String eventTravelPlanId;
 	
 	public ReservationDecorator() {
@@ -399,9 +399,9 @@ public class ReservationDecorator implements Reservation {
 	public void setInventoryTrackingID(String inventoryTrackingID) {
 		this.inventoryTrackingID = inventoryTrackingID;
 	}
-	/* 
+	 
 	 * Retreive Response Gets and Sets
-	 */
+	 
 	public String getTravelPlanId(){
 		return travelPlanId;
 	}
@@ -457,9 +457,9 @@ public class ReservationDecorator implements Reservation {
 		this.primaryGuestId = primaryGuestId;
 	}
 	
-	/*
+	
 	 * Assign Room gets and sets
-	 */
+	 
 	
 	protected void setRoomNumber(String roomNumber){
 		this.roomNumber = roomNumber;
@@ -485,9 +485,9 @@ public class ReservationDecorator implements Reservation {
 		return assignmentOwnerNumber;
 	}
 	
-	/*
+	
 	 * Make Payment gets and sets
-	 */
+	 
 	
 	protected void setFolioId(String folioId){
 		this.folioId = folioId;
@@ -554,9 +554,9 @@ public class ReservationDecorator implements Reservation {
 	}
 
 	
-	/*
+	
 	 * DVC setters & getters
-	 */
+	 
 	
 	public String getMembershipRefID() {
 		return membershipRefID;
@@ -598,9 +598,9 @@ public class ReservationDecorator implements Reservation {
 		DVCresortCode = dVCresortCode;
 	}
 	
-	/*
+	
 	 * Guest Media Gets and Sets
-	 */
+	 
 	public String getKttwId(){
 		return kttwId;
 	}
@@ -657,14 +657,14 @@ public class ReservationDecorator implements Reservation {
 		this.mediaAccessId = mediaAccessId;
 	}
 	
-	/**
+	*//**
 	 * @throws 		NA	
 	 * @Summary		Makes a room only booking using the accommadtion sales book service
 	 * @param	
 	 * @Author		Jessica Marshall
 	 * @Version		Created: 11/7/2014
 	 * @Return		NA
-	 */
+	 *//*
 	public void bookRoomOnly(){
 		//instantiate
 		Book book = new Book(getEnvironment(), "bookWithoutTickets");
@@ -703,14 +703,14 @@ public class ReservationDecorator implements Reservation {
         setGuestId(retrieve.getGuestId());
 	}
 	
-	/**
+	*//**
 	 * @throws 		NA	
 	 * @Summary		Makes a room only booking using the accommadtion sales book service
 	 * @param	
 	 * @Author		Jessica Marshall
 	 * @Version		Created: 11/7/2014
 	 * @Return		NA
-	 */
+	 *//*
 	public void bookRoomOnlyTwoAdults(){
 		//instantiate
 		Book book = new Book(getEnvironment(), "book2AdultsWithoutTickets");
@@ -752,14 +752,14 @@ public class ReservationDecorator implements Reservation {
         partyIds[1] = retrieve.getResponseNodeValueByXPath("/Envelope/Body/retrieveResponse/travelPlanInfo/travelPlanGuests[2]/guest/partyId");
 	}
 	
-	/**
+	*//**
 	 * @throws 		NA	
 	 * @Summary		Makes a room only booking using the accommadtion sales book service
 	 * @param	
 	 * @Author		Jessica Marshall
 	 * @Version		Created: 11/7/2014
 	 * @Return		NA
-	 */
+	 *//*
 	public void bookRoomOnlyTwoAdultsTwoChildren(){
 
 		//instantiate
@@ -800,14 +800,14 @@ public class ReservationDecorator implements Reservation {
         guestIds[3] = retrieve.getResponseNodeValueByXPath("/Envelope/Body/retrieveResponse/travelPlanInfo/travelPlanGuests[4]/guest/guestId");
 	}
 	
-	/**
+	*//**
 	 * @throws 		NA	
 	 * @Summary		Makes a room only booking using the accommadtion sales book service
 	 * @param	
 	 * @Author		Jessica Marshall
 	 * @Version		Created: 11/7/2014
 	 * @Return		NA
-	 */
+	 *//*
 	public void bookWDTCTwoAdultsTwoChildren(){
 
 		//instantiate
@@ -849,14 +849,14 @@ public class ReservationDecorator implements Reservation {
         guestIds[3] = retrieve.getResponseNodeValueByXPath("/Envelope/Body/retrieveResponse/travelPlanInfo/travelPlanGuests[4]/guest/guestId");
 	}
 	
-	/**
+	*//**
 	 * @throws 		NA	
 	 * @Summary		Makes a room only booking using the accommadtion sales book service
 	 * @param	
 	 * @Author		Jessica Marshall
 	 * @Version		Created: 11/7/2014
 	 * @Return		NA
-	 */
+	 *//*
 	public void bookWholesaleTwoAdultsNoTickets(){
 
 		//instantiate
@@ -1022,14 +1022,14 @@ public class ReservationDecorator implements Reservation {
 		return responseCode;
 	}
 	
-	/**
+	*//**
 	 * @throws 		NA	
 	 * @Summary		Makes a group booking using the accommodation sales book
 	 * @param	
 	 * @Author		Jessica Marshall
 	 * @Version		Created: 11/7/2014
 	 * @Return		NA
-	 */
+	 *//*
 	public void bookGroupBooking(){
 		//instantiate
 		Book book = new Book(getEnvironment(), "bookGroupPackageWithoutTickets");
@@ -1071,14 +1071,14 @@ public class ReservationDecorator implements Reservation {
         setGuestId(retrieve.getGuestId());
 	}
 	
-	/**
+	*//**
 	 * @throws 		NA	
 	 * @Summary		Makes a DVC cash reservation
 	 * @param	
 	 * @Author		Jessica Marshall
 	 * @Version		Created: 11/7/2014
 	 * @Return		NA
-	 */
+	 *//*
 	public void bookDVCCash(){
 		//instantiate
 		Book book = new Book(getEnvironment(), "bookDVCCash");
@@ -1140,25 +1140,25 @@ public class ReservationDecorator implements Reservation {
 		
 	}
 	
-	/**
+	*//**
 	 * @throws 		NA	
 	 * @Summary		Makes a DVC cash reservation
 	 * @param	
 	 * @Author		Jessica Marshall
 	 * @Version		Created: 11/7/2014
 	 * @Return		NA
-	 */
+	 *//*
 	public void bookDVCMemberPoints(){
 		
 	}
 	public void assignRoomToReservation(){
-	 	/*
+	 	
 		 * Occassionally rooms are assigned to other rooms. Loop 5 times,
 		 * sleeping a second after each iteration, in am attempt to find a
 		 * vacant room. Example fault string: Room:1725 is already Assigned or
 		 * on Hold to some other Reservation or is in OOI/CLF status, Please
 		 * select another Room
-		 */
+		 
 		int counter = 0;
 		int maxTries = 5;
 		boolean success = false;
@@ -1232,10 +1232,10 @@ public class ReservationDecorator implements Reservation {
 		OracleDatabase db = new OracleDatabase(environment, "Dreams");	
 		Recordset rs = new Recordset(db.getResultSet(ReservationInfo.findVacantRoomByRoomTypeCode(getRoomTypeCode(), getLocationId())));
 
-/*			System.out.println("Example 1");
+			System.out.println("Example 1");
 		for (rs.moveFirst() ; rs.hasNext() ; rs.moveNext()){
 			System.out.println(rs.getValue("RSRC_ID") +" " +rs.getValue("RM_NM"));			
-		}*/
+		}
 		
 		System.out.println();
 		System.out.println();
@@ -1337,9 +1337,9 @@ public class ReservationDecorator implements Reservation {
 		}
 		String amount = datatable.getDataParameter("Amount");
 		
-		/*
+		
 		 * Generate A Card
-		 */
+		 
 		GenerateCard card = new GenerateCard();
 		Map<String, String> cardInfo = null;
 		try {
@@ -1355,9 +1355,9 @@ public class ReservationDecorator implements Reservation {
 		cardCcvCode= cardInfo.get("CVV2");
 		cardHolderName = cardInfo.get("NameOnCard");
 		
-		/*
+		
 		 * Retrieve Folio Balance Due
-		 */
+		 
 		RetrieveFolioBalanceDue retrieveBalance = new RetrieveFolioBalanceDue(getEnvironment(), "UI booking");
 		retrieveBalance.setExternalReference(ServiceConstants.FolioExternalReference.DREAMS_TP, getTravelPlanId());
 		retrieveBalance.setFolioType(ServiceConstants.FolioType.INDIVIDUAL);
@@ -1370,9 +1370,9 @@ public class ReservationDecorator implements Reservation {
 		setDepositDue(retrieveBalance.getDepositRequired());
 		setFolioId(retrieveBalance.getFolioId());
 		
-		/*
+		
 		 * Post Card Payment
-		 */
+		 
 		PostCardPayment postPayment = new PostCardPayment(getEnvironment(),"Visa-CreditCard");
 		if(amount.equalsIgnoreCase("total")){
 			postPayment.setAmount(getBalanceDue());
@@ -1454,9 +1454,9 @@ public class ReservationDecorator implements Reservation {
 		}
 		String amount = datatable.getDataParameter("Amount");
 		
-		/*
+		
 		 * Generate A Card
-		 */
+		 
 		GenerateCard card = new GenerateCard();
 		Map<String, String> cardInfo = null;
 		try {
@@ -1472,18 +1472,18 @@ public class ReservationDecorator implements Reservation {
 		cardCcvCode= cardInfo.get("CVV2");
 		cardHolderName = cardInfo.get("NameOnCard");
 		
-		/*
+		
 		 * Retrieve Terminal ID
-		 */
+		 
 //		CreateOrRetrievePaymentDevice device = new CreateOrRetrievePaymentDevice(getEnvironment(), "CCTID");
 //		device.setCampusId(ResortInfo.getResortInfo(ResortInfo.ResortColumns.LOCATION_ID, getLocationId(), ResortInfo.ResortColumns.CAMPUS_ID));
 //		device.sendRequest();
 //		TestReporter.assertEquals(device.getResponseStatusCode(), "200","Response was not 200");
 //		setTerminalID(device.getDeviceTerminalId());
 		
-		/*
+		
 		 * Retrieve Folio Balance Due
-		 */
+		 
 		RetrieveFolioBalanceDue retrieveBalance = new RetrieveFolioBalanceDue(getEnvironment(), "UI booking");
 		retrieveBalance.setExternalReference(ServiceConstants.FolioExternalReference.DREAMS_TP, getTravelPlanId());
 		retrieveBalance.setFolioType(ServiceConstants.FolioType.INDIVIDUAL);
@@ -1496,9 +1496,9 @@ public class ReservationDecorator implements Reservation {
 		setDepositDue(retrieveBalance.getDepositRequired());
 		setFolioId(retrieveBalance.getFolioId());
 		
-		/*
+		
 		 * Post Card Payment
-		 */
+		 
 		PostCardPayment postPayment = new PostCardPayment(getEnvironment(),"Visa-CreditCard");
 		if(amount.equalsIgnoreCase("total")){
 			postPayment.setAmount(getBalanceDue());
@@ -1581,9 +1581,9 @@ public class ReservationDecorator implements Reservation {
 	}
 	
 	public void makeCheckPayment(){	
-		/*
+		
 		 * Retrieve Folio Balance Due
-		 */
+		 
 		RetrieveFolioBalanceDue retrieveBalance = new RetrieveFolioBalanceDue(getEnvironment(), "UI booking");
 		retrieveBalance.setExternalReference(ServiceConstants.FolioExternalReference.DREAMS_TP, getTravelPlanId());
 		retrieveBalance.setFolioType(ServiceConstants.FolioType.INDIVIDUAL);
@@ -1596,9 +1596,9 @@ public class ReservationDecorator implements Reservation {
 		setDepositDue(retrieveBalance.getDepositRequired());
 		setFolioId(retrieveBalance.getFolioId());
 		
-		/*
+		
 		 * Post Check Payment
-		 */
+		 
 		PostCheckPayment postPayment = new PostCheckPayment(environment, "Main");
 		postPayment.setAuthorizationNumber(Randomness.randomNumber(4).toString());
 		postPayment.setCheckNumber(Randomness.randomNumber(4).toString());
@@ -1626,18 +1626,18 @@ public class ReservationDecorator implements Reservation {
 		String ccv = datatable.getDataParameter("EnterCCV");
 		String amount = datatable.getDataParameter("Amount");
 		
-		/*
+		
 		 * Retrieve Terminal ID
-		 */
+		 
 		CreateOrRetrievePaymentDevice device = new CreateOrRetrievePaymentDevice(getEnvironment(), "CCTID");
 		device.setCampusId(ResortInfo.getResortInfo(ResortInfo.ResortColumns.LOCATION_ID, getLocationId(), ResortInfo.ResortColumns.CAMPUS_ID));
 		device.sendRequest();
 		TestReporter.assertEquals(device.getResponseStatusCode(), "200","Response was not 200");
 		setTerminalID(device.getDeviceTerminalId());
 		
-		/*
+		
 		 * Retrieve Folio Balance Due
-		 */
+		 
 		RetrieveFolioBalanceDue retrieveBalance = new RetrieveFolioBalanceDue(getEnvironment(), "UI booking");
 		retrieveBalance.setExternalReference(ServiceConstants.FolioExternalReference.DREAMS_TP, getTravelPlanId());
 		retrieveBalance.setFolioType(ServiceConstants.FolioType.INDIVIDUAL);
@@ -1650,9 +1650,9 @@ public class ReservationDecorator implements Reservation {
 		setDepositDue(retrieveBalance.getDepositRequired());
 		setFolioId(retrieveBalance.getFolioId());
 		
-		/*
+		
 		 * Post Card Payment
-		 */
+		 
 		PostCardPayment postPayment = new PostCardPayment(getEnvironment(),"Visa-CreditCard");
 		if(amount.equalsIgnoreCase("total") || amount.isEmpty()){
 			postPayment.setAmount(getBalanceDue());
@@ -1725,9 +1725,9 @@ public class ReservationDecorator implements Reservation {
 			}
 			String amount = amounts[payments];
 			
-			/*
+			
 			 * Generate A Card
-			 */
+			 
 			GenerateCard card = new GenerateCard();
 			Map<String, String> cardInfo = null;
 			try {
@@ -1743,9 +1743,9 @@ public class ReservationDecorator implements Reservation {
 			cardCcvCodes[payments] = cardInfo.get("CVV2");
 			cardHolderNames[payments] = cardInfo.get("NameOnCard");
 			
-			/*
+			
 			 * Retrieve Folio Balance Due
-			 */
+			 
 			RetrieveFolioBalanceDue retrieveBalance = new RetrieveFolioBalanceDue(getEnvironment(), "UI booking");
 			retrieveBalance.setExternalReference(ServiceConstants.FolioExternalReference.DREAMS_TP, getTravelPlanId());
 			retrieveBalance.setFolioType(ServiceConstants.FolioType.INDIVIDUAL);
@@ -1758,9 +1758,9 @@ public class ReservationDecorator implements Reservation {
 			setDepositDue(retrieveBalance.getDepositRequired());
 			setFolioId(retrieveBalance.getFolioId());
 			
-			/*
+			
 			 * Post Card Payment
-			 */
+			 
 			PostCardPayment postPayment = new PostCardPayment(getEnvironment(),"Visa-CreditCard");
 			if(amount.equalsIgnoreCase("total")){
 				postPayment.setAmount(getBalanceDue());
@@ -1820,9 +1820,9 @@ public class ReservationDecorator implements Reservation {
 		}
 		String amount = creditAmount;
 		
-		/*
+		
 		 * Post Card Payment
-		 */
+		 
 		PostCardPayment postPayment = new PostCardPayment(getEnvironment(),"Visa-CreditCard");
 		if(amount.equalsIgnoreCase("total")){
 			postPayment.setAmount(getBalanceDue());
@@ -2013,9 +2013,9 @@ public class ReservationDecorator implements Reservation {
 		Assert.assertEquals(retrieveDetails.getResponseStatusCode(), "200");
 		
 		// DJS - since we have used Service Virtualization to stub out the encoder, this information is not needed.
-		/*setAccessEncodingStatus(retrieveDetails.getEncodingStatus());
+		setAccessEncodingStatus(retrieveDetails.getEncodingStatus());
 		setRfidMediaId(retrieveDetails.getRfid());
-		setManufacturerUID(retrieveDetails.getManufacturerUid());*/
+		setManufacturerUID(retrieveDetails.getManufacturerUid());
 	}
 	
 	public void addKttwTickets(String scenario){
@@ -2129,7 +2129,7 @@ public class ReservationDecorator implements Reservation {
 		String delay = null;
 		String expressCheckout = null;
 		
-		/*
+		
 		 * In the event that multiple settlement methods are to be applied, then
 		 * the best way to ensure that the same card is not used (possibly
 		 * causing an error) is to swap card types. All card types will use
@@ -2138,7 +2138,7 @@ public class ReservationDecorator implements Reservation {
 		 * 
 		 * First, test whether the card number is null, indicating the first settlement method is to be processed.
 		 * Next, if it is not null, then determine the current card type and adjust accordingly.
-		 */
+		 
 		if(cardNumber.isEmpty()){
 			paymentMethod = datatable.getDataParameter("PaymentMethod");
 			status = datatable.getDataParameter("Status");
@@ -2529,3 +2529,4 @@ public class ReservationDecorator implements Reservation {
  }
 
 
+*/
