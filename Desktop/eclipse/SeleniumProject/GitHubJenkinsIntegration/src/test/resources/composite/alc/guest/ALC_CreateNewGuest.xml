@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ALC_CreateNewGuest" parallel="false">
+	<listeners>
+		<listener class-name="com.disney.composite.core.Screenshot"></listener>
+	</listeners>
+	<parameter name="browserUnderTest" value="IExplorer" />
+	<!-- <parameter name="browserUnderTest" value="Firefox" /> -->
+	<parameter name="environment" value="Sleepy" />
+	<parameter name="runLocation" value="local" />
+	<test name="ALC_CreateNewGuest">
+		<classes>
+			<class
+				name="com.disney.test.composite.alc.guest.ALC_CreateNewGuest" />
+		</classes>
+	</test> <!-- ALC_CreateNewGuest -->
+</suite> <!-- ALC_CreateNewGuest -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Dreams_Book_SearchGuest_Negative" parallel="false">
+	<listeners>
+		<listener class-name="com.disney.composite.core.Screenshot"></listener>
+	</listeners>
+	<parameter name="browserUnderTest" value="IE" />
+	<parameter name="environment" value="Bashful" />
+	<parameter name="runLocation" value="local" />
+	<test name="Dreams_Book_SearchGuest_Negative">
+		<classes>
+			<class
+				name="com.disney.test.composite.dreams.Dreams_Book_SearchGuest_Negative" />
+		</classes>
+	</test> <!-- Dreams_Book_SearchGuest_Negative Test -->
+</suite> <!-- Dreams_Book_SearchGuest_Negative Suite -->

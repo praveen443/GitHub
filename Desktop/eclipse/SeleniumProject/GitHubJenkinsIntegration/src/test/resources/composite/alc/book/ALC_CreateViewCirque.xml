@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="4">
+	<listeners>
+		<listener class-name="com.disney.composite.core.Screenshot"></listener>
+	</listeners>
+	<parameter name="browserUnderTest" value="IExplorer" />
+	<parameter name="environment" value="Sleepy" />
+	<parameter name="runLocation" value="remote" />
+    <test name="ALC_CreateViewCirque">
+    	<classes>
+      		<class name="com.disney.test.composite.alc.book.ALC_CreateViewCirque"/>
+    	</classes>
+  	</test> <!-- Test -->
+</suite> <!-- Suite -->

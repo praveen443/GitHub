@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DreamsTestSuite" parallel="methods" thread-count="4">
+	<parameter name="browserUnderTest" value="IExplorer" />
+	<parameter name="environment" value="${environment}" />
+	<parameter name="runLocation" value="${runLocation}" />
+	<parameter name="architecture" value="${architecture}" />
+	<listeners>
+		<listener class-name="com.disney.composite.core.Screenshot"></listener>
+	</listeners>
+	
+	<test name="MassModifyFromDREAMS_ResDetails_ModifyArrival_DepartureDate">
+		<groups>
+			<run>
+				<include name="dreams" />
+				<exclude name="sandbox" />
+				<exclude name="dev" /> 
+			</run>
+		</groups>
+		<classes>
+			<class name="com.disney.test.composite.dreams.MassModifyFromDREAMS_ResDetails_ModifyArrival_DepartureDate" />
+		</classes>
+	</test> 
+		
+	<test name="Booking">
+		<classes>
+			<class name="com.disney.test.composite.dreams.PackageBooking_ManageArrivalSearch" ><!--Class -->
+			 <methods>
+				         <!-- Arrival Tab_Verify Search Input --> 
+				         <include name= "roomsOnlyBooking"/>                <!--1--><!-- Room Only Booking with Payment -->
+	         			 <exclude name = "todayDateMatching" /> 			<!--2--> <!--Manage Arrival Flow Today date Matching-->
+	        			 <exclude name = "searchByName" />					<!--3--> <!-- Manage Arrival Flow,Search By Name -->
+				         <exclude name = "searchByReservationNumber" />		<!--4--><!-- Manage Arrival Flow Search By Reservation Number -->
+				         <exclude name = "SearchByAccommStatus" />			<!--5-->
+				         <exclude name = "SearchByRoom" />					<!--6-->
+				         <exclude name = "houseKeepingStatus"/> 			<!--7-->
+				         <exclude name = "verifyNotificationStatus"/>  		<!--8-->
+				         <exclude name = "verifyETATime" /> 				<!--9-->
+				         <exclude name = "verifyArrivalStatus" /> 			<!--10-->
+				         <exclude name = "verifySource" />                  <!--11-->
+				         <exclude name = "verifyETDDate" />                 <!--12-->
+	                     <exclude name = "serachByGruopCode"/>              <!--13-->
+			
+			
+			</methods>
+			</class>
+			<class name="com.disney.test.composite.dreams.PackageBooking" />
+			<class name="com.disney.test.composite.dreams.RoomOnlyBooking" />
+<!-- 
+			<class name="com.disney.test.composite.alc.diningEvent" />
+ -->			
+		</classes>
+	</test>
+</suite> <!-- Suite -->

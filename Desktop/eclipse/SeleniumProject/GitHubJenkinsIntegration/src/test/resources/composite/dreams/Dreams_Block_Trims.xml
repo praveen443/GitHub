@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+ 	<listeners>
+		<listener class-name="com.disney.composite.core.Screenshot" />
+	</listeners> 
+	<parameter name="browserUnderTest" value="IExplorer" />
+	<parameter name="environment" value="Grumpy" />
+	<parameter name="runLocation" value="local" />
+	<test name="Dreams_Block_Trims">
+		<classes>
+			<class name="com.disney.test.composite.dreams.Dreams_Block_Trims" /> 
+		</classes> <!--Class -->
+	  </test> <!-- Test -->
+</suite> <!-- Suite -->

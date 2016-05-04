@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ALC_CreateViewCancelChildActivity" parallel="false">
+	<listeners>
+		<listener class-name="com.disney.composite.core.Screenshot" />
+	</listeners>
+	<parameter name="browserUnderTest" value="IExplorer" />
+	<parameter name="environment" value="Doc" />
+	<parameter name="runLocation" value="local" />
+	<test name="ALC_CreateViewCancelChildActivity">
+		<classes>
+			<class
+				name="com.disney.test.composite.alc.cancel.ALC_CreateViewCancelChildActivity" />
+		</classes> 		
+	</test> <!-- ALC_CreateViewCancelChildActivity -->
+</suite> <!-- ALC_CreateViewCancelChildActivity -->
