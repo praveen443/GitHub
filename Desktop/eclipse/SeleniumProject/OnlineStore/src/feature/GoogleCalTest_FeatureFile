@@ -1,4 +1,4 @@
-Feature: Check addition in Google calculatorcontent 
+Feature: Check addition in Google calculator content 
 In order to verify that google calculator work correctly As a user of google 
 I should be able to get correct addition result
 
