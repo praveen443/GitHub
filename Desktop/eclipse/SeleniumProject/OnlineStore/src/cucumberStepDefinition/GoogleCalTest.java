@@ -70,7 +70,7 @@ public class GoogleCalTest {
 	 * @author: Praveen Namburi, @version: Created 06-05-2016
 	 * @param inputText
 	 */
-	@When("^enter the value in textbox$")
+	@When("^enter the value in \"([^\"]*)\" textbox$")
 	public void enter_the_value_in_textbox(String inputText) {
 		eleSearchTextbox.sendKeys(inputText);
 		btnGoogleSearch.click();
