@@ -33,8 +33,6 @@
 	<classpathentry kind="lib" path="C:/Users/praveen/Desktop/SeleniumLibraries_Jarfiles/selenium-server-standalone-2.47.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/praveen/Desktop/SeleniumLibraries_Jarfiles/testng-6.9.6.jar"/>
 	<classpathentry kind="lib" path="C:/Users/praveen/Desktop/SeleniumLibraries_Jarfiles/xmlbeans-2.6.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/praveen/Downloads/cucumber-core-1.2.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/praveen/Downloads/cucumber-core-1.2.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/praveen/Desktop/selenium/lib/commons-logging-1.1.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/praveen/Desktop/selenium/lib/java-mail-1.4.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/praveen/Desktop/selenium/lib/javax.activation.jar"/>
