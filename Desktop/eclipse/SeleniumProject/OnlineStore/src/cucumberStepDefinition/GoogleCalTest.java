@@ -1,4 +1,4 @@
-package cucumberTest;
+package cucumberStepDefinition;
 
 import java.util.concurrent.TimeUnit;
 
