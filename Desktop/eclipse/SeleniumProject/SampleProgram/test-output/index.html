@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\praveen\AppData\Local\Temp\testng-eclipse-804444590\testng-customsuite.xml</span>
+                    <span>C:\Users\praveen\AppData\Local\Temp\testng-eclipse--1540138063\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.verifyToolTipExample" hash-for-method="verifyToolTipText">verifyToolTipText</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.verifyToolTipExample" hash-for-method="verifyToolTipText_Case1">verifyToolTipText_Case1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestCases.verifyToolTipExample" hash-for-method="verifyToolTipText_Case2">verifyToolTipText_Case2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,9 +130,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyToolTipText">
-                  </a> <!-- verifyToolTipText -->
-                  <span class="method-name">verifyToolTipText</span>
+                  <a name="verifyToolTipText_Case1">
+                  </a> <!-- verifyToolTipText_Case1 -->
+                  <span class="method-name">verifyToolTipText_Case1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyToolTipText_Case2">
+                  </a> <!-- verifyToolTipText_Case2 -->
+                  <span class="method-name">verifyToolTipText_Case2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +147,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\praveen\AppData\Local\Temp\testng-eclipse-804444590\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\praveen\AppData\Local\Temp\testng-eclipse--1540138063\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -184,16 +196,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyToolTipText')
+data.setCell(0, 1, 'verifyToolTipText_Case1')
 data.setCell(0, 2, 'TestCases.verifyToolTipExample')
-data.setCell(0, 3, 52);
+data.setCell(0, 3, 51);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyToolTipText_Case2')
+data.setCell(1, 2, 'TestCases.verifyToolTipExample')
+data.setCell(1, 3, 40);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 52 ms</span>
+              <span class="suite-total-time">Total running time: 91 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -205,10 +221,17 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyToolTipText</span>
+              <span class="reporter-method-name">verifyToolTipText_Case2</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">2016-05-30 13:07:54.32 :: Captured tooltip text is : Return to Selenium home page<br /></span>
-                <span class="reporter-method-output">2016-05-30 13:07:54.321 :: Verifying the Captured tooltip text.<br /></span>
+                <span class="reporter-method-output">2016-05-30 13:16:01.367 :: Captured tooltip text is : Return to Selenium home page<br /></span>
+                <span class="reporter-method-output">2016-05-30 13:16:01.367 :: Verifying the Captured tooltip text.<br /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyToolTipText_Case1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2016-05-30 13:15:55.001 :: Captured tooltip text is : Return to Selenium home page<br /></span>
+                <span class="reporter-method-output">2016-05-30 13:15:55.001 :: Verifying the Captured tooltip text.<br /></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -232,12 +255,24 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyToolTipText</span>
-                <span class="method-start">7126 ms</span>
+                <span class="method-name">verifyToolTipText_Case1</span>
+                <span class="method-start">8704 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">7180 ms</span>
+                <span class="method-start">8756 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchWebPage</span>
+                <span class="method-start">8961 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyToolTipText_Case2</span>
+                <span class="method-start">15079 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">15120 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
