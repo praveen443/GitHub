@@ -22,7 +22,7 @@ public class TestReporter {
 	
 	public static void log(String message){
 		Reporter.log(new Timestamp(new java.util.Date().getTime())+" :: "+ message + "<br />");
-		System.out.println("cus log: "+new Timestamp(new java.util.Date().getTime())+" :: "+ message+ "<br />");
+		System.out.println(new Timestamp(new java.util.Date().getTime())+" :: "+ message);
 	}
 
 	

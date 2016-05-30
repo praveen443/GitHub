@@ -5,6 +5,8 @@
     <classes>
       <class name="TestCases.verifyToolTipExample">
         <methods>
+          <include name="closeBrowser"/>
+          <include name="launchWebPage"/>
           <include name="verifyToolTipText"/>
         </methods>
       </class> <!-- TestCases.verifyToolTipExample -->
