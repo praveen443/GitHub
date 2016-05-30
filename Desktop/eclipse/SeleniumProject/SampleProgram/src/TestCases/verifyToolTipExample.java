@@ -18,7 +18,7 @@ public class verifyToolTipExample {
 
   public WebDriver driver;
   public static final String appURL="http://www.seleniumhq.org/";
-  public static final String actualToolTipText = "Return to Selenium home page";
+  public static String actualToolTipText = "Return to Selenium home page";
   
   @BeforeMethod
   public void launchWebPage() {
@@ -51,7 +51,7 @@ public class verifyToolTipExample {
   }
   
   //prioritized to execute this method as second.
-  @Test(priority=2)
+  @Test(priority=2,enabled=false)
   public void verifyToolTipText_Case2() {
 	  //Here the tooltip text is captured by using selenium getAttribute() method.
 	  WebElement eleToolTipText = driver.findElement(By.cssSelector("#header>h1 a"));
