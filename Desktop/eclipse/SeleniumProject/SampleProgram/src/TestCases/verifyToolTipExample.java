@@ -21,8 +21,10 @@ public class verifyToolTipExample {
   public WebDriver driver;
   public String seleniumURL = "http://docs.seleniumhq.org";
   public String jQueryURL = "https://jqueryui.com/tooltip/";
+  public String strToolTipURL = "https://www.seleniumeasy.com/selenium-tutorials/click-element-using-javascriptexecutor";
   public String actualToolTipText1 = "Return to Selenium home page";
   public String actualToolTipText2 = "We ask for your age only for statistical purposes.";
+  public String actualToolTipText3 = "‹ Working with Multiple Checkboxes with Safecheck";
   
   @BeforeMethod
   public void launchWebPage() {
@@ -39,7 +41,7 @@ public class verifyToolTipExample {
    */
   
   //prioritized to execute this method as first.
-  @Test(priority=1,enabled=false)
+  @Test(priority=1,enabled=true)
   public void verifyToolTipText_Case1() {
 	  TestReporter.log("Launch the Application.");
 	  driver.navigate().to(seleniumURL);
@@ -56,7 +58,7 @@ public class verifyToolTipExample {
   }
   
   //prioritized to execute this method as second.
-  @Test(priority=2)
+  @Test(priority=2,enabled=true)
   public void verifyToolTipText_Case2() {
 	  TestReporter.log("Launch the Application.");
 	  driver.navigate().to(jQueryURL);
@@ -83,6 +85,35 @@ public class verifyToolTipExample {
 			  //verifying Captured tooltip text
 			  TestReporter.log("Verifying the Captured tooltip text.");
 			  Assert.assertEquals(getToolTipText, actualToolTipText2);
+			  
+	  } catch (Exception e) {
+		  	  e.printStackTrace();
+	  }
+  }
+  
+  @Test(priority=3,enabled=true)
+  public void verifyToolTipText_Practice() {
+	  TestReporter.log("Launch the Application.");
+	  driver.navigate().to(strToolTipURL);
+	  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+	
+	  try {
+			  //title="We ask for your age only for statistical purposes."
+			  //Textbox field, where we do mouse hover
+			  WebElement eleTextBox = driver.findElement(By.className("prev"));
+			  
+			  //Use action class to mouse-hover on the text-box field 
+			  Actions action = new Actions(driver);
+			  action.moveToElement(eleTextBox).build().perform();
+			  WebElement eleToolTipText = driver.findElement(By.cssSelector(".prev>a"));
+			  
+			  //Capture the tool tip text and assert it.
+			  String getToolTipText = eleToolTipText.getText();
+			  TestReporter.log("Captured tooltip text is : " + getToolTipText);
+			  
+			  //verifying Captured tooltip text
+			  TestReporter.log("Verifying the Captured tooltip text.");
+			  Assert.assertEquals(getToolTipText, actualToolTipText3);
 			  
 	  } catch (Exception e) {
 		  	  e.printStackTrace();
