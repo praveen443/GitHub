@@ -1,187 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
     <line>
-      <![CDATA[2016-05-31 16:20:04.133 :: <-------- Started the TestCase - UtilityClassesExamples. --------><br />]]>
+      <![CDATA[2016-05-31 16:51:55.505 :: <-------- Started the TestCase - UtilityClassesExamples. --------><br />]]>
     </line>
     <line>
-      <![CDATA[2016-05-31 16:20:04.133 :: bGax<br />]]>
+      <![CDATA[2016-05-31 16:51:55.505 :: Ksev<br />]]>
     </line>
     <line>
-      <![CDATA[2016-05-31 16:20:04.133 :: 1382<br />]]>
+      <![CDATA[2016-05-31 16:51:55.505 :: 0451<br />]]>
     </line>
     <line>
-      <![CDATA[2016-05-31 16:20:04.133 :: IlqH<br />]]>
+      <![CDATA[2016-05-31 16:51:55.505 :: b4pm<br />]]>
     </line>
     <line>
-      <![CDATA[2016-05-31 16:20:04.143 :: 31-05-2016 16:20:04<br />]]>
+      <![CDATA[2016-05-31 16:51:55.505 :: 31-05-2016 16:51:55<br />]]>
     </line>
     <line>
-      <![CDATA[2016-05-31 16:20:04.143 :: windows 7<br />]]>
+      <![CDATA[2016-05-31 16:51:55.515 :: windows 7<br />]]>
     </line>
     <line>
-      <![CDATA[2016-05-31 16:20:04.143 :: <-------- Ended the TestCase execution - UtilityClassesExamples. --------><br />]]>
+      <![CDATA[2016-05-31 16:51:55.515 :: <-------- Ended the TestCase execution - UtilityClassesExamples. --------><br />]]>
     </line>
     <line>
-      <![CDATA[2016-05-31 16:20:04.153 :: ----> Started the TestCase execution - Read_CSV_FileUsingJava.<br />]]>
+      <![CDATA[2016-05-31 16:51:55.525 :: <-------- Started the TestCase execution - Read_CSV_FileUsingJava. --------><br />]]>
     </line>
     <line>
-      <![CDATA[2016-05-31 16:20:04.163 :: ----> Ended the TestCase execution - Read_CSV_FileUsingJava.<br />]]>
+      <![CDATA[2016-05-31 16:51:55.525 :: <-------- Ended the TestCase execution - Read_CSV_FileUsingJava. --------><br />]]>
     </line>
     <line>
-      <![CDATA[2016-05-31 16:20:04.173 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
+      <![CDATA[2016-05-31 16:51:55.525 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
     </line>
     <line>
-      <![CDATA[2016-05-31 16:20:04.173 :: Launch the Firefox browser.<br />]]>
+      <![CDATA[2016-05-31 16:51:55.525 :: Launch the Firefox browser.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-05-31 16:20:08.992 :: Launch the Application.<br />]]>
+      <![CDATA[2016-05-31 16:52:00.475 :: Launch the Application.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-05-31 16:20:10.514 :: Captured tooltip text is : Return to Selenium home page<br />]]>
+      <![CDATA[2016-05-31 16:52:07.335 :: Captured tooltip text is : Return to Selenium home page<br />]]>
     </line>
     <line>
-      <![CDATA[2016-05-31 16:20:10.514 :: Verifying the Captured tooltip text.<br />]]>
+      <![CDATA[2016-05-31 16:52:07.335 :: Verifying the Captured tooltip text.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-05-31 16:20:10.517 :: Closing the browser instance.<br />]]>
+      <![CDATA[2016-05-31 16:52:07.338 :: Closing the browser instance.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-05-31 16:20:10.716 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
-    </line>
-    <line>
-      <![CDATA[2016-05-31 16:20:10.716 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
-    </line>
-    <line>
-      <![CDATA[2016-05-31 16:20:10.716 :: Launch the Firefox browser.<br />]]>
-    </line>
-    <line>
-      <![CDATA[2016-05-31 16:20:14.836 :: Launch the Application.<br />]]>
-    </line>
-    <line>
-      <![CDATA[2016-05-31 16:20:26.696 :: Captured tooltip text is : We ask for your age only for statistical purposes.<br />]]>
-    </line>
-    <line>
-      <![CDATA[2016-05-31 16:20:26.696 :: Verifying the Captured tooltip text.<br />]]>
-    </line>
-    <line>
-      <![CDATA[2016-05-31 16:20:26.697 :: Closing the browser instance.<br />]]>
-    </line>
-    <line>
-      <![CDATA[2016-05-31 16:20:26.845 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
+      <![CDATA[2016-05-31 16:52:07.549 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
     </line>
   </reporter-output>
-  <suite name="Test-Suite" duration-ms="22742" started-at="2016-05-31T10:50:04Z" finished-at="2016-05-31T10:50:26Z">
+  <suite name="Groups Test-Suite" duration-ms="12084" started-at="2016-05-31T11:21:55Z" finished-at="2016-05-31T11:22:07Z">
     <groups>
+      <group name="TestNG Tests">
+        <method signature="Read_CSV_FileUsingJava.readDataFromCSVFile()[pri:0, instance:TestCases.Read_CSV_FileUsingJava@3b084709]" name="readDataFromCSVFile" class="TestCases.Read_CSV_FileUsingJava"/>
+        <method signature="UtilityClassesExamples.testUtilities()[pri:0, instance:TestCases.UtilityClassesExamples@57855c9a]" name="testUtilities" class="TestCases.UtilityClassesExamples"/>
+        <method signature="verifyToolTipExample.verifyToolTipText_Case1()[pri:1, instance:TestCases.verifyToolTipExample@3224f60b]" name="verifyToolTipText_Case1" class="TestCases.verifyToolTipExample"/>
+      </group> <!-- TestNG Tests -->
     </groups>
-    <test name="TestNG_TestCases" duration-ms="22742" started-at="2016-05-31T10:50:04Z" finished-at="2016-05-31T10:50:26Z">
+    <test name="TestNG_Groups" duration-ms="12084" started-at="2016-05-31T11:21:55Z" finished-at="2016-05-31T11:22:07Z">
       <class name="TestCases.Read_CSV_FileUsingJava">
-        <test-method status="PASS" signature="readDataFromCSVFile()[pri:0, instance:TestCases.Read_CSV_FileUsingJava@22a67b4]" name="readDataFromCSVFile" duration-ms="20" started-at="2016-05-31T16:20:04Z" finished-at="2016-05-31T16:20:04Z">
+        <test-method status="PASS" signature="readDataFromCSVFile()[pri:0, instance:TestCases.Read_CSV_FileUsingJava@3b084709]" name="readDataFromCSVFile" duration-ms="0" started-at="2016-05-31T16:51:55Z" finished-at="2016-05-31T16:51:55Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-05-31 16:20:04.153 :: ----> Started the TestCase execution - Read_CSV_FileUsingJava.<br />]]>
+              <![CDATA[2016-05-31 16:51:55.525 :: <-------- Started the TestCase execution - Read_CSV_FileUsingJava. --------><br />]]>
             </line>
             <line>
-              <![CDATA[2016-05-31 16:20:04.163 :: ----> Ended the TestCase execution - Read_CSV_FileUsingJava.<br />]]>
+              <![CDATA[2016-05-31 16:51:55.525 :: <-------- Ended the TestCase execution - Read_CSV_FileUsingJava. --------><br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- readDataFromCSVFile -->
       </class> <!-- TestCases.Read_CSV_FileUsingJava -->
       <class name="TestCases.verifyToolTipExample">
-        <test-method status="PASS" signature="launchWebPage()[pri:0, instance:TestCases.verifyToolTipExample@57855c9a]" name="launchWebPage" is-config="true" duration-ms="4829" started-at="2016-05-31T16:20:04Z" finished-at="2016-05-31T16:20:08Z">
+        <test-method status="PASS" signature="launchWebPage()[pri:0, instance:TestCases.verifyToolTipExample@3224f60b]" name="launchWebPage" is-config="true" duration-ms="4949" started-at="2016-05-31T16:51:55Z" finished-at="2016-05-31T16:52:00Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-05-31 16:20:04.173 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
+              <![CDATA[2016-05-31 16:51:55.525 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
             </line>
             <line>
-              <![CDATA[2016-05-31 16:20:04.173 :: Launch the Firefox browser.<br />]]>
+              <![CDATA[2016-05-31 16:51:55.525 :: Launch the Firefox browser.<br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchWebPage -->
-        <test-method status="PASS" signature="verifyToolTipText_Case1()[pri:1, instance:TestCases.verifyToolTipExample@57855c9a]" name="verifyToolTipText_Case1" duration-ms="1524" started-at="2016-05-31T16:20:08Z" finished-at="2016-05-31T16:20:10Z">
+        <test-method status="PASS" signature="verifyToolTipText_Case1()[pri:1, instance:TestCases.verifyToolTipExample@3224f60b]" name="verifyToolTipText_Case1" duration-ms="6862" started-at="2016-05-31T16:52:00Z" finished-at="2016-05-31T16:52:07Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-05-31 16:20:08.992 :: Launch the Application.<br />]]>
+              <![CDATA[2016-05-31 16:52:00.475 :: Launch the Application.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-05-31 16:20:10.514 :: Captured tooltip text is : Return to Selenium home page<br />]]>
+              <![CDATA[2016-05-31 16:52:07.335 :: Captured tooltip text is : Return to Selenium home page<br />]]>
             </line>
             <line>
-              <![CDATA[2016-05-31 16:20:10.514 :: Verifying the Captured tooltip text.<br />]]>
+              <![CDATA[2016-05-31 16:52:07.335 :: Verifying the Captured tooltip text.<br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyToolTipText_Case1 -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.verifyToolTipExample@57855c9a]" name="closeBrowser" is-config="true" duration-ms="199" started-at="2016-05-31T16:20:10Z" finished-at="2016-05-31T16:20:10Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.verifyToolTipExample@3224f60b]" name="closeBrowser" is-config="true" duration-ms="211" started-at="2016-05-31T16:52:07Z" finished-at="2016-05-31T16:52:07Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-05-31 16:20:10.517 :: Closing the browser instance.<br />]]>
+              <![CDATA[2016-05-31 16:52:07.338 :: Closing the browser instance.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-05-31 16:20:10.716 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="launchWebPage()[pri:0, instance:TestCases.verifyToolTipExample@57855c9a]" name="launchWebPage" is-config="true" duration-ms="4119" started-at="2016-05-31T16:20:10Z" finished-at="2016-05-31T16:20:14Z">
-          <reporter-output>
-            <line>
-              <![CDATA[2016-05-31 16:20:10.716 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
-            </line>
-            <line>
-              <![CDATA[2016-05-31 16:20:10.716 :: Launch the Firefox browser.<br />]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- launchWebPage -->
-        <test-method status="PASS" signature="verifyToolTipText_Case2()[pri:2, instance:TestCases.verifyToolTipExample@57855c9a]" name="verifyToolTipText_Case2" duration-ms="11861" started-at="2016-05-31T16:20:14Z" finished-at="2016-05-31T16:20:26Z">
-          <reporter-output>
-            <line>
-              <![CDATA[2016-05-31 16:20:14.836 :: Launch the Application.<br />]]>
-            </line>
-            <line>
-              <![CDATA[2016-05-31 16:20:26.696 :: Captured tooltip text is : We ask for your age only for statistical purposes.<br />]]>
-            </line>
-            <line>
-              <![CDATA[2016-05-31 16:20:26.696 :: Verifying the Captured tooltip text.<br />]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyToolTipText_Case2 -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.verifyToolTipExample@57855c9a]" name="closeBrowser" is-config="true" duration-ms="148" started-at="2016-05-31T16:20:26Z" finished-at="2016-05-31T16:20:26Z">
-          <reporter-output>
-            <line>
-              <![CDATA[2016-05-31 16:20:26.697 :: Closing the browser instance.<br />]]>
-            </line>
-            <line>
-              <![CDATA[2016-05-31 16:20:26.845 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
+              <![CDATA[2016-05-31 16:52:07.549 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- TestCases.verifyToolTipExample -->
       <class name="TestCases.UtilityClassesExamples">
-        <test-method status="PASS" signature="testUtilities()[pri:0, instance:TestCases.UtilityClassesExamples@79be0360]" name="testUtilities" duration-ms="30" started-at="2016-05-31T16:20:04Z" finished-at="2016-05-31T16:20:04Z">
+        <test-method status="PASS" signature="testUtilities()[pri:0, instance:TestCases.UtilityClassesExamples@57855c9a]" name="testUtilities" duration-ms="30" started-at="2016-05-31T16:51:55Z" finished-at="2016-05-31T16:51:55Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-05-31 16:20:04.133 :: <-------- Started the TestCase - UtilityClassesExamples. --------><br />]]>
+              <![CDATA[2016-05-31 16:51:55.505 :: <-------- Started the TestCase - UtilityClassesExamples. --------><br />]]>
             </line>
             <line>
-              <![CDATA[2016-05-31 16:20:04.133 :: bGax<br />]]>
+              <![CDATA[2016-05-31 16:51:55.505 :: Ksev<br />]]>
             </line>
             <line>
-              <![CDATA[2016-05-31 16:20:04.133 :: 1382<br />]]>
+              <![CDATA[2016-05-31 16:51:55.505 :: 0451<br />]]>
             </line>
             <line>
-              <![CDATA[2016-05-31 16:20:04.133 :: IlqH<br />]]>
+              <![CDATA[2016-05-31 16:51:55.505 :: b4pm<br />]]>
             </line>
             <line>
-              <![CDATA[2016-05-31 16:20:04.143 :: 31-05-2016 16:20:04<br />]]>
+              <![CDATA[2016-05-31 16:51:55.505 :: 31-05-2016 16:51:55<br />]]>
             </line>
             <line>
-              <![CDATA[2016-05-31 16:20:04.143 :: windows 7<br />]]>
+              <![CDATA[2016-05-31 16:51:55.515 :: windows 7<br />]]>
             </line>
             <line>
-              <![CDATA[2016-05-31 16:20:04.143 :: <-------- Ended the TestCase execution - UtilityClassesExamples. --------><br />]]>
+              <![CDATA[2016-05-31 16:51:55.515 :: <-------- Ended the TestCase execution - UtilityClassesExamples. --------><br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- testUtilities -->
       </class> <!-- TestCases.UtilityClassesExamples -->
-    </test> <!-- TestNG_TestCases -->
-  </suite> <!-- Test-Suite -->
+    </test> <!-- TestNG_Groups -->
+  </suite> <!-- Groups Test-Suite -->
 </testng-results>

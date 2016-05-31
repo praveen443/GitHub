@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>TestNG:  TestNG_Groups</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestNG_Groups</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 31 16:51:55 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>12 seconds (12084 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>TestNG Tests </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.Read_CSV_FileUsingJava.readDataFromCSVFile()'><b>readDataFromCSVFile</b><br>Test class: TestCases.Read_CSV_FileUsingJava<br/>
+<a href="#Output-439904756" onClick='toggleBox("Output-439904756", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-439904756" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-439904756">
+2016-05-31 16:51:55.525 :: <-------- Started the TestCase execution - Read_CSV_FileUsingJava. --------><br /><br/>
+2016-05-31 16:51:55.525 :: <-------- Ended the TestCase execution - Read_CSV_FileUsingJava. --------><br /><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Read_CSV_FileUsingJava@3b084709</td></tr>
+<tr>
+<td title='TestCases.UtilityClassesExamples.testUtilities()'><b>testUtilities</b><br>Test class: TestCases.UtilityClassesExamples<br/>
+<a href="#Output-1597655940" onClick='toggleBox("Output-1597655940", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1597655940" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1597655940">
+2016-05-31 16:51:55.505 :: <-------- Started the TestCase - UtilityClassesExamples. --------><br /><br/>
+2016-05-31 16:51:55.505 :: Ksev<br /><br/>
+2016-05-31 16:51:55.505 :: 0451<br /><br/>
+2016-05-31 16:51:55.505 :: b4pm<br /><br/>
+2016-05-31 16:51:55.505 :: 31-05-2016 16:51:55<br /><br/>
+2016-05-31 16:51:55.515 :: windows 7<br /><br/>
+2016-05-31 16:51:55.515 :: <-------- Ended the TestCase execution - UtilityClassesExamples. --------><br /><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestCases.UtilityClassesExamples@57855c9a</td></tr>
+<tr>
+<td title='TestCases.verifyToolTipExample.verifyToolTipText_Case1()'><b>verifyToolTipText_Case1</b><br>Test class: TestCases.verifyToolTipExample<br/>
+<a href="#Output-1323434987" onClick='toggleBox("Output-1323434987", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1323434987" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1323434987">
+2016-05-31 16:52:00.475 :: Launch the Application.<br /><br/>
+2016-05-31 16:52:07.335 :: Captured tooltip text is : Return to Selenium home page<br /><br/>
+2016-05-31 16:52:07.335 :: Verifying the Captured tooltip text.<br /><br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>TestCases.verifyToolTipExample@3224f60b</td></tr>
+</table><p>
+</body>
+</html>
