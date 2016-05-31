@@ -1,4 +1,4 @@
-package Utils;
+package Utility;
 public class Datatable {
 
 	public static int getCurrentScenario() {

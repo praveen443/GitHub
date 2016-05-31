@@ -1,7 +1,6 @@
-package Utils;
+package Utility;
 
 import java.sql.Timestamp;
-
 import org.testng.Reporter;
 
 public class TestReporter {
