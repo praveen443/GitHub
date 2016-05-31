@@ -30,7 +30,7 @@ public class validateFooterLinks {
 	  driver.manage().window().maximize();
   }
   
-  @Test
+  @Test(groups={"TestNG Tests"})
   public void verifyFooterLinks() {
 	  //TestReporter.log("Launch the Application.");
 	  driver.navigate().to(appURL);

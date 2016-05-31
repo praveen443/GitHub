@@ -26,7 +26,7 @@ public class verifyToolTipExample {
   public String actualToolTipText2 = "We ask for your age only for statistical purposes.";
   public String actualToolTipText3 = "‹ Working with Multiple Checkboxes with Safecheck";
   
-  @BeforeMethod
+  @BeforeMethod(groups={"TestNG Tests"})
   public void launchWebPage() {
 	  TestReporter.log("<-------- Started the TestCase execution - verifyToolTipExample. -------->");
 	  TestReporter.log("Launch the Firefox browser.");
@@ -42,7 +42,7 @@ public class verifyToolTipExample {
    */
   
   //prioritized to execute this method as first.
-  @Test(priority=1,enabled=true)
+  @Test(priority=1,enabled=true,groups={"TestNG Tests"})
   public void verifyToolTipText_Case1() {
 	  TestReporter.log("Launch the Application.");
 	  driver.navigate().to(seleniumURL);
@@ -124,7 +124,7 @@ public class verifyToolTipExample {
 	  }
   }
   
-  @AfterMethod
+  @AfterMethod(groups={"TestNG Tests"})
   public void closeBrowser() {
 	  if(driver!=null){
 		  TestReporter.log("Closing the browser instance.");

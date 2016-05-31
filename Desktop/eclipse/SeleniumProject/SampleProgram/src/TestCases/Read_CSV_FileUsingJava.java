@@ -13,7 +13,7 @@ import au.com.bytecode.opencsv.CSVReader;
 public class Read_CSV_FileUsingJava {
 	public static String csvFilePath = "C://Users//praveen//Desktop//verifyFooterlinks.csv";
 	
-	@Test
+	@Test(groups={"TestNG Tests"})
 	public void readDataFromCSVFile() throws IOException{
 		TestReporter.log("<-------- Started the TestCase execution - Read_CSV_FileUsingJava. -------->");
 		Read_CSV_FileUsingJava readCSVfile = new Read_CSV_FileUsingJava();
