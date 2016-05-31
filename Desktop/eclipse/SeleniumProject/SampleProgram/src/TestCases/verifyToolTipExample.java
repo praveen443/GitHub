@@ -14,6 +14,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 
+import Utils.Sleeper;
 import Utils.TestReporter;
 
 public class verifyToolTipExample {
@@ -91,7 +92,7 @@ public class verifyToolTipExample {
 	  }
   }
   
-  @Test(priority=3,enabled=true)
+  @Test(priority=3,enabled=false)
   public void verifyToolTipText_Practice() {
 	  TestReporter.log("Launch the Application.");
 	  driver.navigate().to(strToolTipURL);
@@ -106,6 +107,9 @@ public class verifyToolTipExample {
 			  Actions action = new Actions(driver);
 			  action.moveToElement(eleTextBox).build().perform();
 			  WebElement eleToolTipText = driver.findElement(By.cssSelector(".prev>a"));
+			  
+			  WebDriverWait wait = new WebDriverWait(driver, 2);
+			  wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".prev>a")));
 			  
 			  //Capture the tool tip text and assert it.
 			  String getToolTipText = eleToolTipText.getText();
