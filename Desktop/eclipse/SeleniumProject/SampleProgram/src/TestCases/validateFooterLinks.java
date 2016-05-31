@@ -11,6 +11,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import Utility.TestReporter;
+
 //import Utils.TestReporter;
 
 
@@ -22,7 +24,8 @@ public class validateFooterLinks {
   
   @BeforeTest
   public void launchWebPage() {
-	  //TestReporter.log("Launch the Firefox browser.");
+	  TestReporter.log("<-------- Stated the TestCase execution - validateFooterLinks. -------->");
+	  TestReporter.log("Launch the Firefox browser.");
 	  driver = new FirefoxDriver();
 	  driver.manage().window().maximize();
   }
@@ -51,6 +54,7 @@ public class validateFooterLinks {
 		 // TestReporter.log("Closing the browser instance.");
 		  driver.quit();
 	  }
+	  TestReporter.log("<-------- Ended the TestCase execution - validateFooterLinks.-------->");
   }
   
 }

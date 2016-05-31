@@ -28,6 +28,7 @@ public class verifyToolTipExample {
   
   @BeforeMethod
   public void launchWebPage() {
+	  TestReporter.log("<-------- Started the TestCase execution - verifyToolTipExample. -------->");
 	  TestReporter.log("Launch the Firefox browser.");
 	  driver = new FirefoxDriver();
 	  driver.manage().window().maximize();
@@ -129,6 +130,7 @@ public class verifyToolTipExample {
 		  TestReporter.log("Closing the browser instance.");
 		  driver.quit();
 	  }
+	  TestReporter.log("<-------- Ended the TestCase execution - verifyToolTipExample. -------->");
   }
 
 }
