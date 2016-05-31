@@ -1,14 +1,18 @@
 package TestCases;
 
-import Utils.Constants;
-import Utils.Randomness;
-import Utils.TestReporter;
+
+import org.testng.annotations.Test;
+
+import Utility.Constants;
+import Utility.Randomness;
+import Utility.TestReporter;
 
 public class UtilityClassesExamples {
 	//Used the below statement to get the OS name
 	public static final String OS_Name = System.getProperty("os.name","ERROR").toLowerCase();
 
-	public static void main(String []args){
+	@Test
+	public void testUtilities(){
 
 		//To generate the random string
 		String randomString  = Randomness.randomString(4);

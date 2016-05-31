@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 
-import Utils.TestReporter;
+import Utility.TestReporter;
 
 public class verifyToolTipExample {
 
