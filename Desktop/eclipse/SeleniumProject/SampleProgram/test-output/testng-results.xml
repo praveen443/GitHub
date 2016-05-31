@@ -2,54 +2,48 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[2016-05-30 16:08:29.755 :: Launch the Firefox browser.<br />]]>
+      <![CDATA[2016-05-31 12:29:46.508 :: Launch the Firefox browser.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-05-30 16:08:34.612 :: Launch the Application.<br />]]>
+      <![CDATA[2016-05-31 12:29:51.405 :: Launch the Application.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-05-30 16:08:43.453 :: Captured tooltip text is : We ask for your age only for statistical purposes.<br />]]>
+      <![CDATA[2016-05-31 12:32:05.224 :: Total no. of footer links available : 23<br />]]>
     </line>
     <line>
-      <![CDATA[2016-05-30 16:08:43.453 :: Verifying the Captured tooltip text.<br />]]>
-    </line>
-    <line>
-      <![CDATA[2016-05-30 16:08:43.456 :: Closing the browser instance.<br />]]>
+      <![CDATA[2016-05-31 12:32:05.455 :: Closing the browser instance.<br />]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13979" started-at="2016-05-30T10:38:29Z" finished-at="2016-05-30T10:38:43Z">
+  <suite name="Default suite" duration-ms="139243" started-at="2016-05-31T06:59:46Z" finished-at="2016-05-31T07:02:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13979" started-at="2016-05-30T10:38:29Z" finished-at="2016-05-30T10:38:43Z">
-      <class name="TestCases.verifyToolTipExample">
-        <test-method status="PASS" signature="launchWebPage()[pri:0, instance:TestCases.verifyToolTipExample@3cef309d]" name="launchWebPage" is-config="true" duration-ms="4853" started-at="2016-05-30T16:08:29Z" finished-at="2016-05-30T16:08:34Z">
+    <test name="Default test" duration-ms="139243" started-at="2016-05-31T06:59:46Z" finished-at="2016-05-31T07:02:05Z">
+      <class name="TestCases.validateFooterLinks">
+        <test-method status="PASS" signature="launchWebPage()[pri:0, instance:TestCases.validateFooterLinks@23e028a9]" name="launchWebPage" is-config="true" duration-ms="4900" started-at="2016-05-31T12:29:46Z" finished-at="2016-05-31T12:29:51Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-05-30 16:08:29.755 :: Launch the Firefox browser.<br />]]>
+              <![CDATA[2016-05-31 12:29:46.508 :: Launch the Firefox browser.<br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchWebPage -->
-        <test-method status="PASS" signature="verifyToolTipText_Case2()[pri:2, instance:TestCases.verifyToolTipExample@3cef309d]" name="verifyToolTipText_Case2" duration-ms="8847" started-at="2016-05-30T16:08:34Z" finished-at="2016-05-30T16:08:43Z">
+        <test-method status="PASS" signature="verifyFooterLinks()[pri:0, instance:TestCases.validateFooterLinks@23e028a9]" name="verifyFooterLinks" duration-ms="134045" started-at="2016-05-31T12:29:51Z" finished-at="2016-05-31T12:32:05Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-05-30 16:08:34.612 :: Launch the Application.<br />]]>
+              <![CDATA[2016-05-31 12:29:51.405 :: Launch the Application.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-05-30 16:08:43.453 :: Captured tooltip text is : We ask for your age only for statistical purposes.<br />]]>
-            </line>
-            <line>
-              <![CDATA[2016-05-30 16:08:43.453 :: Verifying the Captured tooltip text.<br />]]>
+              <![CDATA[2016-05-31 12:32:05.224 :: Total no. of footer links available : 23<br />]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyToolTipText_Case2 -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.verifyToolTipExample@3cef309d]" name="closeBrowser" is-config="true" duration-ms="258" started-at="2016-05-30T16:08:43Z" finished-at="2016-05-30T16:08:43Z">
+        </test-method> <!-- verifyFooterLinks -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.validateFooterLinks@23e028a9]" name="closeBrowser" is-config="true" duration-ms="270" started-at="2016-05-31T12:32:05Z" finished-at="2016-05-31T12:32:05Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-05-30 16:08:43.456 :: Closing the browser instance.<br />]]>
+              <![CDATA[2016-05-31 12:32:05.455 :: Closing the browser instance.<br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- TestCases.verifyToolTipExample -->
+      </class> <!-- TestCases.validateFooterLinks -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
