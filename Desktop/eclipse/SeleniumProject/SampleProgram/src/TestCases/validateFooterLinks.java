@@ -36,6 +36,7 @@ public class validateFooterLinks {
 	  //WebElement eleFooterLinks = driver.findElement(By.cssSelector("div[id$='block-28']>div>div>div>ul>li a"));
 	  
 	  List<WebElement> eleFooterLinks = driver.findElements(By.cssSelector("div[id$='block-28']>div>div>div>ul>li a"));
+	  @SuppressWarnings("unused")
 	  int footerlinks = eleFooterLinks.size();
 	  
 	  for (int i=0;i<=eleFooterLinks.size();i++){
