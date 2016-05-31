@@ -3,7 +3,7 @@
 <suite name="Test-Suite">
   <test name="TestNG_TestCases">
     <classes>
-      <class name="TestCases.validateFooterLinks"/>
+      <!-- <class name="TestCases.validateFooterLinks"/> -->
       <class name="TestCases.UtilityClassesExamples"/>
       <class name="TestCases.Read_CSV_FileUsingJava"/>
       <class name="TestCases.verifyToolTipExample"/>
