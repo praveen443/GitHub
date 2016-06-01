@@ -7,9 +7,9 @@ import org.openqa.selenium.WebElement;
 public class HighlightElement {
 	public static WebDriver driver;
 
-	public static void highlight(WebElement element){
+	public static void highlight(WebDriver driver,WebElement element){
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].style.border='2px groove green'", element);
+		js.executeScript("arguments[0].style.border='3px solid red'", element);
 	}
 
 }

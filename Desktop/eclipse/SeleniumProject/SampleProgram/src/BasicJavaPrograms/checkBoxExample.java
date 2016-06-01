@@ -10,9 +10,17 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
+
+
+import Utils.CheckboxesHandling;
+import Utils.HighlightElement;
+import Utils.Sleeper;
+
 public class checkBoxExample {
 	public static WebDriver driver;
 	public static String redditAppURL = "https://www.reddit.com/";
+	static HighlightElement ele = new HighlightElement();
 	
 	public static void main(String[] args) {
 		driver = new FirefoxDriver();
@@ -25,11 +33,21 @@ public class checkBoxExample {
 			WebElement checkBox = driver.findElement(By.cssSelector("input[id='rem-login-main']"));
 			new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOf(checkBox));
 			//checkBox.click();
+			@SuppressWarnings("unused")
+			CheckboxesHandling checkboxes = new CheckboxesHandling();
+			ele.highlight(driver, checkBox);
+			Sleeper.sleep(3000);
+			CheckboxesHandling.selectTheCheckBox(checkBox);
 			
 		}catch(ElementNotVisibleException e){
 			System.out.println(e.getStackTrace());
 		}
 		
+		Sleeper.sleep(3000);
+		
+		if(driver!=null){
+			driver.quit();
+		}
 	}
 
 }
