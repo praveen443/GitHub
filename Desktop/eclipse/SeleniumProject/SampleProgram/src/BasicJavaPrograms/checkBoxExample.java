@@ -4,11 +4,13 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotVisibleException;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 
 
@@ -21,6 +23,11 @@ public class checkBoxExample {
 	public static WebDriver driver;
 	public static String redditAppURL = "https://www.reddit.com/";
 	
+	public static void highlight(WebElement element){
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].style.border='3px solid red'", element);
+	}
+	
 	public static void main(String[] args) {
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
@@ -32,8 +39,8 @@ public class checkBoxExample {
 			WebElement checkBox = driver.findElement(By.cssSelector("input[id='rem-login-main']"));
 			new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOf(checkBox));
 			//checkBox.click();
-			HighlightElement name = new HighlightElement();
-			name.highlight(driver, checkBox);
+			//HighlightElement name = new HighlightElement();
+			highlight(checkBox);
 			Sleeper.sleep(3000);
 			CheckboxesHandling.selectTheCheckBox(checkBox);
 		}catch(ElementNotVisibleException e){
