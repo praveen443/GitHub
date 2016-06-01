@@ -5,11 +5,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class HighlightElement {
-	public WebDriver driver;
+	//public static WebDriver driver;
 	
-	public void highlight(WebDriver driver,WebElement element){
+	public static void highlight(WebDriver driver,WebElement element){
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].style.border='3px solid red'", element);
+		 js.executeScript("arguments[0].style.border='4px solid red'", element);
 	}
-
+	
+	public static void highlightElement(WebDriver driver,WebElement element) {
+		  String originalStyle = element.getAttribute("style");
+		  JavascriptExecutor js = (JavascriptExecutor) driver;
+		  js.executeScript("arguments[0].style.border='4px solid red'", element);
+		  try {
+		    Thread.sleep(3000);
+		  } catch (InterruptedException e) {}
+		  js.executeScript("arguments[0].setAttribute('style', '" + originalStyle + "');", element);
+		}
 }
