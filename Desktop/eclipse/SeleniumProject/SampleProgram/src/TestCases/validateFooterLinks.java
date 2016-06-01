@@ -11,7 +11,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import Utility.TestReporter;
+import Utils.TestReporter;
 
 //import Utils.TestReporter;
 

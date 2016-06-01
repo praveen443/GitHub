@@ -3,9 +3,9 @@ package TestCases;
 
 import org.testng.annotations.Test;
 
-import Utility.Constants;
-import Utility.Randomness;
-import Utility.TestReporter;
+import Utils.Constants;
+import Utils.Randomness;
+import Utils.TestReporter;
 
 public class UtilityClassesExamples {
 	//Used the below statement to get the OS name

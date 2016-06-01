@@ -3,7 +3,7 @@ package BasicJavaPrograms.arrayList;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import Utility.TestReporter;
+import Utils.TestReporter;
 
 /**
  * @summary: Program to read all elements in ArrayList by using iterator.

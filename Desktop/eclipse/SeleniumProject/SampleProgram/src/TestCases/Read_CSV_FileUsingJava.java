@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.testng.annotations.Test;
 
-import Utility.TestReporter;
+import Utils.TestReporter;
 import au.com.bytecode.opencsv.CSVReader;
 
 public class Read_CSV_FileUsingJava {

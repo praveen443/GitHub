@@ -25,7 +25,6 @@ public class checkBoxExample {
 			WebElement checkBox = driver.findElement(By.cssSelector("input[id='rem-login-main']"));
 			new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOf(checkBox));
 			//checkBox.click();
-			//selectTheCheckBox();
 			
 		}catch(ElementNotVisibleException e){
 			System.out.println(e.getStackTrace());
