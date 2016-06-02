@@ -21,4 +21,5 @@ public class HighlightElement {
 		  } catch (InterruptedException e) {}
 		  js.executeScript("arguments[0].setAttribute('style', '" + originalStyle + "');", element);
 		}
+
 }
