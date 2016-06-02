@@ -14,6 +14,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 
+import Utils.Sleeper;
 import Utils.TestReporter;
 
 public class verifyToolTipExample {
@@ -73,19 +74,20 @@ public class verifyToolTipExample {
 			  //title="We ask for your age only for statistical purposes."
 			  //Textbox field, where we do mouse hover
 			  WebElement eleTextBox = driver.findElement(By.id("age"));
-			  
-			  //Use action class to mouse-hover on the text-box field 
+			  eleTextBox.click();
+			  Sleeper.sleep(2000);
+			  /*//Use action class to mouse-hover on the text-box field 
 			  Actions action = new Actions(driver);
-			  action.moveToElement(eleTextBox).build().perform();
+			  action.moveToElement(eleTextBox).build().perform();*/
+			 new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".ui-tooltip")));
 			  WebElement eleToolTipText = driver.findElement(By.cssSelector(".ui-tooltip"));
-			  
 			  //Capture the tool tip text and assert it.
 			  String getToolTipText = eleToolTipText.getText();
-			  TestReporter.log("Captured tooltip text is : " + getToolTipText);
+			  System.out.println("Captured tooltip text is : " + getToolTipText);
 			  
 			  //verifying Captured tooltip text
 			  TestReporter.log("Verifying the Captured tooltip text.");
-			  Assert.assertEquals(getToolTipText, actualToolTipText2);
+			  Assert.assertTrue(getToolTipText.contains(actualToolTipText2));
 			  
 	  } catch (Exception e) {
 		  	  e.printStackTrace();
