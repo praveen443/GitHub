@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestCases.validateFooterLinks">
+      <class name="TestCases.verifyToolTipExample">
         <methods>
-          <include name="verifyFooterLinks"/>
           <include name="closeBrowser"/>
+          <include name="verifyToolTipText_Case2"/>
           <include name="launchWebPage"/>
         </methods>
-      </class> <!-- TestCases.validateFooterLinks -->
+      </class> <!-- TestCases.verifyToolTipExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
