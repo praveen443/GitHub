@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 public class getTheCarsText {
@@ -16,6 +17,11 @@ public class getTheCarsText {
 		driver.navigate().to("http://www.toyota.com/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
+	}
+	
+	@AfterMethod
+	public void closeBrowser(){
+		if(driver!=null) driver.quit();
 	}
 
 }
