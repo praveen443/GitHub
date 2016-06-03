@@ -1,0 +1,142 @@
+<html>
+<head>
+<title>TestNG:  TestNG Execution using Package name</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestNG Execution using Package name</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 03 12:08:35 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>19 seconds (19710 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.Read_CSV_FileUsingJava.readDataFromCSVFile()'><b>readDataFromCSVFile</b><br>Test class: TestCases.Read_CSV_FileUsingJava<br/>
+<a href="#Output-1615056168" onClick='toggleBox("Output-1615056168", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1615056168" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1615056168">
+2016-06-03 12:08:35.468 :: <-------- Started the TestCase execution - Read_CSV_FileUsingJava. --------><br /><br/>
+2016-06-03 12:08:35.471 :: <-------- Ended the TestCase execution - Read_CSV_FileUsingJava. --------><br /><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Read_CSV_FileUsingJava@3d99d22e</td></tr>
+<tr>
+<td title='jdbcPrograms.ConnectJDBC.setJDBCConnection()'><b>setJDBCConnection</b><br>Test class: jdbcPrograms.ConnectJDBC</td>
+<td></td>
+<td>0</td>
+<td>jdbcPrograms.ConnectJDBC@3a883ce7</td></tr>
+<tr>
+<td title='TestCases.UtilityClassesExamples.testUtilities()'><b>testUtilities</b><br>Test class: TestCases.UtilityClassesExamples<br/>
+<a href="#Output-341748265" onClick='toggleBox("Output-341748265", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-341748265" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-341748265">
+2016-06-03 12:08:35.648 :: <-------- Started the TestCase - UtilityClassesExamples. --------><br /><br/>
+2016-06-03 12:08:35.65 :: NAkg<br /><br/>
+2016-06-03 12:08:35.65 :: 7136<br /><br/>
+2016-06-03 12:08:35.65 :: boWJ<br /><br/>
+2016-06-03 12:08:35.654 :: 03-06-2016 12:08:35<br /><br/>
+2016-06-03 12:08:35.655 :: windows 7<br /><br/>
+2016-06-03 12:08:35.655 :: <-------- Ended the TestCase execution - UtilityClassesExamples. --------><br /><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestCases.UtilityClassesExamples@49fc609f</td></tr>
+<tr>
+<td title='TestCases.verifyToolTipExample.verifyToolTipText_Case1()'><b>verifyToolTipText_Case1</b><br>Test class: TestCases.verifyToolTipExample<br/>
+<a href="#Output-1311844206" onClick='toggleBox("Output-1311844206", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1311844206" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1311844206">
+2016-06-03 12:08:40.342 :: Launch the Application.<br /><br/>
+2016-06-03 12:08:42.239 :: Captured tooltip text is : Return to Selenium home page<br /><br/>
+2016-06-03 12:08:42.239 :: Verifying the Captured tooltip text.<br /><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>TestCases.verifyToolTipExample@cd2dae5</td></tr>
+<tr>
+<td title='TestCases.verifyToolTipExample.verifyToolTipText_Case2()'><b>verifyToolTipText_Case2</b><br>Test class: TestCases.verifyToolTipExample<br/>
+<a href="#Output-275563320" onClick='toggleBox("Output-275563320", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-275563320" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-275563320">
+2016-06-03 12:08:46.547 :: Launch the Application.<br /><br/>
+2016-06-03 12:08:54.994 :: Verifying the Captured tooltip text.<br /><br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>TestCases.verifyToolTipExample@cd2dae5</td></tr>
+</table><p>
+</body>
+</html>

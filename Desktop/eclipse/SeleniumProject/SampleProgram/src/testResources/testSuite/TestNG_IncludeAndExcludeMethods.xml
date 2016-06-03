@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Groups Test-Suite">
+  <test name="TestNG test-Methods Execution using Include and Exclude">
+    <classes>
+      <class name="TestCases.verifyToolTipExample">
+        <methods> 
+		   <include name="launchWebPage"></include>
+		   <include name="verifyToolTipText_Case1"></include>
+		   <include name="closeBrowser"></include>
+		   <exclude name="verifyToolTipText_Case2"></exclude>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- TestNG_Groups -->
+</suite> <!-- Groups Test-Suite -->

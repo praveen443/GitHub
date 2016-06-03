@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ALC_InvalidSearchGuest" parallel="false">
+	<listeners>
+		<listener class-name="com.disney.composite.core.Screenshot"></listener>
+	</listeners>
+	<parameter name="browserUnderTest" value="IExplorer" />
+	<!-- <parameter name="browserUnderTest" value="Firefox" /> -->
+	<parameter name="environment" value="Grumpy" />
+	<parameter name="runLocation" value="local" />
+	<test name="ALC_InvalidSearchGuest">
+		<classes>
+			<class
+				name="com.disney.test.composite.alc.guest.ALC_InvalidSearchGuest" />
+		</classes>
+	</test> <!-- ALC_PTOI_DLR_GF_ModVenue_CA_TableService_CC_3rdParty -->
+</suite> <!-- ALC_PTOI_DLR_GF_ModVenue_CA_TableService_CC_3rdParty -->

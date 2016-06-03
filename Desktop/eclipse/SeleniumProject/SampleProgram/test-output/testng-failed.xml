@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Parallel execution of classes using TestNG.xml file.]" parallel="classes">
+  <test name="Executing the Tests which resides under TestCases package.(failed)" parallel="classes">
+    <classes>
+      <class name="TestCases.verifyToolTipExample">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyToolTipText_Case1"/>
+          <include name="launchWebPage"/>
+        </methods>
+      </class> <!-- TestCases.verifyToolTipExample -->
+    </classes>
+  </test> <!-- Executing the Tests which resides under TestCases package.(failed) -->
+</suite> <!-- Failed suite [Parallel execution of classes using TestNG.xml file.] -->

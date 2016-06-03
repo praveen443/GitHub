@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Groups Test-Suite]">
+  <test name="TestNG_Groups(failed)">
+    <groups>
+      <run>
+        <include name="TestNG Tests"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCases.verifyToolTipExample">
+        <methods>
+          <include name="verifyToolTipText_Case1"/>
+        </methods>
+      </class> <!-- TestCases.verifyToolTipExample -->
+    </classes>
+  </test> <!-- TestNG_Groups(failed) -->
+</suite> <!-- Failed suite [Groups Test-Suite] -->
