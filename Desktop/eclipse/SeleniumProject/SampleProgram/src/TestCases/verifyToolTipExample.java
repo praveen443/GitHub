@@ -43,7 +43,7 @@ public class verifyToolTipExample {
    */
   
   //prioritized to execute this method as first.
-  @Test(priority=1,enabled=true,groups={"TestNG Tests"})
+  @Test(enabled=true,groups={"TestNG Tests"})
   public void verifyToolTipText_Case1() {
 	  TestReporter.log("Launch the Application.");
 	  driver.navigate().to(seleniumURL);
@@ -60,7 +60,7 @@ public class verifyToolTipExample {
   }
   
   //prioritized to execute this method as second.
-  @Test(priority=2,enabled=true)
+  @Test(enabled=true)
   public void verifyToolTipText_Case2() {
 	  TestReporter.log("Launch the Application.");
 	  driver.navigate().to(jQueryURL);
