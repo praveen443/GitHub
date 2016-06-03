@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Parallel execution of classes using TestNG.xml file.]" parallel="classes">
-  <test name="Executing the Tests which resides under TestCases package.(failed)" parallel="classes">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="TestCases.verifyToolTipExample">
+      <class name="BasicJavaPrograms.PageScroll">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="verifyToolTipText_Case1"/>
-          <include name="launchWebPage"/>
+          <include name="setUp"/>
+          <include name="scrollingToElementofAPage"/>
         </methods>
-      </class> <!-- TestCases.verifyToolTipExample -->
+      </class> <!-- BasicJavaPrograms.PageScroll -->
     </classes>
-  </test> <!-- Executing the Tests which resides under TestCases package.(failed) -->
-</suite> <!-- Failed suite [Parallel execution of classes using TestNG.xml file.] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

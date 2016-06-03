@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11580" started-at="2016-06-03T12:12:24Z" finished-at="2016-06-03T12:12:35Z">
+  <suite name="Default suite" duration-ms="18339" started-at="2016-06-03T13:02:05Z" finished-at="2016-06-03T13:02:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11580" started-at="2016-06-03T12:12:24Z" finished-at="2016-06-03T12:12:35Z">
-      <class name="toyota.getTheCarsText">
-        <test-method status="PASS" signature="getCarNames()[pri:1, instance:toyota.getTheCarsText@3dd4520b]" name="getCarNames" duration-ms="11311" started-at="2016-06-03T17:42:24Z" finished-at="2016-06-03T17:42:35Z">
+    <test name="Default test" duration-ms="18339" started-at="2016-06-03T13:02:05Z" finished-at="2016-06-03T13:02:24Z">
+      <class name="BasicJavaPrograms.PageScroll">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:BasicJavaPrograms.PageScroll@3dd4520b]" name="setUp" is-config="true" duration-ms="14058" started-at="2016-06-03T18:32:05Z" finished-at="2016-06-03T18:32:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getCarNames -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:toyota.getTheCarsText@3dd4520b]" name="closeBrowser" is-config="true" duration-ms="247" started-at="2016-06-03T17:42:35Z" finished-at="2016-06-03T17:42:35Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="scrollingToBottomofAPage()[pri:1, instance:BasicJavaPrograms.PageScroll@3dd4520b]" name="scrollingToBottomofAPage" duration-ms="1915" started-at="2016-06-03T18:32:19Z" finished-at="2016-06-03T18:32:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- toyota.getTheCarsText -->
+        </test-method> <!-- scrollingToBottomofAPage -->
+        <test-method status="PASS" signature="scrollingByCoordinatesofAPage()[pri:3, instance:BasicJavaPrograms.PageScroll@3dd4520b]" name="scrollingByCoordinatesofAPage" duration-ms="2344" started-at="2016-06-03T18:32:21Z" finished-at="2016-06-03T18:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingByCoordinatesofAPage -->
+      </class> <!-- BasicJavaPrograms.PageScroll -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
