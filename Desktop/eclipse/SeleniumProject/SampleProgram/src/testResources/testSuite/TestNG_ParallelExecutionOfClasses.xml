@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel execution of classes using TestNG.xml file.">
+   <test name="Executing the Tests which resides under TestCases package.">
+    <classes>
+      <class name="TestCases.UtilityClassesExamples"/>
+      <class name="TestCases.Read_CSV_FileUsingJava"/>
+      <class name="TestCases.verifyToolTipExample"/>
+      <class name="jdbcPrograms.ConnectJDBC"/>
+    </classes>
+  </test> <!-- TestNG_TestCases -->
+ <!--  <test name="Executing the Tests which resides under jdbcPrograms package.">
+    <classes>
+      <class name="jdbcPrograms.ConnectJDBC"/>
+    </classes>
+  </test> TestNG_TestCases -->
+</suite> <!-- Suite -->
