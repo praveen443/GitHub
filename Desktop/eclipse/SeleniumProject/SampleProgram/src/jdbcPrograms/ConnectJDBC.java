@@ -6,10 +6,14 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import org.testng.annotations.Test;
+
 public class ConnectJDBC {
 
-	public static void  main(String[] args) throws  ClassNotFoundException, SQLException {                                                  
-       
+	//public static void  main(String[] args) throws  ClassNotFoundException, SQLException {  
+	@Test(priority=1,enabled=true)
+    public void setJDBCConnection() throws SQLException{
+    	
 		//Connection URL Syntax: "jdbc:mysql://ipaddress:portnumber/db_name"        
         String dbUrl = "jdbc:mysql://localhost:3306/employeemgmt";                   
 
@@ -56,6 +60,5 @@ public class ConnectJDBC {
         
         // closing DB Connection       
         connectionObj.close();
-            
-}
+	}
 }

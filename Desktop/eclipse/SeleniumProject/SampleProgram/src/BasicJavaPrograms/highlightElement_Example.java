@@ -19,6 +19,7 @@ public class highlightElement_Example {
 	public static String redditAppURL = "https://www.reddit.com/";
 	public static HighlightElement ele = new HighlightElement();
 
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();

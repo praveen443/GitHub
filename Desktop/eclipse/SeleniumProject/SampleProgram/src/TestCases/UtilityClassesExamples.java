@@ -11,7 +11,7 @@ public class UtilityClassesExamples {
 	//Used the below statement to get the OS name
 	public static final String OS_Name = System.getProperty("os.name","ERROR").toLowerCase();
 
-	@Test(groups={"TestNG Tests"})
+	@Test(priority=1,enabled=true,groups={"TestNG Tests"})
 	public void testUtilities(){
 		TestReporter.log("<-------- Started the TestCase - UtilityClassesExamples. -------->");
 		//To generate the random string

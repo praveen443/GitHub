@@ -4,6 +4,7 @@
   <test name="TestNG Execution using Package name">
   <packages>
   	<package name="TestCases"></package>
+  	<package name="jdbcPrograms"></package>
   </packages>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
