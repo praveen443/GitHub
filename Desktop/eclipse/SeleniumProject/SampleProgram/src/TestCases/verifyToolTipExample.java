@@ -43,7 +43,7 @@ public class verifyToolTipExample {
    */
   
   //prioritized to execute this method as first.
-  @Test(enabled=true,groups={"TestNG Tests"})
+  @Test(priority=1,enabled=true,groups={"TestNG Tests"})
   public void verifyToolTipText_Case1() {
 	  TestReporter.log("Launch the Application.");
 	  driver.navigate().to(seleniumURL);
@@ -60,7 +60,7 @@ public class verifyToolTipExample {
   }
   
   //prioritized to execute this method as second.
-  @Test(enabled=true)
+  @Test(priority=2,enabled=true,groups={"TestNG Tests"})
   public void verifyToolTipText_Case2() {
 	  TestReporter.log("Launch the Application.");
 	  driver.navigate().to(jQueryURL);
@@ -79,7 +79,7 @@ public class verifyToolTipExample {
 			  /*//Use action class to mouse-hover on the text-box field 
 			  Actions action = new Actions(driver);
 			  action.moveToElement(eleTextBox).build().perform();*/
-			 new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".ui-tooltip")));
+			  new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".ui-tooltip")));
 			  WebElement eleToolTipText = driver.findElement(By.cssSelector(".ui-tooltip"));
 			  //Capture the tool tip text and assert it.
 			  String getToolTipText = eleToolTipText.getText();
