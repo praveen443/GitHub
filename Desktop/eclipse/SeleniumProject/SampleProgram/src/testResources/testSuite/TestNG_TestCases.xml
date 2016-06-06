@@ -7,6 +7,7 @@
       <class name="TestCases.UtilityClassesExamples"/>
       <class name="TestCases.Read_CSV_FileUsingJava"/>
       <class name="TestCases.verifyToolTipExample"/>
+      <class name="readDataFromPropertiesFile.RedditLogin"/>
     </classes>
   </test> <!-- TestNG_TestCases -->
 </suite> <!-- Test-Suite -->
