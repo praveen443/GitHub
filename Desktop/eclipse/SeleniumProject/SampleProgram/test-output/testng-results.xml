@@ -1,25 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[2016-06-06 17:15:17.713 :: Navigate to Reddit application - https://www.reddit.com/<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-06 17:15:32.465 :: Enter the username - Test1506<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-06 17:15:35.59 :: Enter the password - null<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-06 17:15:38.703 :: Click on Login button.<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-06 17:15:49.951 :: Verifying the UserName after login.<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-06 17:15:49.951 :: Click on Log-Out link.<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-06 17:15:55.614 :: Verifying that the user logged-out successfully.<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-06 17:15:55.624 :: Close the browser instance.<br />]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18339" started-at="2016-06-03T13:02:05Z" finished-at="2016-06-03T13:02:24Z">
+  <suite name="Default suite" duration-ms="43445" started-at="2016-06-06T11:45:12Z" finished-at="2016-06-06T11:45:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18339" started-at="2016-06-03T13:02:05Z" finished-at="2016-06-03T13:02:24Z">
-      <class name="BasicJavaPrograms.PageScroll">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:BasicJavaPrograms.PageScroll@3dd4520b]" name="setUp" is-config="true" duration-ms="14058" started-at="2016-06-03T18:32:05Z" finished-at="2016-06-03T18:32:19Z">
+    <test name="Default test" duration-ms="43445" started-at="2016-06-06T11:45:12Z" finished-at="2016-06-06T11:45:55Z">
+      <class name="readDataFromPropertiesFile.RedditLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:readDataFromPropertiesFile.RedditLogin@610694f1]" name="setUp" is-config="true" duration-ms="5519" started-at="2016-06-06T17:15:12Z" finished-at="2016-06-06T17:15:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="scrollingToBottomofAPage()[pri:1, instance:BasicJavaPrograms.PageScroll@3dd4520b]" name="scrollingToBottomofAPage" duration-ms="1915" started-at="2016-06-03T18:32:19Z" finished-at="2016-06-03T18:32:21Z">
+        <test-method status="PASS" signature="redditUserLogin()[pri:0, instance:readDataFromPropertiesFile.RedditLogin@610694f1]" name="redditUserLogin" duration-ms="37916" started-at="2016-06-06T17:15:17Z" finished-at="2016-06-06T17:15:55Z">
           <reporter-output>
+            <line>
+              <![CDATA[2016-06-06 17:15:17.713 :: Navigate to Reddit application - https://www.reddit.com/<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-06 17:15:32.465 :: Enter the username - Test1506<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-06 17:15:35.59 :: Enter the password - null<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-06 17:15:38.703 :: Click on Login button.<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-06 17:15:49.951 :: Verifying the UserName after login.<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-06 17:15:49.951 :: Click on Log-Out link.<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-06 17:15:55.614 :: Verifying that the user logged-out successfully.<br />]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- scrollingToBottomofAPage -->
-        <test-method status="PASS" signature="scrollingByCoordinatesofAPage()[pri:3, instance:BasicJavaPrograms.PageScroll@3dd4520b]" name="scrollingByCoordinatesofAPage" duration-ms="2344" started-at="2016-06-03T18:32:21Z" finished-at="2016-06-03T18:32:24Z">
+        </test-method> <!-- redditUserLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:readDataFromPropertiesFile.RedditLogin@610694f1]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-06-06T17:15:55Z" finished-at="2016-06-06T17:15:55Z">
           <reporter-output>
+            <line>
+              <![CDATA[2016-06-06 17:15:55.624 :: Close the browser instance.<br />]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- scrollingByCoordinatesofAPage -->
-      </class> <!-- BasicJavaPrograms.PageScroll -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- readDataFromPropertiesFile.RedditLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
