@@ -3,7 +3,7 @@
 <suite name="TestNG Test-Suite">
   <test name="Read Test Data from properties file and execute the Reddit-login functionality in different browsers">
     <classes>
-      <class name="readDataFromPropertiesFile_MultipleBrowsersExecution.RedditLogin_UsingIE"/>
+      <!-- <class name="readDataFromPropertiesFile_MultipleBrowsersExecution.RedditLogin_UsingIE"/> -->
       <class name="readDataFromPropertiesFile_MultipleBrowsersExecution.RedditLogin_UsingFirefox"/>
       <class name="readDataFromPropertiesFile_MultipleBrowsersExecution.RedditLogin_UsingChrome"/>
     </classes>

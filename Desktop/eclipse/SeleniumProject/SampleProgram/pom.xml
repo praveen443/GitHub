@@ -11,7 +11,6 @@
       <url>https://github.com/praveen443/GitHub.git</url>
     </repository>
   </repositories>
-  <!-- Dependency libraries to include for compilation -->
 	<dependencies>
 		<!-- http://mvnrepository.com/artifact/org.apache.maven/maven-plugin-api -->
 		<dependency>
@@ -147,7 +146,33 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<pluginManagement>
+	<!-- Source directory configuration -->
+        <sourceDirectory>src</sourceDirectory>
+	<plugins>
+       <!-- Following plugin executes the testng tests -->
+       <plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<version>2.14.1</version>
+			<configuration>
+				<!-- Suite testng xml file to consider for test execution -->
+				<suiteXmlFiles>
+					<suiteXmlFile>.*src\\testResources\\readDataFromPropertiesFile\\ExecuteInDifferentBrowsers.xml</suiteXmlFile>
+					<!-- <suiteXmlFile>suites-test-testng.xml</suiteXmlFile> -->
+				</suiteXmlFiles>
+			</configuration>
+		</plugin>
+		<!-- Compiler plugin configures the java version to be usedfor compiling 
+			the code -->
+		<plugin>
+			<artifactId>maven-compiler-plugin</artifactId>
+			<configuration>
+				<source>1.6</source>
+				<target>1.6</target>
+			</configuration>
+		</plugin>
+	</plugins>
+		<!-- <pluginManagement>
 			<plugins>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -162,35 +187,30 @@
 							<configuration>
 								<skip>true</skip>
 								<includes>
-									<!-- <include>**/Suite_Room_Only_E2E.java</include> -->
+									<include>**/Suite_Room_Only_E2E.java</include>
 								</includes>
 							</configuration>
 						</execution>
 					</executions>
 					<configuration>
-		 				<!-- <testFailureIgnore>false</testFailureIgnore>
+		 				<testFailureIgnore>false</testFailureIgnore>
 		                <argLine>
 		                    -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
-		                </argLine> -->
-		              
-						
+		                </argLine>
 						<suiteXmlFiles>
 							<suiteXmlFile>C:\Users\praveen\Desktop\eclipse\SeleniumProject\SampleProgram\src\testResources\testSuite\TestNG_TestCases.xml</suiteXmlFile>
-							<!-- <suiteXmlFile>${testNGSourceDirectory}/${suiteXmlFile}</suiteXmlFile> -->
+							<suiteXmlFile>${testNGSourceDirectory}/${suiteXmlFile}</suiteXmlFile>
 						</suiteXmlFiles>
 
 					</configuration>
-					<!-- <dependencies>
+					<dependencies>
 						<dependency>
 							<groupId>org.aspectj</groupId>
 							<artifactId>aspectjweaver</artifactId>
 							<version>${aspectj.version}</version>
 						</dependency>
-					</dependencies> -->
+					</dependencies>
 				</plugin>
-				
-				 <!-- Compiler plugin configures the java version to be usedfor compiling 
-                the code -->
 				<plugin>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.3</version>
@@ -199,7 +219,7 @@
 						<target>1.7</target>
 					</configuration>
 				</plugin>
-				<!-- <plugin>
+				<plugin>
        				 <artifactId>maven-compiler-plugin</artifactId>
        				 <version>3.3</version>
         			 <configuration>
@@ -217,9 +237,9 @@
 	            			<suiteXmlFile>src/testResources/testSuite/TestNG_TestCases.xml</suiteXmlFile>
 	          			 </suiteXmlFiles>
         			 </configuration>
-      			</plugin> -->
+      			</plugin>
 			</plugins> 
-		</pluginManagement>
+		</pluginManagement> -->
 	</build>
 	<reporting>
 		<plugins>
