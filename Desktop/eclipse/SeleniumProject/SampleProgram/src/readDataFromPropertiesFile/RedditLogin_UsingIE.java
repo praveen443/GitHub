@@ -1,4 +1,4 @@
-package IndividualBowserExecutions;
+package readDataFromPropertiesFile;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -12,17 +12,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
 
+import testResources.ConstantInput.constants;
 import Utils.HighlightElement;
 import Utils.Sleeper;
 import Utils.TestReporter;
-import testResources.ConstantInput.constants;
 
-public class RedditLogin_UsingFirefox {
-	
+public class RedditLogin_UsingIE {
+  
 	private WebDriver driver;
 	public Properties prop = null;
 	HighlightElement ele = new HighlightElement();
@@ -36,7 +36,7 @@ public class RedditLogin_UsingFirefox {
 	@SuppressWarnings("static-access")
 	@Test
 	public void redditUserLogin(){
-		 File file = new File(constants.filePath);
+		 File file = new File(constants.propertiesFilePath);
 		  
 			FileInputStream fileInput = null;
 			try {
@@ -113,3 +113,4 @@ public class RedditLogin_UsingFirefox {
   }
 	
 }
+

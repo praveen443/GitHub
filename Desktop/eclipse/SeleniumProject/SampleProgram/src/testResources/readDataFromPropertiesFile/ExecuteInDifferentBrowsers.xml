@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Test-Suite">
+  <test name="Read Test Data from properties file and execute the Reddit-login functionality in different browsers">
+    <classes>
+      <class name="readDataFromPropertiesFile_MultipleBrowsersExecution.RedditLogin_UsingIE"/>
+      <class name="readDataFromPropertiesFile_MultipleBrowsersExecution.RedditLogin_UsingFirefox"/>
+      <class name="readDataFromPropertiesFile_MultipleBrowsersExecution.RedditLogin_UsingChrome"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

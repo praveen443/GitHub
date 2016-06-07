@@ -1,4 +1,4 @@
-package IndividualBowserExecutions;
+package readDataFromPropertiesFile;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -29,7 +29,7 @@ public class RedditLogin_UsingChrome {
 	
 	@BeforeMethod
 	public void setUp() throws IOException{
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}
@@ -37,7 +37,7 @@ public class RedditLogin_UsingChrome {
 	@SuppressWarnings("static-access")
 	@Test
 	public void redditUserLogin(){
-		 File file = new File(constants.filePath);
+		 File file = new File(constants.propertiesFilePath);
 		  
 			FileInputStream fileInput = null;
 			try {

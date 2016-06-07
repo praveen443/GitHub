@@ -19,9 +19,9 @@ import org.testng.annotations.Test;
 import Utils.HighlightElement;
 import Utils.Sleeper;
 import Utils.TestReporter;
+import testResources.ConstantInput.constants;
 
-
-public class RedditLogin {
+public class RedditLogin_UsingFirefox {
 	
 	private WebDriver driver;
 	public Properties prop = null;
@@ -36,7 +36,7 @@ public class RedditLogin {
 	@SuppressWarnings("static-access")
 	@Test
 	public void redditUserLogin(){
-		 File file = new File(System.getProperty("user.dir")+"\\src\\testResources\\testConfiguration\\testDataPropertiesFile.properties");
+		 File file = new File(constants.propertiesFilePath);
 		  
 			FileInputStream fileInput = null;
 			try {
@@ -112,5 +112,4 @@ public class RedditLogin {
 	  if(driver!=null) driver.quit(); 
   }
 	
-
 }
