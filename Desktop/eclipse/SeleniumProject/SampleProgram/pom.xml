@@ -157,7 +157,7 @@
 			<configuration>
 				<!-- Suite testng xml file to consider for test execution -->
 				<suiteXmlFiles>
-					<suiteXmlFile>.*src\\testResources\\readDataFromPropertiesFile\\ExecuteInDifferentBrowsers.xml</suiteXmlFile>
+					<suiteXmlFile>C:\\Users\\praveen\\Desktop\\eclipse\\SeleniumProject\\SampleProgram\\src\\testResources\\readDataFromPropertiesFile\\ExecuteInDifferentBrowsers.xml</suiteXmlFile>
 					<!-- <suiteXmlFile>suites-test-testng.xml</suiteXmlFile> -->
 				</suiteXmlFiles>
 			</configuration>
