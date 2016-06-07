@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
@@ -27,8 +28,9 @@ public class RedditLogin_UsingIE {
 	HighlightElement ele = new HighlightElement();
 	
 	@BeforeMethod
-	public void setUp(){
-		System.setProperty("webdriver.ie.driver", constants.IE_64bit_DriverPath);
+	public void setUp() throws IOException{
+		System.setProperty("webdriver.ie.driver", constants.IE_32bit_DriverPath);
+		driver = new InternetExplorerDriver();
 		driver.manage().window().maximize();
 	}
 	
@@ -58,19 +60,19 @@ public class RedditLogin_UsingIE {
 	  
 	  //set username.
 	  TestReporter.log("Enter the username - "+ prop.getProperty("userName"));
-	  WebElement txtUserName =  driver.findElement(By.cssSelector("input[name='user']"));
+	  WebElement txtUserName =  driver.findElement(By.xpath("//input[@name='user']"));
 	  ele.highlightElement(driver, txtUserName);
 	  txtUserName.sendKeys(prop.getProperty("userName"));
 	  
 	  //set password.
 	  TestReporter.log("Enter the password - "+ prop.getProperty("passwor"));
-	  WebElement txtPassword =  driver.findElement(By.cssSelector("input[name='passwd']"));
+	  WebElement txtPassword =  driver.findElement(By.xpath("//input[@name='passwd']"));
 	  ele.highlightElement(driver, txtPassword);
 	  txtPassword.sendKeys(prop.getProperty("password"));
 	  
 	  //Click on Log-Out link.
 	  TestReporter.log("Click on Login button.");
-	  WebElement btnLogin =  driver.findElement(By.cssSelector("button[class='btn']"));
+	  WebElement btnLogin =  driver.findElement(By.xpath("//button[@class='btn'][@type='submit']"));
 	  ele.highlightElement(driver, btnLogin);
 	  btnLogin.click();
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -105,11 +107,11 @@ public class RedditLogin_UsingIE {
 
   }
 	 
-  @AfterMethod
+  /*@AfterMethod
   public void closeBrowser(){
 	  TestReporter.log("Close the browser instance.");
 	  if(driver!=null) driver.quit(); 
   }
-	
+	*/
 }
 

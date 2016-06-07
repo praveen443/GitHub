@@ -11,6 +11,7 @@
       <url>https://github.com/praveen443/GitHub.git</url>
     </repository>
   </repositories>
+  <!-- Dependency libraries to include for compilation -->
 	<dependencies>
 		<!-- http://mvnrepository.com/artifact/org.apache.maven/maven-plugin-api -->
 		<dependency>
@@ -187,6 +188,9 @@
 						</dependency>
 					</dependencies> -->
 				</plugin>
+				
+				 <!-- Compiler plugin configures the java version to be usedfor compiling 
+                the code -->
 				<plugin>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.3</version>
