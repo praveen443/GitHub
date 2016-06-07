@@ -14,7 +14,6 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.AfterMethod;
 
 import testResources.ConstantInput.constants;
 import Utils.HighlightElement;
@@ -30,7 +29,9 @@ public class RedditLogin_UsingIE {
 	@BeforeMethod
 	public void setUp() throws IOException{
 		System.setProperty("webdriver.ie.driver", constants.IE_32bit_DriverPath);
+		TestReporter.log("Launch the IE browser.");
 		driver = new InternetExplorerDriver();
+		TestReporter.log("Maximize the browser window.");
 		driver.manage().window().maximize();
 	}
 	
@@ -54,7 +55,7 @@ public class RedditLogin_UsingIE {
 				e.printStackTrace();
 			}
 	  //Launch the URL.
-	  TestReporter.log("Navigate to Reddit application - " + prop.getProperty("URL") );
+	  TestReporter.log("Navigate to Reddit application with the URL - " + prop.getProperty("URL") );
 	  driver.get(prop.getProperty("URL"));
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	  
@@ -65,7 +66,7 @@ public class RedditLogin_UsingIE {
 	  txtUserName.sendKeys(prop.getProperty("userName"));
 	  
 	  //set password.
-	  TestReporter.log("Enter the password - "+ prop.getProperty("passwor"));
+	  TestReporter.log("Enter the password - "+ prop.getProperty("password"));
 	  WebElement txtPassword =  driver.findElement(By.xpath("//input[@name='passwd']"));
 	  ele.highlightElement(driver, txtPassword);
 	  txtPassword.sendKeys(prop.getProperty("password"));

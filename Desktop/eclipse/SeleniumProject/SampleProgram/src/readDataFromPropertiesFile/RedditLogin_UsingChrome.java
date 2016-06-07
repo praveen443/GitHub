@@ -30,7 +30,9 @@ public class RedditLogin_UsingChrome {
 	@BeforeMethod
 	public void setUp() throws IOException{
 		System.setProperty("webdriver.chrome.driver", constants.chromeDriverPath);
+		TestReporter.log("Launch the Chrome browser.");
 		driver = new ChromeDriver();
+		TestReporter.log("Maximize the window.");
 		driver.manage().window().maximize();
 	}
 	
@@ -54,7 +56,7 @@ public class RedditLogin_UsingChrome {
 				e.printStackTrace();
 			}
 	  //Launch the URL.
-	  TestReporter.log("Navigate to Reddit application - " + prop.getProperty("URL") );
+	  TestReporter.log("Navigate to Reddit application with the URL - " + prop.getProperty("URL") );
 	  driver.get(prop.getProperty("URL"));
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	  

@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -31,6 +32,9 @@ public class RedditLogin_UsingFirefox {
 	public void setUp(){
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
+		TestReporter.log("Launch the Firefox browser.");
+		driver = new ChromeDriver();
+		TestReporter.log("Maximize the window.");
 	}
 	
 	@SuppressWarnings("static-access")
@@ -53,7 +57,7 @@ public class RedditLogin_UsingFirefox {
 				e.printStackTrace();
 			}
 	  //Launch the URL.
-	  TestReporter.log("Navigate to Reddit application - " + prop.getProperty("URL") );
+	  TestReporter.log("Navigate to Reddit application with the URL - " + prop.getProperty("URL") );
 	  driver.get(prop.getProperty("URL"));
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	  
@@ -64,7 +68,7 @@ public class RedditLogin_UsingFirefox {
 	  txtUserName.sendKeys(prop.getProperty("userName"));
 	  
 	  //set password.
-	  TestReporter.log("Enter the password - "+ prop.getProperty("passwor"));
+	  TestReporter.log("Enter the password - "+ prop.getProperty("password"));
 	  WebElement txtPassword =  driver.findElement(By.cssSelector("input[name='passwd']"));
 	  ele.highlightElement(driver, txtPassword);
 	  txtPassword.sendKeys(prop.getProperty("password"));
