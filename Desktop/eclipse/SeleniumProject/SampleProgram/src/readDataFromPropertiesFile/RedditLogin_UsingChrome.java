@@ -25,10 +25,16 @@ public class RedditLogin_UsingChrome {
   
 	private WebDriver driver;
 	public Properties prop = null;
+	private String testName;
 	HighlightElement ele = new HighlightElement();
 	
 	@BeforeMethod
 	public void setUp() throws IOException{
+		/*
+		 * Grab the @Test method name and use it to define the test name
+		 */
+		String testName = new Object() {}.getClass().getEnclosingMethod().getName();
+		TestReporter.logStep("TestCase Name: " + testName);
 		System.setProperty("webdriver.chrome.driver", constants.chromeDriverPath);
 		TestReporter.log("Launch the Chrome browser.");
 		driver = new ChromeDriver();
