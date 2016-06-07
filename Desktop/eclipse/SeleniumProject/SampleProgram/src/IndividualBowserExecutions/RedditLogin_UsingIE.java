@@ -16,6 +16,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 
+import testResources.ConstantInput.constants;
 import Utils.HighlightElement;
 import Utils.Sleeper;
 import Utils.TestReporter;
@@ -35,7 +36,7 @@ public class RedditLogin_UsingIE {
 	@SuppressWarnings("static-access")
 	@Test
 	public void redditUserLogin(){
-		 File file = new File(System.getProperty("user.dir")+"\\src\\testResources\\testConfiguration\\testDataPropertiesFile.properties");
+		 File file = new File(constants.filePath);
 		  
 			FileInputStream fileInput = null;
 			try {

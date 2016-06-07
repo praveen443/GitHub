@@ -10,12 +10,13 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 
+import testResources.ConstantInput.constants;
 import Utils.HighlightElement;
 import Utils.Sleeper;
 import Utils.TestReporter;
@@ -27,15 +28,16 @@ public class RedditLogin_UsingChrome {
 	HighlightElement ele = new HighlightElement();
 	
 	@BeforeMethod
-	public void setUp(){
-		driver = new FirefoxDriver();
+	public void setUp() throws IOException{
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\chromedriver.exe");
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}
 	
 	@SuppressWarnings("static-access")
 	@Test
 	public void redditUserLogin(){
-		 File file = new File("");
+		 File file = new File(constants.filePath);
 		  
 			FileInputStream fileInput = null;
 			try {

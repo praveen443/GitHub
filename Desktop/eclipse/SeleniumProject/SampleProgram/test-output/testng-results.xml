@@ -2,72 +2,72 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[2016-06-07 13:21:53.947 :: Navigate to Reddit application - https://www.reddit.com/<br />]]>
+      <![CDATA[2016-06-07 14:25:34.184 :: Navigate to Reddit application - https://www.reddit.com/<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-07 13:22:06.573 :: Enter the username - Test1506<br />]]>
+      <![CDATA[2016-06-07 14:25:48.999 :: Enter the username - Test1506<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-07 13:22:09.712 :: Enter the password - null<br />]]>
+      <![CDATA[2016-06-07 14:25:52.129 :: Enter the password - null<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-07 13:22:12.782 :: Click on Login button.<br />]]>
+      <![CDATA[2016-06-07 14:25:55.231 :: Click on Login button.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-07 13:22:23.968 :: Verifying the UserName after login.<br />]]>
+      <![CDATA[2016-06-07 14:26:08.695 :: Verifying the UserName after login.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-07 13:22:23.969 :: Click on Log-Out link.<br />]]>
+      <![CDATA[2016-06-07 14:26:08.705 :: Click on Log-Out link.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-07 13:22:29.249 :: Verifying that the user logged-out successfully.<br />]]>
+      <![CDATA[2016-06-07 14:26:16.09 :: Verifying that the user logged-out successfully.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-07 13:22:29.311 :: Close the browser instance.<br />]]>
+      <![CDATA[2016-06-07 14:26:16.11 :: Close the browser instance.<br />]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40955" started-at="2016-06-07T07:51:48Z" finished-at="2016-06-07T07:52:29Z">
+  <suite name="Default suite" duration-ms="47647" started-at="2016-06-07T08:55:28Z" finished-at="2016-06-07T08:56:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40955" started-at="2016-06-07T07:51:48Z" finished-at="2016-06-07T07:52:29Z">
-      <class name="readDataFromPropertiesFile.RedditLogin">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:readDataFromPropertiesFile.RedditLogin@610694f1]" name="setUp" is-config="true" duration-ms="5217" started-at="2016-06-07T13:21:48Z" finished-at="2016-06-07T13:21:53Z">
+    <test name="Default test" duration-ms="47647" started-at="2016-06-07T08:55:28Z" finished-at="2016-06-07T08:56:16Z">
+      <class name="IndividualBowserExecutions.RedditLogin_UsingFirefox">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:IndividualBowserExecutions.RedditLogin_UsingFirefox@610694f1]" name="setUp" is-config="true" duration-ms="5436" started-at="2016-06-07T14:25:28Z" finished-at="2016-06-07T14:25:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="redditUserLogin()[pri:0, instance:readDataFromPropertiesFile.RedditLogin@610694f1]" name="redditUserLogin" duration-ms="35367" started-at="2016-06-07T13:21:53Z" finished-at="2016-06-07T13:22:29Z">
+        <test-method status="PASS" signature="redditUserLogin()[pri:0, instance:IndividualBowserExecutions.RedditLogin_UsingFirefox@610694f1]" name="redditUserLogin" duration-ms="41931" started-at="2016-06-07T14:25:34Z" finished-at="2016-06-07T14:26:16Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-06-07 13:21:53.947 :: Navigate to Reddit application - https://www.reddit.com/<br />]]>
+              <![CDATA[2016-06-07 14:25:34.184 :: Navigate to Reddit application - https://www.reddit.com/<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-07 13:22:06.573 :: Enter the username - Test1506<br />]]>
+              <![CDATA[2016-06-07 14:25:48.999 :: Enter the username - Test1506<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-07 13:22:09.712 :: Enter the password - null<br />]]>
+              <![CDATA[2016-06-07 14:25:52.129 :: Enter the password - null<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-07 13:22:12.782 :: Click on Login button.<br />]]>
+              <![CDATA[2016-06-07 14:25:55.231 :: Click on Login button.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-07 13:22:23.968 :: Verifying the UserName after login.<br />]]>
+              <![CDATA[2016-06-07 14:26:08.695 :: Verifying the UserName after login.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-07 13:22:23.969 :: Click on Log-Out link.<br />]]>
+              <![CDATA[2016-06-07 14:26:08.705 :: Click on Log-Out link.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-07 13:22:29.249 :: Verifying that the user logged-out successfully.<br />]]>
+              <![CDATA[2016-06-07 14:26:16.09 :: Verifying that the user logged-out successfully.<br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- redditUserLogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:readDataFromPropertiesFile.RedditLogin@610694f1]" name="closeBrowser" is-config="true" duration-ms="352" started-at="2016-06-07T13:22:29Z" finished-at="2016-06-07T13:22:29Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:IndividualBowserExecutions.RedditLogin_UsingFirefox@610694f1]" name="closeBrowser" is-config="true" duration-ms="270" started-at="2016-06-07T14:26:16Z" finished-at="2016-06-07T14:26:16Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-06-07 13:22:29.311 :: Close the browser instance.<br />]]>
+              <![CDATA[2016-06-07 14:26:16.11 :: Close the browser instance.<br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- readDataFromPropertiesFile.RedditLogin -->
+      </class> <!-- IndividualBowserExecutions.RedditLogin_UsingFirefox -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

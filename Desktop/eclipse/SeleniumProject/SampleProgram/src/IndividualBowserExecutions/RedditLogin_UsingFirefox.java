@@ -16,12 +16,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import Utils.Constants;
 import Utils.HighlightElement;
 import Utils.Sleeper;
 import Utils.TestReporter;
-import Utils.constants;
-
+import testResources.ConstantInput.constants;
 
 public class RedditLogin_UsingFirefox {
 	
