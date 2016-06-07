@@ -30,11 +30,10 @@ public class RedditLogin_UsingFirefox {
 	
 	@BeforeMethod
 	public void setUp(){
-		driver = new FirefoxDriver();
-		driver.manage().window().maximize();
 		TestReporter.log("Launch the Firefox browser.");
-		driver = new ChromeDriver();
-		TestReporter.log("Maximize the window.");
+		driver = new FirefoxDriver();
+		TestReporter.log("Maximize the browser window.");
+		driver.manage().window().maximize();
 	}
 	
 	@SuppressWarnings("static-access")

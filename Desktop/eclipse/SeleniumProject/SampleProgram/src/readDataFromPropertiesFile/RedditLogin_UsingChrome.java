@@ -32,7 +32,7 @@ public class RedditLogin_UsingChrome {
 		System.setProperty("webdriver.chrome.driver", constants.chromeDriverPath);
 		TestReporter.log("Launch the Chrome browser.");
 		driver = new ChromeDriver();
-		TestReporter.log("Maximize the window.");
+		TestReporter.log("Maximize the browser window.");
 		driver.manage().window().maximize();
 	}
 	
@@ -67,7 +67,7 @@ public class RedditLogin_UsingChrome {
 	  txtUserName.sendKeys(prop.getProperty("userName"));
 	  
 	  //set password.
-	  TestReporter.log("Enter the password - "+ prop.getProperty("passwor"));
+	  TestReporter.log("Enter the password - "+ prop.getProperty("password"));
 	  WebElement txtPassword =  driver.findElement(By.cssSelector("input[name='passwd']"));
 	  ele.highlightElement(driver, txtPassword);
 	  txtPassword.sendKeys(prop.getProperty("password"));
