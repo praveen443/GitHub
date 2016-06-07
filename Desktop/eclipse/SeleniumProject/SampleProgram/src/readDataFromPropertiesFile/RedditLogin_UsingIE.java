@@ -37,7 +37,7 @@ public class RedditLogin_UsingIE {
 	
 	@SuppressWarnings("static-access")
 	@Test
-	public void redditUserLogin(){
+	public void redditUserLogin_UsingIE(){
 		 File file = new File(constants.propertiesFilePath);
 		  
 			FileInputStream fileInput = null;

@@ -1,95 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[2016-06-07 16:44:48.926 :: Navigate to Reddit application - https://www.reddit.com/<br />]]>
+      <![CDATA[<br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/>]]>
     </line>
     <line>
-      <![CDATA[2016-06-07 16:44:52.586 :: Enter the username - Test1506<br />]]>
+      <![CDATA[<br/><b><font size = 4>Step: TestCase Name: redditUserLogin_UsingChrome]]>
+    </line>
+    <line>
+      <![CDATA[<br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/>]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:50:30.288 :: Launch the Chrome browser.<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:50:32.083 :: Maximize the browser window.<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:50:32.357 :: Navigate to Reddit application with the URL - https://www.reddit.com/<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:50:46.761 :: Enter the username - Test1506<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:50:50.394 :: Enter the password - Test1234<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:50:53.53 :: Click on Login button.<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:51:04.776 :: Verifying the UserName after login.<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:51:04.777 :: Click on Log-Out link.<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:51:11.01 :: Verifying that the user logged-out successfully.<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:51:11.024 :: Close the browser instance.<br />]]>
+    </line>
+    <line>
+      <![CDATA[<br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/><b><font size = 4>Step: TestCase Name: redditUserLogin_UsingFirefox]]>
+    </line>
+    <line>
+      <![CDATA[<br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/>]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:51:11.751 :: Launch the Firefox browser.<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:51:16.521 :: Maximize the browser window.<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:51:16.529 :: Navigate to Reddit application with the URL - https://www.reddit.com/<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:51:41.782 :: Enter the username - Test1506<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:51:44.902 :: Enter the password - Test1234<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:51:47.992 :: Click on Login button.<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:51:59.552 :: Verifying the UserName after login.<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:51:59.552 :: Click on Log-Out link.<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:52:05.564 :: Verifying that the user logged-out successfully.<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-07 18:52:05.614 :: Close the browser instance.<br />]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16508" started-at="2016-06-07T11:14:46Z" finished-at="2016-06-07T11:15:02Z">
+  <suite name="Suite" duration-ms="95506" started-at="2016-06-07T13:20:30Z" finished-at="2016-06-07T13:22:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16508" started-at="2016-06-07T11:14:46Z" finished-at="2016-06-07T11:15:02Z">
-      <class name="readDataFromPropertiesFile.RedditLogin_UsingIE">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:readDataFromPropertiesFile.RedditLogin_UsingIE@5ae63ade]" name="setUp" is-config="true" duration-ms="2521" started-at="2016-06-07T16:44:46Z" finished-at="2016-06-07T16:44:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="redditUserLogin()[pri:0, instance:readDataFromPropertiesFile.RedditLogin_UsingIE@5ae63ade]" name="redditUserLogin" duration-ms="13957" started-at="2016-06-07T16:44:48Z" finished-at="2016-06-07T16:45:02Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to find element with xpath == //input[@name='user'] (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.29 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'vensakp51', ip: '192.168.8.126', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:28888/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: 4dec1672-ff18-43f2-ab87-ef073e0037e2
-*** Element info: {Using=xpath, value=//input[@name='user']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //input[@name='user'] (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.29 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'vensakp51', ip: '192.168.8.126', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:28888/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: 4dec1672-ff18-43f2-ab87-ef073e0037e2
-*** Element info: {Using=xpath, value=//input[@name='user']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at readDataFromPropertiesFile.RedditLogin_UsingIE.redditUserLogin(RedditLogin_UsingIE.java:63)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+    <test name="Test" duration-ms="95506" started-at="2016-06-07T13:20:30Z" finished-at="2016-06-07T13:22:05Z">
+      <class name="readDataFromPropertiesFile.RedditLogin_UsingFirefox">
+        <test-method status="PASS" signature="redditUserLogin_UsingFirefox()[pri:0, instance:readDataFromPropertiesFile.RedditLogin_UsingFirefox@43814d18]" name="redditUserLogin_UsingFirefox" duration-ms="53863" started-at="2016-06-07T18:51:11Z" finished-at="2016-06-07T18:52:05Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-06-07 16:44:48.926 :: Navigate to Reddit application - https://www.reddit.com/<br />]]>
+              <![CDATA[<br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/>]]>
             </line>
             <line>
-              <![CDATA[2016-06-07 16:44:52.586 :: Enter the username - Test1506<br />]]>
+              <![CDATA[<br/><b><font size = 4>Step: TestCase Name: redditUserLogin_UsingFirefox]]>
+            </line>
+            <line>
+              <![CDATA[<br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/>]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-07 18:51:11.751 :: Launch the Firefox browser.<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-07 18:51:16.521 :: Maximize the browser window.<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-07 18:51:16.529 :: Navigate to Reddit application with the URL - https://www.reddit.com/<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-07 18:51:41.782 :: Enter the username - Test1506<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-07 18:51:44.902 :: Enter the password - Test1234<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-07 18:51:47.992 :: Click on Login button.<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-07 18:51:59.552 :: Verifying the UserName after login.<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-07 18:51:59.552 :: Click on Log-Out link.<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-07 18:52:05.564 :: Verifying that the user logged-out successfully.<br />]]>
             </line>
           </reporter-output>
-        </test-method> <!-- redditUserLogin -->
-      </class> <!-- readDataFromPropertiesFile.RedditLogin_UsingIE -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- redditUserLogin_UsingFirefox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:readDataFromPropertiesFile.RedditLogin_UsingFirefox@43814d18]" name="tearDown" is-config="true" duration-ms="160" started-at="2016-06-07T18:52:05Z" finished-at="2016-06-07T18:52:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2016-06-07 18:52:05.614 :: Close the browser instance.<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- readDataFromPropertiesFile.RedditLogin_UsingFirefox -->
+      <class name="readDataFromPropertiesFile.RedditLogin_UsingChrome">
+        <test-method status="PASS" signature="redditUserLogin_UsingChrome()[pri:0, instance:readDataFromPropertiesFile.RedditLogin_UsingChrome@610694f1]" name="redditUserLogin_UsingChrome" duration-ms="40744" started-at="2016-06-07T18:50:30Z" finished-at="2016-06-07T18:51:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/><b><font size = 4>Step: TestCase Name: redditUserLogin_UsingChrome]]>
+            </line>
+            <line>
+              <![CDATA[<br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/>]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-07 18:50:30.288 :: Launch the Chrome browser.<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-07 18:50:32.083 :: Maximize the browser window.<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-07 18:50:32.357 :: Navigate to Reddit application with the URL - https://www.reddit.com/<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-07 18:50:46.761 :: Enter the username - Test1506<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-07 18:50:50.394 :: Enter the password - Test1234<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-07 18:50:53.53 :: Click on Login button.<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-07 18:51:04.776 :: Verifying the UserName after login.<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-07 18:51:04.777 :: Click on Log-Out link.<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-07 18:51:11.01 :: Verifying that the user logged-out successfully.<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- redditUserLogin_UsingChrome -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:readDataFromPropertiesFile.RedditLogin_UsingChrome@610694f1]" name="tearDown" is-config="true" duration-ms="727" started-at="2016-06-07T18:51:11Z" finished-at="2016-06-07T18:51:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2016-06-07 18:51:11.024 :: Close the browser instance.<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- readDataFromPropertiesFile.RedditLogin_UsingChrome -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
