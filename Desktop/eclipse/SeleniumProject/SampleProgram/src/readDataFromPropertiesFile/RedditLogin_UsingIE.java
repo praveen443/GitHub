@@ -10,7 +10,6 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
@@ -29,7 +28,7 @@ public class RedditLogin_UsingIE {
 	
 	@BeforeMethod
 	public void setUp(){
-		driver = new FirefoxDriver();
+		System.setProperty("webdriver.ie.driver", constants.IE_64bit_DriverPath);
 		driver.manage().window().maximize();
 	}
 	

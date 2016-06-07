@@ -29,7 +29,7 @@ public class RedditLogin_UsingChrome {
 	
 	@BeforeMethod
 	public void setUp() throws IOException{
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", constants.chromeDriverPath);
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}
