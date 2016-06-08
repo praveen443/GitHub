@@ -8,6 +8,7 @@ import java.sql.Statement;
 
 import org.testng.annotations.Test;
 
+import Utils.TestReporter;
 import testResources.ConstantInput.constants;
 
 public class ConnectJDBC {
@@ -41,7 +42,7 @@ public class ConnectJDBC {
         Connection connectionObj = DriverManager.getConnection(constants.dbUrl, constants.username, constants.password);
          
         if (connectionObj != null) {
-            System.out.println("Connected to the database - 'employeemgmt'");
+            TestReporter.log("Connected to the database - 'employeemgmt'");
         }
         
         //Create Statement Object
@@ -57,7 +58,7 @@ public class ConnectJDBC {
 			String address = resultSet.getString(4);
 			String city = resultSet.getString(5);
 			
-			System. out.println(personID+"  "+firstName+" "+lastName+" "+address+" "+city);
+			TestReporter.log(personID+"  "+firstName+" "+lastName+" "+address+" "+city);
 		}
         
         // closing DB Connection       
