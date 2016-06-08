@@ -10,4 +10,15 @@ public class constants {
 	//Properties file path
 	public static final String propertiesFilePath = System.getProperty("user.dir")+"\\src\\testResources\\testConfiguration\\testDataPropertiesFile.properties";
 
+	//Connection URL Syntax: "jdbc:mysql://ipaddress:portnumber/db_name"        
+    public static final String dbUrl = "jdbc:mysql://localhost:3306/employeemgmt";                   
+
+    //Database Username     
+    public static final String username = "root";   
+     
+    //Database Password     
+    public static final String password = "D1$NeY4321";             
+
+    //Query to Execute      
+    public static final String query = "SELECT * FROM Persons WHERE PersonID='2';"; 
 }

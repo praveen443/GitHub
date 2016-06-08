@@ -8,23 +8,25 @@ import java.sql.Statement;
 
 import org.testng.annotations.Test;
 
+import testResources.ConstantInput.constants;
+
 public class ConnectJDBC {
 
 	//public static void  main(String[] args) throws  ClassNotFoundException, SQLException {  
 	@Test(priority=1,enabled=true)
     public void setJDBCConnection() throws SQLException{
     	
-		//Connection URL Syntax: "jdbc:mysql://ipaddress:portnumber/db_name"        
+		/*//Connection URL Syntax: "jdbc:mysql://ipaddress:portnumber/db_name"        
         String dbUrl = "jdbc:mysql://localhost:3306/employeemgmt";                   
 
         //Database Username     
         String username = "root";   
          
         //Database Password     
-        String password = "D1$NeY4321";             
+        String password = "D1$NeY4321";           
 
         //Query to Execute      
-        String query = "SELECT * FROM Persons WHERE PersonID='2';"; 
+        String query = "SELECT * FROM Persons WHERE PersonID='2';"; */
         
         /* SELECT * FROM Persons;
          * SELECT * FROM Persons WHERE PersonID!='2';
@@ -36,7 +38,7 @@ public class ConnectJDBC {
         //Class.forName("com.mysql.jdbc.Driver");
         
         //Create Connection to DB
-        Connection connectionObj = DriverManager.getConnection(dbUrl, username, password);
+        Connection connectionObj = DriverManager.getConnection(constants.dbUrl, constants.username, constants.password);
          
         if (connectionObj != null) {
             System.out.println("Connected to the database - 'employeemgmt'");
@@ -46,7 +48,7 @@ public class ConnectJDBC {
         Statement statementObj = connectionObj.createStatement();
 
         // Execute the SQL Query. Store results in ResultSet    
-        ResultSet resultSet = statementObj.executeQuery(query);
+        ResultSet resultSet = statementObj.executeQuery(constants.query);
         
        while (resultSet.next()) {
 			String personID = resultSet.getString(1);
