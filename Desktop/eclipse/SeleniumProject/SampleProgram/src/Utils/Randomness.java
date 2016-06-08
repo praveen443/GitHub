@@ -25,9 +25,9 @@ public class Randomness {
 	 * @param length
 	 * @return
 	 */
-	public static String randomString(int lenght){
+	public static String randomString(int length){
 		new RandomStringUtils();
-		return RandomStringUtils.randomAlphabetic(lenght);
+		return RandomStringUtils.randomAlphabetic(length);
 	}
 	
 	/**
