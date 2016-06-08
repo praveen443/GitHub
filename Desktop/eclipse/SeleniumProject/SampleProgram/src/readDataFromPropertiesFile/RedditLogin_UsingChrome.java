@@ -13,7 +13,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 
 import testResources.ConstantInput.constants;
@@ -25,6 +24,7 @@ public class RedditLogin_UsingChrome {
   
 	private WebDriver driver;
 	public Properties prop = null;
+	@SuppressWarnings("unused")
 	private String testName;
 	HighlightElement ele = new HighlightElement();
 	
