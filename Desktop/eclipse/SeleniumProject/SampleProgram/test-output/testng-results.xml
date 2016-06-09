@@ -2,16 +2,19 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30" started-at="2016-06-09T04:48:20Z" finished-at="2016-06-09T04:48:20Z">
+  <suite name="Default suite" duration-ms="120" started-at="2016-06-09T11:42:58Z" finished-at="2016-06-09T11:42:58Z">
     <groups>
+      <group name="TestNG Tests">
+        <method signature="DateClassExamples.getCurrentDate()[pri:1, instance:JavaDateClass.DateClassExamples@7791a895]" name="getCurrentDate" class="JavaDateClass.DateClassExamples"/>
+      </group> <!-- TestNG Tests -->
     </groups>
-    <test name="Default test" duration-ms="30" started-at="2016-06-09T04:48:20Z" finished-at="2016-06-09T04:48:20Z">
-      <class name="javaSystemProperties.PrintSystemProperties">
-        <test-method status="PASS" signature="printSystemProperties()[pri:0, instance:javaSystemProperties.PrintSystemProperties@7791a895]" name="printSystemProperties" duration-ms="20" started-at="2016-06-09T10:18:20Z" finished-at="2016-06-09T10:18:20Z">
+    <test name="Default test" duration-ms="120" started-at="2016-06-09T11:42:58Z" finished-at="2016-06-09T11:42:58Z">
+      <class name="JavaDateClass.DateClassExamples">
+        <test-method status="PASS" signature="getCurrentDate()[pri:1, instance:JavaDateClass.DateClassExamples@7791a895]" name="getCurrentDate" duration-ms="90" started-at="2016-06-09T17:12:58Z" finished-at="2016-06-09T17:12:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printSystemProperties -->
-      </class> <!-- javaSystemProperties.PrintSystemProperties -->
+        </test-method> <!-- getCurrentDate -->
+      </class> <!-- JavaDateClass.DateClassExamples -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

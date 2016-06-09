@@ -3,6 +3,7 @@ package JavaDateClass;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -14,12 +15,12 @@ public class DateClassExamples {
   //Example of getting current date in Java.
   @Test(priority=1,enabled=true,groups={"TestNG Tests"})
   public void getCurrentDate() throws ParseException {
-	/*  //In java 8, you can use LocalDate class.
+	 //In java 8, you can use LocalDate class.
 	 LocalDate today = LocalDate.now();
 	 System.out.println("Today's Local date : " + today);
 	 
 	 LocalTime time = LocalTime.now();
-	 System.out.println("local time now : " + time);*/
+	 System.out.println("local time now : " + time);
 	 
 	 //********************************************
 	 //Conert Date to String
