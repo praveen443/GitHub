@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="120" started-at="2016-06-09T11:42:58Z" finished-at="2016-06-09T11:42:58Z">
+  <suite name="Default suite" duration-ms="112" started-at="2016-06-09T12:22:39Z" finished-at="2016-06-09T12:22:39Z">
     <groups>
       <group name="TestNG Tests">
         <method signature="DateClassExamples.getCurrentDate()[pri:1, instance:JavaDateClass.DateClassExamples@7791a895]" name="getCurrentDate" class="JavaDateClass.DateClassExamples"/>
       </group> <!-- TestNG Tests -->
     </groups>
-    <test name="Default test" duration-ms="120" started-at="2016-06-09T11:42:58Z" finished-at="2016-06-09T11:42:58Z">
+    <test name="Default test" duration-ms="112" started-at="2016-06-09T12:22:39Z" finished-at="2016-06-09T12:22:39Z">
       <class name="JavaDateClass.DateClassExamples">
-        <test-method status="PASS" signature="getCurrentDate()[pri:1, instance:JavaDateClass.DateClassExamples@7791a895]" name="getCurrentDate" duration-ms="90" started-at="2016-06-09T17:12:58Z" finished-at="2016-06-09T17:12:58Z">
+        <test-method status="PASS" signature="getCurrentDate()[pri:1, instance:JavaDateClass.DateClassExamples@7791a895]" name="getCurrentDate" duration-ms="102" started-at="2016-06-09T17:52:39Z" finished-at="2016-06-09T17:52:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCurrentDate -->
