@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20" started-at="2016-06-08T13:23:17Z" finished-at="2016-06-08T13:23:17Z">
+  <suite name="Default suite" duration-ms="30" started-at="2016-06-09T04:48:20Z" finished-at="2016-06-09T04:48:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20" started-at="2016-06-08T13:23:17Z" finished-at="2016-06-08T13:23:17Z">
+    <test name="Default test" duration-ms="30" started-at="2016-06-09T04:48:20Z" finished-at="2016-06-09T04:48:20Z">
       <class name="javaSystemProperties.PrintSystemProperties">
-        <test-method status="PASS" signature="printSystemProperties()[pri:0, instance:javaSystemProperties.PrintSystemProperties@7791a895]" name="printSystemProperties" duration-ms="10" started-at="2016-06-08T18:53:17Z" finished-at="2016-06-08T18:53:17Z">
+        <test-method status="PASS" signature="printSystemProperties()[pri:0, instance:javaSystemProperties.PrintSystemProperties@7791a895]" name="printSystemProperties" duration-ms="20" started-at="2016-06-09T10:18:20Z" finished-at="2016-06-09T10:18:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printSystemProperties -->
