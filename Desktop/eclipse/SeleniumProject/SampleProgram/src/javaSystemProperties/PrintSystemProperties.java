@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class PrintSystemProperties  {
   
-  @Test
+  @Test(enabled=true,groups={"TestNG Tests"})
   public void printSystemProperties() {
 	
 	 //******************************************************************
@@ -18,17 +18,20 @@ public class PrintSystemProperties  {
 	 
 	 //JRE home directory, e.g., “C:\Program Files\Java\jdk1.7.0_09\jre”.
 	 String java_home = System.getProperty("java.home");
-	 System.out.println("Java version ----> "+ java_version);
+	 System.out.println("Java version ----> "+ java_home);
 	 
 	 //******************************************************************	 
 	 //User related system properties
 	 //******************************************************************
+	 //the user’s name.
 	 String baseDirectory = System.getProperty("user.dir");
 	 System.out.println("Base-Directory/path ----> "+ baseDirectory);
 	 
+	 //the user’s home directory.
 	 String user_name = System.getProperty("user.name");
 	 System.out.println("User name ----> "+ user_name);
 	 
+	 //the user’s current working directory.
 	 String user_home = System.getProperty("user.home");
 	 System.out.println("User directory path ----> "+ user_home);
 	 
@@ -50,6 +53,8 @@ public class PrintSystemProperties  {
 	 //******************************************************************
 	 // List all System properties
 	 //******************************************************************
+	 // You can get all the system properties via System.getProperties() (or)
+	 //also retrieve individual property via System.getProperty(key).
 	 Properties pros = System.getProperties();
      pros.list(System.out);
      
