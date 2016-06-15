@@ -5,8 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class HighlightElement {
-	//public static WebDriver driver;
-	
+	private  WebDriver driver;
 	public static void highlight(WebDriver driver,WebElement element){
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		 js.executeScript("arguments[0].style.border='4px solid red'", element);
@@ -20,6 +19,5 @@ public class HighlightElement {
 		    Thread.sleep(3000);
 		  } catch (InterruptedException e) {}
 		  js.executeScript("arguments[0].setAttribute('style', '" + originalStyle + "');", element);
-		}
-
+	}
 }

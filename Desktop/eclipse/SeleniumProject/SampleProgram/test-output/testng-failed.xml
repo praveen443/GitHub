@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Test-Suite]">
+  <parameter name="appURL" value="UploadFile"/>
+  <parameter name="browserType" value="Firefox"/>
+  <test name="UploadFileUsingSelenium(failed)">
+    <parameter name="appURL" value="UploadFile"/>
+    <parameter name="browserType" value="Firefox"/>
     <classes>
-      <class name="JavaDateClass.DateClassExamples">
+      <class name="fileUploading.UploadFiles">
         <methods>
-          <include name="getCurrentDate"/>
+          <include name="uploadFileUsingSelenium" invocation-numbers="0"/>
         </methods>
-      </class> <!-- JavaDateClass.DateClassExamples -->
+      </class> <!-- fileUploading.UploadFiles -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- UploadFileUsingSelenium(failed) -->
+</suite> <!-- Failed suite [TestNG Test-Suite] -->

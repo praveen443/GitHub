@@ -20,5 +20,9 @@ public class constants {
     public static final String password = "D1$NeY4321";             
 
     //Query to Execute      
-    public static final String query = "SELECT * FROM Persons WHERE PersonID='2';"; 
+    public static final String query = "SELECT * FROM Persons WHERE PersonID='2';";
+    
+    
+    //Sample data used for testing practice
+    public static final String filePath1="C:\\Users\\praveen\\Documents\\PaySlips_2016\\sampletextdoc.txt";
 }
