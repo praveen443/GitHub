@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-TestNG_Test-Suite">
-              <span class="suite-name border-failed">TestNG Test-Suite</span>
+              <span class="suite-name border-passed">TestNG Test-Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-TestNG_Test-Suite" class="hide-methods failed suite-TestNG_Test-Suite"> (hide)</a> <!-- hide-methods failed suite-TestNG_Test-Suite -->
-                      <a href="#" panel-name="suite-TestNG_Test-Suite" class="show-methods failed suite-TestNG_Test-Suite"> (show)</a> <!-- show-methods failed suite-TestNG_Test-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-TestNG_Test-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Test-Suite" title="fileUploading.UploadFiles" hash-for-method="uploadFileUsingSelenium(Firefox, UploadFile)">uploadFileUsingSelenium(Firefox, UploadFile)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-TestNG_Test-Suite -->
+                    <span class="method-stats">0 methods,   </span>
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,62 +103,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-TestNG_Test-Suite" class="panel TestNG_Test-Suite">
-          <div class="suite-TestNG_Test-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">fileUploading.UploadFiles</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="uploadFileUsingSelenium(Firefox, UploadFile)">
-                  </a> <!-- uploadFileUsingSelenium(Firefox, UploadFile) -->
-                  <span class="method-name">uploadFileUsingSelenium</span>
-                  <span class="parameters">(Firefox, UploadFile)</span>
-                  <div class="stack-trace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;vensakp51&apos;, ip: &apos;192.168.8.126&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: driver.version: RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 00a2364e-7087-4d86-ad5d-c44dd191e406
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
-	at browserFunction.launchBrowser.redditUserLogin_UsingFirefox(launchBrowser.java:124)
-	at browserFunction.launchBrowser.getBrowserType(launchBrowser.java:30)
-	at fileUploading.UploadFiles.uploadFileUsingSelenium(UploadFiles.java:24)
-Caused by: java.net.SocketException: Connection reset
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
-	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
-	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
-	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
-	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
-	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
-	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
-	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	... 29 more
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestNG_Test-Suite-class-failed -->
         </div> <!-- panel TestNG_Test-Suite -->
         <div panel-name="test-xml-TestNG_Test-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -183,11 +113,14 @@ Caused by: java.net.SocketException: Connection reset
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestNG Test-Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Utils.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test name=&quot;UploadFileUsingSelenium&quot;&gt;
-    &lt;parameter name=&quot;appURL&quot; value=&quot;UploadFile&quot;/&gt;
-    &lt;parameter name=&quot;browserType&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;appURL&quot; value=&quot;UploadFileURL&quot;/&gt;
+    &lt;parameter name=&quot;browserType&quot; value=&quot;Chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;fileUploading.UploadFiles&quot;/&gt;
+      &lt;class name=&quot;fileUploading.uploadFile_Using_SendKeysMethod&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- UploadFileUsingSelenium --&gt;
 &lt;/suite&gt; &lt;!-- TestNG Test-Suite --&gt;
@@ -227,16 +160,11 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
-data.setCell(0, 0, 0)
-data.setCell(0, 1, 'uploadFileUsingSelenium')
-data.setCell(0, 2, 'fileUploading.UploadFiles')
-data.setCell(0, 3, 25414);
+data.addRows(0);
 window.suiteTableData['TestNG_Test-Suite']= { tableData: data, tableDiv: 'times-div-TestNG_Test-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 seconds</span>
               <div id="times-div-TestNG_Test-Suite">
               </div> <!-- times-div-TestNG_Test-Suite -->
             </div> <!-- times-div -->
@@ -247,17 +175,6 @@ return data;
             <span class="header-content">Reporter output for TestNG Test-Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">uploadFileUsingSelenium(Firefox, UploadFile)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/></span>
-                <span class="reporter-method-output"><br/><b><font size = 4>Step: TestCase Name: redditUserLogin_UsingFirefox</span>
-                <span class="reporter-method-output"><br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/></span>
-                <span class="reporter-method-output">2016-06-15 16:40:01.659 :: Launch the Firefox browser.<br /></span>
-                <span class="reporter-method-output">2016-06-15 16:40:07.071 :: Maximize the browser window.<br /></span>
-                <span class="reporter-method-output">2016-06-15 16:40:07.089 :: Navigate to Reddit application with the URL - https://www.reddit.com/<br /></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-TestNG_Test-Suite" class="panel">
@@ -272,14 +189,6 @@ return data;
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="chronological-class">
-              <div class="chronological-class-name">fileUploading.UploadFiles</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">uploadFileUsingSelenium(Firefox, UploadFile)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

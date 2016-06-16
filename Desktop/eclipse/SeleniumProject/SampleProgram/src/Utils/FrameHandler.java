@@ -80,4 +80,16 @@ public class FrameHandler {
 					+ ParentFrame + e.getStackTrace());
 		}
 	}
+	
+	public void switchtoDefaultFrame() {
+		try {
+			driver.switchTo().defaultContent();
+			System.out.println("Navigated back to webpage from frame");
+		} catch (Exception e) {
+			System.out
+					.println("unable to navigate back to main webpage from frame"
+							+ e.getStackTrace());
+		}
+	}
+	
 }

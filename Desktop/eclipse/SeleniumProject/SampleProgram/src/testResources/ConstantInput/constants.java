@@ -25,4 +25,6 @@ public class constants {
     
     //Sample data used for testing practice
     public static final String filePath1="C:\\Users\\praveen\\Documents\\PaySlips_2016\\sampletextdoc.txt";
+    
+    public static final String screenshotFilePath=System.getProperty("user.dir")+"\\Screenshots\\";
 }

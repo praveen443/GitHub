@@ -3,9 +3,8 @@ package fileUploading;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -13,6 +12,7 @@ import Utils.HighlightElement;
 import Utils.WindowHandler;
 import browserFunction.launchBrowser;
 
+@Listeners(Utils.TestListener.class)
 public class UploadFiles {
 	public WebDriver driver;
 	private String getMainWindow;
@@ -47,6 +47,13 @@ public class UploadFiles {
 		Select select = new Select(selectConvertType);
 		select.selectByVisibleText("docx");*/
 		
+	}
+	
+	@AfterMethod
+	public void closeDriverInstance(){
+		if(driver!= null){
+			driver.quit();
+		}
 	}
 	
 }
