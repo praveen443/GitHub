@@ -14,10 +14,9 @@ import org.testng.ITestResult;
 import testResources.ConstantInput.constants;
 
 public class TestListener implements ITestListener{
-
-	private WebDriver driver;
 	private String methodName;
-	//private String filePath=System.getProperty("user.dir")+"/Screenshots/";
+	public WebDriver driver;
+	//private String filePath=System.getProperty("user.dir")+"\\Screenshots\\";
 
 	@Override
 	public void onTestStart(ITestResult result) {
@@ -35,23 +34,36 @@ public class TestListener implements ITestListener{
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
 		System.out.println("***** Error "+result.getName()+" test has failed *****");
-    	String methodName=result.getName().toString().trim();
-		takeScreenShot(methodName);
+    	methodName = result.getName().toString().trim();
+		takeScreenShot(methodName,driver);
 	}
 	
-	public void takeScreenShot(String methodName) {
-	    	//get the driver
-	    	File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	        
-	    	//The below method will save the screenshot in the project root directory 
-	    	//under Screenshots folder with test method name.
-	        try {
-				FileUtils.copyFile(scrFile, new File(constants.screenshotFilePath+methodName+".png"));
-				System.out.println("***Placed screen shot in "+ constants.screenshotFilePath +" ***");
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
+	public static void takeScreenShot(String methodName,WebDriver driver) {
+    	//The below method will save the screenshot in the project root directory 
+    	//under Screenshots folder with test method name.
+        try {
+        	//get the driver
+        	File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			FileUtils.copyFile(scrFile, new File(constants.screenshotFilePath+methodName+".png"));
+			System.out.println("***Placed screen shot in "+ constants.screenshotFilePath +" ***");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+        
 	}
+	
+	/*public void takeScreenShot(String methodName) {
+    	//The below method will save the screenshot in the project root directory 
+    	//under Screenshots folder with test method name.
+        try {
+        	//get the driver
+	    	File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			FileUtils.copyFile(scrFile, new File("C:\\Users\\praveen\\Desktop\\eclipse\\SeleniumProject\\SampleProgram\\Screenshots\\"+methodName+".png"));
+			System.out.println("***Placed screen shot in "+ System.getProperty("user.dir")+"\\Screenshots\\"+" ***");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}*/
 
 	@Override
 	public void onTestSkipped(ITestResult result) {

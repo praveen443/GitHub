@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Test-Suite]">
-  <parameter name="appURL" value="UploadFile"/>
-  <parameter name="browserType" value="Firefox"/>
   <test name="UploadFileUsingSelenium(failed)">
-    <parameter name="appURL" value="UploadFile"/>
-    <parameter name="browserType" value="Firefox"/>
     <classes>
-      <class name="fileUploading.UploadFiles">
+      <class name="fileUploading.uploadFile_Using_SendKeysMethod">
         <methods>
-          <include name="uploadFileUsingSelenium" invocation-numbers="0"/>
+          <include name="closeDriver"/>
+          <include name="uploadFile"/>
         </methods>
-      </class> <!-- fileUploading.UploadFiles -->
+      </class> <!-- fileUploading.uploadFile_Using_SendKeysMethod -->
     </classes>
   </test> <!-- UploadFileUsingSelenium(failed) -->
 </suite> <!-- Failed suite [TestNG Test-Suite] -->
