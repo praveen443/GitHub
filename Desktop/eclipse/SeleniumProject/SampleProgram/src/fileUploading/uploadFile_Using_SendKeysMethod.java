@@ -10,13 +10,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import testResources.ConstantInput.constants;
 import Utils.TakeScreenshot;
 import Utils.TestReporter;
 
-//@Listeners(Utils.TestListener.class)
+@Listeners(Utils.TestListener.class)
 public class uploadFile_Using_SendKeysMethod {
     private String appURL="https://www.freepdfconvert.com/";
 	private WebDriver driver;
@@ -42,18 +43,18 @@ public class uploadFile_Using_SendKeysMethod {
 		 
 	}
 	
-	/*@AfterMethod
+	@AfterMethod
 	public void closeDriverInstance(){
 		if(driver!=null) driver.quit();
-	}*/
+	}
 	
-	@AfterMethod
+	/*@AfterMethod
 	public void closeDriver(ITestResult testResult) throws IOException {
 		testCaseName = testResult.getName().toString().trim();
 		if(testResult.getStatus() == ITestResult.FAILURE) {
 			TakeScreenshot.takeScreenShot(driver, testCaseName);
 		}
 		driver.quit();
-	}
+	}*/
 
 }
