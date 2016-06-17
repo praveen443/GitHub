@@ -8,13 +8,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import testResources.ConstantInput.constants;
-import Utils.TakeScreenshot;
 import Utils.TestReporter;
 
 @Listeners(Utils.TestListener.class)
@@ -25,21 +23,29 @@ public class uploadFile_Using_SendKeysMethod {
 	
 	@Test(priority=1,enabled=true)
 	public void uploadFile() throws IOException{
-		 System.setProperty("webdriver.chrome.driver", constants.chromeDriverPath);
-		 TestReporter.log("Launch the Chrome browser.");
-		 driver = new ChromeDriver();
-		 TestReporter.log("Maximize the browser window.");
-		 driver.manage().window().maximize();
+		//testCaseName = getClass().getName().toString();
+	
+		/*
+		 * Grab the @Test method name and use it to define the test name
+		 */
+		testCaseName = new Object() {}.getClass().getEnclosingMethod().getName();
+		System.out.println("Test Method Name: "+testCaseName);
+		
+		System.setProperty("webdriver.chrome.driver", constants.chromeDriverPath);
+		TestReporter.log("Launch the Chrome browser.");
+		driver = new ChromeDriver();
+		TestReporter.log("Maximize the browser window.");
+		driver.manage().window().maximize();
 		 
-		 //Launch the URL.
-		 driver.get(appURL);
-		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		 try{
+		//Launch the URL.
+		driver.get(appURL);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		try{
 			 WebElement element = driver.findElement(By.id("clientUploads"));
 			 element.sendKeys(constants.filePath1);
-		 }catch(NoSuchElementException e){
+		}catch(NoSuchElementException e){
 			 System.out.println(e.getStackTrace());
-		 }
+		}
 		 
 	}
 	

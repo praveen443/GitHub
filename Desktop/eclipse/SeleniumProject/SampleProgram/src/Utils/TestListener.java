@@ -15,8 +15,9 @@ import testResources.ConstantInput.constants;
 
 public class TestListener implements ITestListener{
 	private String methodName;
-	public WebDriver driver;
+	//public WebDriver driver;
 	//private String filePath=System.getProperty("user.dir")+"\\Screenshots\\";
+	private WebDriver driver;
 
 	@Override
 	public void onTestStart(ITestResult result) {
@@ -30,7 +31,6 @@ public class TestListener implements ITestListener{
 		
 	}
 
-	@Override
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
 		System.out.println("***** Error "+result.getName()+" test has failed *****");
@@ -41,13 +41,13 @@ public class TestListener implements ITestListener{
 	public static void takeScreenShot(String methodName,WebDriver driver) {
     	//The below method will save the screenshot in the project root directory 
     	//under Screenshots folder with test method name.
-        try {
-        	//get the driver
-        	File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(scrFile, new File(constants.screenshotFilePath+methodName+".png"));
-			System.out.println("***Placed screen shot in "+ constants.screenshotFilePath +" ***");
+		try {
+      	      //get the driver
+      	      File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			  FileUtils.copyFile(scrFile, new File(constants.screenshotFilePath+methodName+"_"+SimpleDateAndCalendar.getTodaysDate("dd-MM-yyyy")+ "_" +SimpleDateAndCalendar.getCurrentTime("HH-mm-ss")+".png"));
+			  System.out.println("*** Placed screen shot in "+ constants.screenshotFilePath +" ***");
 		} catch (IOException e) {
-			e.printStackTrace();
+			  System.out.println("Exception while taking screenshot "+e.getMessage());
 		}
         
 	}

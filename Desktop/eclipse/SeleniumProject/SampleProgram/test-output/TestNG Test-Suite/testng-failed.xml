@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Test-Suite]">
+  <listeners>
+    <listener class-name="Utils.TestListener"/>
+  </listeners>
   <test name="UploadFileUsingSelenium(failed)">
     <classes>
       <class name="fileUploading.uploadFile_Using_SendKeysMethod">
         <methods>
-          <include name="closeDriver"/>
+          <include name="closeDriverInstance"/>
           <include name="uploadFile"/>
         </methods>
       </class> <!-- fileUploading.uploadFile_Using_SendKeysMethod -->

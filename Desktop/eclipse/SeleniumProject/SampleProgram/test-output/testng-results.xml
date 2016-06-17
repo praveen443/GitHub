@@ -2,43 +2,43 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
     <line>
-      <![CDATA[2016-06-16 18:54:19.997 :: Launch the Chrome browser.<br />]]>
+      <![CDATA[2016-06-17 16:57:20.637 :: Launch the Chrome browser.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-16 18:54:21.727 :: Maximize the browser window.<br />]]>
+      <![CDATA[2016-06-17 16:57:22.44 :: Maximize the browser window.<br />]]>
     </line>
   </reporter-output>
-  <suite name="TestNG Test-Suite" duration-ms="49011" started-at="2016-06-16T13:24:19Z" finished-at="2016-06-16T13:25:08Z">
+  <suite name="TestNG Test-Suite" duration-ms="24297" started-at="2016-06-17T11:27:20Z" finished-at="2016-06-17T11:27:44Z">
     <groups>
     </groups>
-    <test name="UploadFileUsingSelenium" duration-ms="49011" started-at="2016-06-16T13:24:19Z" finished-at="2016-06-16T13:25:08Z">
+    <test name="UploadFileUsingSelenium" duration-ms="24297" started-at="2016-06-17T11:27:20Z" finished-at="2016-06-17T11:27:44Z">
       <class name="fileUploading.uploadFile_Using_SendKeysMethod">
-        <test-method status="FAIL" signature="uploadFile()[pri:1, instance:fileUploading.uploadFile_Using_SendKeysMethod@5ae63ade]" name="uploadFile" duration-ms="48057" started-at="2016-06-16T18:54:19Z" finished-at="2016-06-16T18:55:08Z">
+        <test-method status="FAIL" signature="uploadFile()[pri:1, instance:fileUploading.uploadFile_Using_SendKeysMethod@6ebc05a6]" name="uploadFile" duration-ms="23548" started-at="2016-06-17T16:57:20Z" finished-at="2016-06-17T16:57:44Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"clientUploads"}
   (Session info: chrome=51.0.2704.84)
   (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.04 seconds
+Command duration or timeout: 10.06 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'vensakp51', ip: '192.168.8.126', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\praveen\AppData\Local\Temp\scoped_dir2964_13119}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.84, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: dd512002d42fa4eae249c44021b403e8
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\praveen\AppData\Local\Temp\scoped_dir4088_27993}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.84, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a5977df8881f27892b96d716f583a664
 *** Element info: {Using=id, value=clientUploads}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"clientUploads"}
   (Session info: chrome=51.0.2704.84)
   (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.04 seconds
+Command duration or timeout: 10.06 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'vensakp51', ip: '192.168.8.126', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\praveen\AppData\Local\Temp\scoped_dir2964_13119}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.84, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: dd512002d42fa4eae249c44021b403e8
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\praveen\AppData\Local\Temp\scoped_dir4088_27993}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.84, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a5977df8881f27892b96d716f583a664
 *** Element info: {Using=id, value=clientUploads}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -51,7 +51,7 @@ Session ID: dd512002d42fa4eae249c44021b403e8
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
 	at org.openqa.selenium.By$ById.findElement(By.java:218)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at fileUploading.uploadFile_Using_SendKeysMethod.uploadFile(uploadFile_Using_SendKeysMethod.java:37)
+	at fileUploading.uploadFile_Using_SendKeysMethod.uploadFile(uploadFile_Using_SendKeysMethod.java:44)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -82,24 +82,17 @@ Session ID: dd512002d42fa4eae249c44021b403e8
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
-              <![CDATA[2016-06-16 18:54:19.997 :: Launch the Chrome browser.<br />]]>
+              <![CDATA[2016-06-17 16:57:20.637 :: Launch the Chrome browser.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-16 18:54:21.727 :: Maximize the browser window.<br />]]>
+              <![CDATA[2016-06-17 16:57:22.44 :: Maximize the browser window.<br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- uploadFile -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:fileUploading.uploadFile_Using_SendKeysMethod@5ae63ade]" name="closeDriver" is-config="true" duration-ms="928" started-at="2016-06-16T18:55:08Z" finished-at="2016-06-16T18:55:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=uploadFile status=FAILURE method=uploadFile_Using_SendKeysMethod.uploadFile()[pri:1, instance:fileUploading.uploadFile_Using_SendKeysMethod@5ae63ade] output=2016-06-16 18:54:19.997 :: Launch the Chrome browser.<br />]]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="closeDriverInstance()[pri:0, instance:fileUploading.uploadFile_Using_SendKeysMethod@6ebc05a6]" name="closeDriverInstance" is-config="true" duration-ms="726" started-at="2016-06-17T16:57:44Z" finished-at="2016-06-17T16:57:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeDriver -->
+        </test-method> <!-- closeDriverInstance -->
       </class> <!-- fileUploading.uploadFile_Using_SendKeysMethod -->
     </test> <!-- UploadFileUsingSelenium -->
   </suite> <!-- TestNG Test-Suite -->
