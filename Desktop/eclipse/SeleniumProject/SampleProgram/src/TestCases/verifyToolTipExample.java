@@ -6,7 +6,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,6 +14,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 
+import testResources.ConstantInput.constants;
 import Utils.Sleeper;
 import Utils.TestReporter;
 
@@ -31,7 +32,10 @@ public class verifyToolTipExample {
   public void launchWebPage() {
 	  TestReporter.log("<-------- Started the TestCase execution - verifyToolTipExample. -------->");
 	  TestReporter.log("Launch the Firefox browser.");
-	  driver = new FirefoxDriver();
+	  System.setProperty("webdriver.chrome.driver", constants.chromeDriverPath);
+	  TestReporter.log("Launch the Chrome browser.");
+	  driver = new ChromeDriver();
+	  TestReporter.log("Maximize the browser window.");
 	  driver.manage().window().maximize();
   }
 
