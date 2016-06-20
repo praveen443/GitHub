@@ -4,6 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>MavenProject</groupId>
 	<artifactId>POMfileConfiguration</artifactId>
+	<properties>
+		<jre.level>1.8</jre.level>
+		<jdk.level>1.8</jdk.level>
+	</properties>
 	<repositories>
 		<repository>
 			<id>praveen443</id>
