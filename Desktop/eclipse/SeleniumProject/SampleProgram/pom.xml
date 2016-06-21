@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>MavenProject</groupId>
 	<artifactId>POMfileConfiguration</artifactId>
-	<properties>
+	<!-- <properties>
 		<jre.level>1.8</jre.level>
 		<jdk.level>1.8</jdk.level>
-	</properties>
+	</properties> -->
 	<repositories>
 		<repository>
 			<id>praveen443</id>
@@ -160,18 +160,18 @@
 				<configuration>
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>
-						<suiteXmlFile>C:\\Users\\praveen\\Desktop\\eclipse\\SeleniumProject\\SampleProgram\\src\\testResources\\readDataFromPropertiesFile\\ExecuteInDifferentBrowsers.xml</suiteXmlFile>
+						<suiteXmlFile>C:/Users/praveen/Desktop/eclipse/SeleniumProject/SampleProgram/src/testResources/verifyToolTipExample.xml</suiteXmlFile>
 						<!-- <suiteXmlFile>suites-test-testng.xml</suiteXmlFile> -->
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
-			<!-- Compiler plugin configures the java version to be usedfor compiling 
+			<!-- Compiler plugin configures the java version to be used for compiling 
 				the code -->
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>1.7</source>
+					<target>1.7</target>
 				</configuration>
 			</plugin>
 		</plugins>
