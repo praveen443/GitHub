@@ -2,138 +2,138 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[2016-06-22 13:21:14.188 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
+      <![CDATA[2016-06-22 14:44:18.854 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 13:21:14.188 :: Launch the Firefox browser.<br />]]>
+      <![CDATA[2016-06-22 14:44:18.86 :: Launch the Firefox browser.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 13:21:14.188 :: Launch the Chrome browser.<br />]]>
+      <![CDATA[2016-06-22 14:44:18.861 :: Launch the Chrome browser.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 13:21:15.928 :: Maximize the browser window.<br />]]>
+      <![CDATA[2016-06-22 14:44:20.708 :: Maximize the browser window.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 13:21:16.106 :: Launch the Application.<br />]]>
+      <![CDATA[2016-06-22 14:44:20.872 :: Launch the Application.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 13:21:20.843 :: Captured tooltip text is : Return to Selenium home page<br />]]>
+      <![CDATA[2016-06-22 14:44:23.424 :: Captured tooltip text is : Return to Selenium home page<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 13:21:20.843 :: Verifying the Captured tooltip text.<br />]]>
+      <![CDATA[2016-06-22 14:44:23.424 :: Verifying the Captured tooltip text.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 13:21:20.843 :: Closing the browser instance.<br />]]>
+      <![CDATA[2016-06-22 14:44:23.427 :: Closing the browser instance.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 13:21:21.633 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
+      <![CDATA[2016-06-22 14:44:24.413 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 13:21:21.633 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
+      <![CDATA[2016-06-22 14:44:24.416 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 13:21:21.633 :: Launch the Firefox browser.<br />]]>
+      <![CDATA[2016-06-22 14:44:24.416 :: Launch the Firefox browser.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 13:21:21.633 :: Launch the Chrome browser.<br />]]>
+      <![CDATA[2016-06-22 14:44:24.417 :: Launch the Chrome browser.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 13:21:22.817 :: Maximize the browser window.<br />]]>
+      <![CDATA[2016-06-22 14:44:25.639 :: Maximize the browser window.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 13:21:23.047 :: Launch the Application.<br />]]>
+      <![CDATA[2016-06-22 14:44:25.791 :: Launch the Application.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 13:21:35.352 :: Verifying the Captured tooltip text.<br />]]>
+      <![CDATA[2016-06-22 14:44:34.174 :: Verifying the Captured tooltip text.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 13:21:35.352 :: Closing the browser instance.<br />]]>
+      <![CDATA[2016-06-22 14:44:34.175 :: Closing the browser instance.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 13:21:36.223 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
+      <![CDATA[2016-06-22 14:44:34.817 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="22055" started-at="2016-06-22T07:51:14Z" finished-at="2016-06-22T07:51:36Z">
+  <suite name="Suite" duration-ms="15986" started-at="2016-06-22T09:14:18Z" finished-at="2016-06-22T09:14:34Z">
     <groups>
       <group name="TestNG Tests">
         <method signature="verifyToolTipExample.verifyToolTipText_Case1()[pri:1, instance:TestCases.verifyToolTipExample@1f36e637]" name="verifyToolTipText_Case1" class="TestCases.verifyToolTipExample"/>
         <method signature="verifyToolTipExample.verifyToolTipText_Case2()[pri:2, instance:TestCases.verifyToolTipExample@1f36e637]" name="verifyToolTipText_Case2" class="TestCases.verifyToolTipExample"/>
       </group> <!-- TestNG Tests -->
     </groups>
-    <test name="verifyToolTipExample.xml" duration-ms="22055" started-at="2016-06-22T07:51:14Z" finished-at="2016-06-22T07:51:36Z">
+    <test name="verifyToolTipExample.xml" duration-ms="15986" started-at="2016-06-22T09:14:18Z" finished-at="2016-06-22T09:14:34Z">
       <class name="TestCases.verifyToolTipExample">
-        <test-method status="PASS" signature="launchWebPage()[pri:0, instance:TestCases.verifyToolTipExample@1f36e637]" name="launchWebPage" is-config="true" duration-ms="1918" started-at="2016-06-22T13:21:14Z" finished-at="2016-06-22T13:21:16Z">
+        <test-method status="PASS" signature="launchWebPage()[pri:0, instance:TestCases.verifyToolTipExample@1f36e637]" name="launchWebPage" is-config="true" duration-ms="2010" started-at="2016-06-22T14:44:18Z" finished-at="2016-06-22T14:44:20Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-06-22 13:21:14.188 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
+              <![CDATA[2016-06-22 14:44:18.854 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-22 13:21:14.188 :: Launch the Firefox browser.<br />]]>
+              <![CDATA[2016-06-22 14:44:18.86 :: Launch the Firefox browser.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-22 13:21:14.188 :: Launch the Chrome browser.<br />]]>
+              <![CDATA[2016-06-22 14:44:18.861 :: Launch the Chrome browser.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-22 13:21:15.928 :: Maximize the browser window.<br />]]>
+              <![CDATA[2016-06-22 14:44:20.708 :: Maximize the browser window.<br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchWebPage -->
-        <test-method status="PASS" signature="verifyToolTipText_Case1()[pri:1, instance:TestCases.verifyToolTipExample@1f36e637]" name="verifyToolTipText_Case1" duration-ms="4747" started-at="2016-06-22T13:21:16Z" finished-at="2016-06-22T13:21:20Z">
+        <test-method status="PASS" signature="verifyToolTipText_Case1()[pri:1, instance:TestCases.verifyToolTipExample@1f36e637]" name="verifyToolTipText_Case1" duration-ms="2568" started-at="2016-06-22T14:44:20Z" finished-at="2016-06-22T14:44:23Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-06-22 13:21:16.106 :: Launch the Application.<br />]]>
+              <![CDATA[2016-06-22 14:44:20.872 :: Launch the Application.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-22 13:21:20.843 :: Captured tooltip text is : Return to Selenium home page<br />]]>
+              <![CDATA[2016-06-22 14:44:23.424 :: Captured tooltip text is : Return to Selenium home page<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-22 13:21:20.843 :: Verifying the Captured tooltip text.<br />]]>
+              <![CDATA[2016-06-22 14:44:23.424 :: Verifying the Captured tooltip text.<br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyToolTipText_Case1 -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.verifyToolTipExample@1f36e637]" name="closeBrowser" is-config="true" duration-ms="790" started-at="2016-06-22T13:21:20Z" finished-at="2016-06-22T13:21:21Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.verifyToolTipExample@1f36e637]" name="closeBrowser" is-config="true" duration-ms="986" started-at="2016-06-22T14:44:23Z" finished-at="2016-06-22T14:44:24Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-06-22 13:21:20.843 :: Closing the browser instance.<br />]]>
+              <![CDATA[2016-06-22 14:44:23.427 :: Closing the browser instance.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-22 13:21:21.633 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
+              <![CDATA[2016-06-22 14:44:24.413 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="launchWebPage()[pri:0, instance:TestCases.verifyToolTipExample@1f36e637]" name="launchWebPage" is-config="true" duration-ms="1414" started-at="2016-06-22T13:21:21Z" finished-at="2016-06-22T13:21:23Z">
+        <test-method status="PASS" signature="launchWebPage()[pri:0, instance:TestCases.verifyToolTipExample@1f36e637]" name="launchWebPage" is-config="true" duration-ms="1373" started-at="2016-06-22T14:44:24Z" finished-at="2016-06-22T14:44:25Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-06-22 13:21:21.633 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
+              <![CDATA[2016-06-22 14:44:24.416 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-22 13:21:21.633 :: Launch the Firefox browser.<br />]]>
+              <![CDATA[2016-06-22 14:44:24.416 :: Launch the Firefox browser.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-22 13:21:21.633 :: Launch the Chrome browser.<br />]]>
+              <![CDATA[2016-06-22 14:44:24.417 :: Launch the Chrome browser.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-22 13:21:22.817 :: Maximize the browser window.<br />]]>
+              <![CDATA[2016-06-22 14:44:25.639 :: Maximize the browser window.<br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchWebPage -->
-        <test-method status="PASS" signature="verifyToolTipText_Case2()[pri:2, instance:TestCases.verifyToolTipExample@1f36e637]" name="verifyToolTipText_Case2" duration-ms="12305" started-at="2016-06-22T13:21:23Z" finished-at="2016-06-22T13:21:35Z">
+        <test-method status="PASS" signature="verifyToolTipText_Case2()[pri:2, instance:TestCases.verifyToolTipExample@1f36e637]" name="verifyToolTipText_Case2" duration-ms="8385" started-at="2016-06-22T14:44:25Z" finished-at="2016-06-22T14:44:34Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-06-22 13:21:23.047 :: Launch the Application.<br />]]>
+              <![CDATA[2016-06-22 14:44:25.791 :: Launch the Application.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-22 13:21:35.352 :: Verifying the Captured tooltip text.<br />]]>
+              <![CDATA[2016-06-22 14:44:34.174 :: Verifying the Captured tooltip text.<br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyToolTipText_Case2 -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.verifyToolTipExample@1f36e637]" name="closeBrowser" is-config="true" duration-ms="871" started-at="2016-06-22T13:21:35Z" finished-at="2016-06-22T13:21:36Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.verifyToolTipExample@1f36e637]" name="closeBrowser" is-config="true" duration-ms="642" started-at="2016-06-22T14:44:34Z" finished-at="2016-06-22T14:44:34Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-06-22 13:21:35.352 :: Closing the browser instance.<br />]]>
+              <![CDATA[2016-06-22 14:44:34.175 :: Closing the browser instance.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-22 13:21:36.223 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
+              <![CDATA[2016-06-22 14:44:34.817 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
