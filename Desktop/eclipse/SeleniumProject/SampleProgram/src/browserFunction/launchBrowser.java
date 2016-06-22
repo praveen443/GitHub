@@ -16,7 +16,6 @@ import testResources.ConstantInput.constants;
 import Utils.TestReporter;
 
 public class launchBrowser {
-	@SuppressWarnings("unused")
 	private WebDriver driver;
 	private static String testName;
 	//Constructor to initialize the page.
