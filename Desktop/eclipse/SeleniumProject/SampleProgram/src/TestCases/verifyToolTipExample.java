@@ -31,7 +31,7 @@ public class verifyToolTipExample {
   @BeforeMethod(groups={"TestNG Tests"})
   public void launchWebPage() {
 	  TestReporter.log("<-------- Started the TestCase execution - verifyToolTipExample. -------->");
-	  TestReporter.log("Launch the Firefox browser.");
+	  TestReporter.log("Launch the Chrome browser.");
 	  System.setProperty("webdriver.chrome.driver", constants.chromeDriverPath);
 	  TestReporter.log("Launch the Chrome browser.");
 	  driver = new ChromeDriver();
