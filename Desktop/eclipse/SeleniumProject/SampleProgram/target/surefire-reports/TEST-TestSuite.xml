@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="63.019" tests="6" errors="0" skipped="5" failures="1">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="JenkinsWithMaven"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="1181193a2acab54b"/>
+    <property name="POM_ARTIFACTID" value="POMfileConfiguration"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PHP_FCGI_MAX_REQUESTS" value="0"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="POMfileConfiguration"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Windows\TEMP"/>
+    <property name="java.runtime.version" value="1.8.0_91-b15"/>
+    <property name="ST_INSTALL_PATH" value="C:\Program Files (x86)\HP\Unified Functional Testing\"/>
+    <property name="ANT_HOME" value="C:\Program Files\apache-ant-1.9.4"/>
+    <property name="user.name" value="VENSAKP51$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="user.language" value="en"/>
+    <property name="BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="VENSAKP51$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="7"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_91\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="POM_VERSION" value="1.0"/>
+    <property name="TMP" value="C:\Windows\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.91-b15"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_91"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="SERVICE_ID" value="jenkins"/>
+    <property name="COMPUTERNAME" value="VENSAKP51"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="MavenProject"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="BUILD_TAG" value="jenkins-JenkinsWithMaven-7"/>
+    <property name="JENKINS_SERVER_COOKIE" value="1181193a2acab54b"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\apache-maven-3.2.5/bin;C:\Program Files\Java\jdk1.8.0_91/bin;C:\Program Files\Java\jdk1.8.0_91/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\Java\jre1.8.0_91\bin;C:\Windows\System32;C:\Program Files\apache-ant-1.9.4\bin;C:\Program Files\apache-maven-3.2.5\bin;C:\Program Files (x86)\Skype\Phone\;C:\Users\praveen\AppData\Local\Android\android-sdk\tools;C:\Users\praveen\AppData\Local\Android\android-sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.2.5"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-agent-1.7.jar;C:\Program Files\apache-maven-3.2.5\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\apache-maven-3.2.5/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main C:\Program Files\apache-maven-3.2.5 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.59.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.7.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.7.jar 51638"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_91/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\Java\jre1.8.0_91\bin;C:\Windows\System32;C:\Program Files\apache-ant-1.9.4\bin;C:\Program Files\apache-maven-3.2.5\bin;C:\Program Files (x86)\Skype\Phone\;C:\Users\praveen\AppData\Local\Android\android-sdk\tools;C:\Users\praveen\AppData\Local\Android\android-sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_91/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 60 Stepping 3, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Program Files\apache-maven-3.2.5"/>
+    <property name="DellClientSystemUpdatePath" value="C:\Program Files (x86)\Dell\ClientSystemUpdate\"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Program Files\apache-maven-3.2.5/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/JenkinsWithMaven/7/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\praveen\Desktop\eclipse\SeleniumProject\SampleProgram"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/JenkinsWithMaven/"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="C:\Program Files\apache-maven-3.2.5"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="7"/>
+    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="ANDROID_HOME" value="C:\Users\praveen\AppData\Local\Android\android-sdk"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="3c03"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="VBOX_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.7.jar"/>
+    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\jobs\JenkinsWithMaven\workspace"/>
+    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.7.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\AutoIt3\AutoItX"/>
+  </properties>
+  <testcase name="launchWebPage" classname="TestCases.verifyToolTipExample" time="63.019">
+    <failure message="unknown error: unable to discover open pages&#10;  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.82 seconds&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;vensakp51&apos;, ip: &apos;192.168.8.126&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: unknown error: unable to discover open pages
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.82 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vensakp51', ip: '192.168.8.126', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:159)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at TestCases.verifyToolTipExample.launchWebPage(verifyToolTipExample.java:37)
+]]></failure>
+    <system-err>Starting ChromeDriver 2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4) on port 44609
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase name="verifyToolTipText_Case1" classname="TestCases.verifyToolTipExample" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="closeBrowser" classname="TestCases.verifyToolTipExample" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="launchWebPage" classname="TestCases.verifyToolTipExample" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyToolTipText_Case2" classname="TestCases.verifyToolTipExample" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="closeBrowser" classname="TestCases.verifyToolTipExample" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
