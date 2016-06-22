@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -31,10 +32,10 @@ public class verifyToolTipExample {
   @BeforeMethod(groups={"TestNG Tests"})
   public void launchWebPage() {
 	  TestReporter.log("<-------- Started the TestCase execution - verifyToolTipExample. -------->");
-	  TestReporter.log("Launch the Chrome browser.");
-	  System.setProperty("webdriver.chrome.driver", constants.chromeDriverPath);
-	  TestReporter.log("Launch the Chrome browser.");
-	  driver = new ChromeDriver();
+	  //TestReporter.log("Launch the IE browser.");
+	  System.setProperty("webdriver.ie.driver", constants.IE_64bit_DriverPath);
+	  TestReporter.log("Launch the IE browser.");
+	  driver = new InternetExplorerDriver();
 	  TestReporter.log("Maximize the browser window.");
 	  driver.manage().window().maximize();
   }
