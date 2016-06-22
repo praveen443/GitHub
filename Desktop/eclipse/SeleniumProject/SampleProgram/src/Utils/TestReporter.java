@@ -70,6 +70,7 @@ public class TestReporter {
 		if(getPrintToConsole()) System.out.println(trimHtml(step));
 	}
 	
+	
 	public static void logVideo(String sessionId) {
 		Reporter.log("<br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/>");
 		Reporter.log("<br/><b><font size = 4>Video for session: " +sessionId + "</font></b><br/>");

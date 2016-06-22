@@ -51,12 +51,6 @@
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
 		</dependency>
-		<!-- http://mvnrepository.com/artifact/org.testng/testng -->
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>6.9.10</version>
-		</dependency>
 		<!-- http://mvnrepository.com/artifact/commons-io/commons-io -->
 		<dependency>
 			<groupId>commons-io</groupId>
@@ -86,12 +80,6 @@
 			<groupId>com.sun.mail</groupId>
 			<artifactId>javax.mail</artifactId>
 			<version>1.5.5</version>
-		</dependency>
-		<!-- http://mvnrepository.com/artifact/log4j/log4j -->
-		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>1.2.17</version>
 		</dependency>
 		<!-- http://mvnrepository.com/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
 		<dependency>
@@ -147,6 +135,12 @@
 			<artifactId>selenium-firefox-driver</artifactId>
 			<version>2.53.0</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.kuali.maven.plugins/jenkins-maven-plugin -->
+		<!-- <dependency>
+    		<groupId>org.kuali.maven.plugins</groupId>
+    		<artifactId>jenkins-maven-plugin</artifactId>
+   		 	<version>1.2.8</version>
+		</dependency> --> 
 	</dependencies>
 	<build>
 		<!-- Source directory configuration -->
@@ -170,8 +164,8 @@
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
+					<source>1.7</source>
+					<target>1.7</target>
 				</configuration>
 			</plugin>
 		</plugins>

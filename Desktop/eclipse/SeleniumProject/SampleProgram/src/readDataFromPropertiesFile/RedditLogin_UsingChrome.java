@@ -26,7 +26,7 @@ public class RedditLogin_UsingChrome {
 	public Properties prop = null;
 	@SuppressWarnings("unused")
 	private String testName;
-	HighlightElement ele = new HighlightElement();
+	private HighlightElement ele = new HighlightElement();
 	
 	/*@BeforeMethod
 	public void setUp() throws IOException{
