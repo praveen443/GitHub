@@ -27,6 +27,12 @@
 			<artifactId>maven-surefire-plugin</artifactId>
 			<version>2.19.1</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+		<!-- <dependency>
+    		<groupId>org.apache.maven.plugins</groupId>
+    		<artifactId>maven-compiler-plugin</artifactId>
+    		<version>3.5.1</version>
+		</dependency> -->
 		<!-- http://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
 			<groupId>mysql</groupId>
@@ -162,6 +168,7 @@
 			<!-- Compiler plugin configures the java version to be used for compiling 
 				the code -->
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
 					<source>1.7</source>
