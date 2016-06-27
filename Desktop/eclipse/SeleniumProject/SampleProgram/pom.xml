@@ -33,13 +33,6 @@
 			<artifactId>maven-surefire-plugin</artifactId>
 			<version>2.19.1</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
-		<!-- <dependency>
-    		<groupId>org.apache.maven.plugins</groupId>
-    		<artifactId>maven-compiler-plugin</artifactId>
-    		<version>3.5.1</version>
-		</dependency> -->
-		<!-- http://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -187,10 +180,10 @@
             	<artifactId>maven-compiler-plugin</artifactId>
             	<version>3.1</version>
             	<configuration>
-                <fork>true</fork>
-                <executable>C:\Program Files\Java\jdk1.8.0_91\bin\javac.exe</executable>
-            </configuration>
-        </plugin>
+                	<fork>true</fork>
+                	<executable>C:\Program Files\Java\jdk1.8.0_91\bin\javac.exe</executable>
+            	</configuration>
+        	</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
