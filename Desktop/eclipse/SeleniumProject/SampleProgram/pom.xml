@@ -4,6 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>MavenProject</groupId>
 	<artifactId>POMfileConfiguration</artifactId>
+	<version>1.0</version>
+	<organization>
+		<name>Vensai Technologies</name>
+		<url>www.vensaiinc.com</url>
+	</organization>
+	<name>Maven Project</name>
 	<!-- <properties>
 		<jre.level>1.8</jre.level>
 		<jdk.level>1.8</jdk.level>
@@ -207,5 +213,4 @@
 			</plugin>
 		</plugins>
 	</reporting>
-	<version>1.0</version>
 </project>
