@@ -2,86 +2,86 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[2016-06-22 17:05:04.268 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
+      <![CDATA[2016-06-27 16:23:11.833 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 17:05:04.278 :: Launch the IE browser.<br />]]>
+      <![CDATA[2016-06-27 16:23:11.841 :: Launch the IE browser.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 17:05:07.05 :: Maximize the browser window.<br />]]>
+      <![CDATA[2016-06-27 16:23:15.379 :: Maximize the browser window.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 17:05:07.068 :: Launch the Application.<br />]]>
+      <![CDATA[2016-06-27 16:23:15.398 :: Launch the Application.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 17:05:16.154 :: Closing the browser instance.<br />]]>
+      <![CDATA[2016-06-27 16:23:26.56 :: Closing the browser instance.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 17:05:16.872 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
+      <![CDATA[2016-06-27 16:23:27.762 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 17:05:16.872 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
+      <![CDATA[2016-06-27 16:23:27.763 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 17:05:16.872 :: Launch the IE browser.<br />]]>
+      <![CDATA[2016-06-27 16:23:27.763 :: Launch the IE browser.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 17:05:18.885 :: Maximize the browser window.<br />]]>
+      <![CDATA[2016-06-27 16:23:29.737 :: Maximize the browser window.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 17:05:18.895 :: Launch the Application.<br />]]>
+      <![CDATA[2016-06-27 16:23:29.749 :: Launch the Application.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 17:05:29.81 :: Closing the browser instance.<br />]]>
+      <![CDATA[2016-06-27 16:23:55.317 :: Closing the browser instance.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-22 17:05:30.46 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
+      <![CDATA[2016-06-27 16:23:56.053 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="26212" started-at="2016-06-22T11:35:04Z" finished-at="2016-06-22T11:35:30Z">
+  <suite name="Suite" duration-ms="44239" started-at="2016-06-27T10:53:11Z" finished-at="2016-06-27T10:53:56Z">
     <groups>
       <group name="TestNG Tests">
         <method signature="verifyToolTipExample.verifyToolTipText_Case1()[pri:1, instance:TestCases.verifyToolTipExample@551aa95a]" name="verifyToolTipText_Case1" class="TestCases.verifyToolTipExample"/>
         <method signature="verifyToolTipExample.verifyToolTipText_Case2()[pri:2, instance:TestCases.verifyToolTipExample@551aa95a]" name="verifyToolTipText_Case2" class="TestCases.verifyToolTipExample"/>
       </group> <!-- TestNG Tests -->
     </groups>
-    <test name="verifyToolTipExample.xml" duration-ms="26212" started-at="2016-06-22T11:35:04Z" finished-at="2016-06-22T11:35:30Z">
+    <test name="verifyToolTipExample.xml" duration-ms="44239" started-at="2016-06-27T10:53:11Z" finished-at="2016-06-27T10:53:56Z">
       <class name="TestCases.verifyToolTipExample">
-        <test-method status="PASS" signature="launchWebPage()[pri:0, instance:TestCases.verifyToolTipExample@551aa95a]" name="launchWebPage" is-config="true" duration-ms="2800" started-at="2016-06-22T17:05:04Z" finished-at="2016-06-22T17:05:07Z">
+        <test-method status="PASS" signature="launchWebPage()[pri:0, instance:TestCases.verifyToolTipExample@551aa95a]" name="launchWebPage" is-config="true" duration-ms="3567" started-at="2016-06-27T16:23:11Z" finished-at="2016-06-27T16:23:15Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-06-22 17:05:04.268 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
+              <![CDATA[2016-06-27 16:23:11.833 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-22 17:05:04.278 :: Launch the IE browser.<br />]]>
+              <![CDATA[2016-06-27 16:23:11.841 :: Launch the IE browser.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-22 17:05:07.05 :: Maximize the browser window.<br />]]>
+              <![CDATA[2016-06-27 16:23:15.379 :: Maximize the browser window.<br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchWebPage -->
-        <test-method status="FAIL" signature="verifyToolTipText_Case1()[pri:1, instance:TestCases.verifyToolTipExample@551aa95a]" name="verifyToolTipText_Case1" duration-ms="9079" started-at="2016-06-22T17:05:07Z" finished-at="2016-06-22T17:05:16Z">
+        <test-method status="FAIL" signature="verifyToolTipText_Case1()[pri:1, instance:TestCases.verifyToolTipExample@551aa95a]" name="verifyToolTipText_Case1" duration-ms="11138" started-at="2016-06-27T16:23:15Z" finished-at="2016-06-27T16:23:26Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to find element with css selector == #header>h1 a (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.34 seconds
+Command duration or timeout: 5.06 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'vensakp51', ip: '192.168.8.126', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:15690/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: e19d469e-68ef-497c-adf5-edfa28979cb7
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:45506/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: dbfaf316-18c7-45de-878f-2455717ecb3a
 *** Element info: {Using=css selector, value=#header>h1 a}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == #header>h1 a (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.34 seconds
+Command duration or timeout: 5.06 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'vensakp51', ip: '192.168.8.126', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:15690/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: e19d469e-68ef-497c-adf5-edfa28979cb7
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:45506/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: dbfaf316-18c7-45de-878f-2455717ecb3a
 *** Element info: {Using=css selector, value=#header>h1 a}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -125,47 +125,47 @@ Session ID: e19d469e-68ef-497c-adf5-edfa28979cb7
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
-              <![CDATA[2016-06-22 17:05:07.068 :: Launch the Application.<br />]]>
+              <![CDATA[2016-06-27 16:23:15.398 :: Launch the Application.<br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyToolTipText_Case1 -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.verifyToolTipExample@551aa95a]" name="closeBrowser" is-config="true" duration-ms="718" started-at="2016-06-22T17:05:16Z" finished-at="2016-06-22T17:05:16Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.verifyToolTipExample@551aa95a]" name="closeBrowser" is-config="true" duration-ms="1202" started-at="2016-06-27T16:23:26Z" finished-at="2016-06-27T16:23:27Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-06-22 17:05:16.154 :: Closing the browser instance.<br />]]>
+              <![CDATA[2016-06-27 16:23:26.56 :: Closing the browser instance.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-22 17:05:16.872 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
+              <![CDATA[2016-06-27 16:23:27.762 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="launchWebPage()[pri:0, instance:TestCases.verifyToolTipExample@551aa95a]" name="launchWebPage" is-config="true" duration-ms="2023" started-at="2016-06-22T17:05:16Z" finished-at="2016-06-22T17:05:18Z">
+        <test-method status="PASS" signature="launchWebPage()[pri:0, instance:TestCases.verifyToolTipExample@551aa95a]" name="launchWebPage" is-config="true" duration-ms="1985" started-at="2016-06-27T16:23:27Z" finished-at="2016-06-27T16:23:29Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-06-22 17:05:16.872 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
+              <![CDATA[2016-06-27 16:23:27.763 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-22 17:05:16.872 :: Launch the IE browser.<br />]]>
+              <![CDATA[2016-06-27 16:23:27.763 :: Launch the IE browser.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-22 17:05:18.885 :: Maximize the browser window.<br />]]>
+              <![CDATA[2016-06-27 16:23:29.737 :: Maximize the browser window.<br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchWebPage -->
-        <test-method status="PASS" signature="verifyToolTipText_Case2()[pri:2, instance:TestCases.verifyToolTipExample@551aa95a]" name="verifyToolTipText_Case2" duration-ms="10914" started-at="2016-06-22T17:05:18Z" finished-at="2016-06-22T17:05:29Z">
+        <test-method status="PASS" signature="verifyToolTipText_Case2()[pri:2, instance:TestCases.verifyToolTipExample@551aa95a]" name="verifyToolTipText_Case2" duration-ms="25568" started-at="2016-06-27T16:23:29Z" finished-at="2016-06-27T16:23:55Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-06-22 17:05:18.895 :: Launch the Application.<br />]]>
+              <![CDATA[2016-06-27 16:23:29.749 :: Launch the Application.<br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyToolTipText_Case2 -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.verifyToolTipExample@551aa95a]" name="closeBrowser" is-config="true" duration-ms="650" started-at="2016-06-22T17:05:29Z" finished-at="2016-06-22T17:05:30Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.verifyToolTipExample@551aa95a]" name="closeBrowser" is-config="true" duration-ms="736" started-at="2016-06-27T16:23:55Z" finished-at="2016-06-27T16:23:56Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-06-22 17:05:29.81 :: Closing the browser instance.<br />]]>
+              <![CDATA[2016-06-27 16:23:55.317 :: Closing the browser instance.<br />]]>
             </line>
             <line>
-              <![CDATA[2016-06-22 17:05:30.46 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
+              <![CDATA[2016-06-27 16:23:56.053 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
