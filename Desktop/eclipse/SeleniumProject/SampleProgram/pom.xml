@@ -166,7 +166,7 @@
 				<configuration>
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>
-						<suiteXmlFile>C:/Users/praveen/Desktop/eclipse/SeleniumProject/SampleProgram/src/testResources/verifyToolTipExample.xml</suiteXmlFile>
+						<suiteXmlFile>C:\Users\praveen\git\GitHub\LICENSE\Desktop\eclipse\SeleniumProject\SampleProgram\src\testResources\verifyToolTipExample.xml</suiteXmlFile>
 						<!-- <suiteXmlFile>suites-test-testng.xml</suiteXmlFile> -->
 					</suiteXmlFiles>
 				</configuration>
