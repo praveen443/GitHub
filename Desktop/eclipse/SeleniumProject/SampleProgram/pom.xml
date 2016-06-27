@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>MavenProject</groupId>
+	<artifactId>POMfileConfiguration</artifactId>
+	<!-- <properties>
+		<jre.level>1.8</jre.level>
+		<jdk.level>1.8</jdk.level>
+	</properties> -->
+	<repositories>
+		<repository>
+			<id>praveen443</id>
+			<url>https://github.com/praveen443/GitHub.git</url>
+		</repository>
+	</repositories>
+	<dependencies>
+		<!-- http://mvnrepository.com/artifact/org.apache.maven/maven-plugin-api -->
+		<dependency>
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-plugin-api</artifactId>
+			<version>3.3.9</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<version>2.19.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+		<!-- <dependency>
+    		<groupId>org.apache.maven.plugins</groupId>
+    		<artifactId>maven-compiler-plugin</artifactId>
+    		<version>3.5.1</version>
+		</dependency> -->
+		<!-- http://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>6.0.2</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>2.53.0</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.9.10</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.5</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/net.sf.opencsv/opencsv -->
+		<dependency>
+			<groupId>net.sf.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>2.3</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/log4j/log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.15-beta1</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/com.sun.mail/javax.mail -->
+		<dependency>
+			<groupId>com.sun.mail</groupId>
+			<artifactId>javax.mail</artifactId>
+			<version>1.5.5</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-dependency-plugin</artifactId>
+			<version>2.10</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/commons-collections/commons-collections -->
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>3.2.2</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/xml-apis/xml-apis -->
+		<dependency>
+			<groupId>xml-apis</groupId>
+			<artifactId>xml-apis</artifactId>
+			<version>2.0.2</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/javax.activation/activation -->
+		<dependency>
+			<groupId>javax.activation</groupId>
+			<artifactId>activation</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/ant/ant -->
+		<dependency>
+			<groupId>ant</groupId>
+			<artifactId>ant</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-configuration/commons-configuration -->
+		<dependency>
+    		<groupId>commons-configuration</groupId>
+    		<artifactId>commons-configuration</artifactId>
+    		<version>1.10</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-ie-driver -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-ie-driver</artifactId>
+			<version>2.53.0</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-chrome-driver</artifactId>
+			<version>2.53.0</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-firefox-driver</artifactId>
+			<version>2.53.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.kuali.maven.plugins/jenkins-maven-plugin -->
+		<!-- <dependency>
+    		<groupId>org.kuali.maven.plugins</groupId>
+    		<artifactId>jenkins-maven-plugin</artifactId>
+   		 	<version>1.2.8</version>
+		</dependency> --> 
+	</dependencies>
+	<build>
+		<!-- Source directory configuration -->
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<!-- Following plugin executes the testng tests -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.14.1</version>
+				<configuration>
+					<!-- Suite testng xml file to consider for test execution -->
+					<suiteXmlFiles>
+						<suiteXmlFile>C:/Users/praveen/Desktop/eclipse/SeleniumProject/SampleProgram/src/testResources/verifyToolTipExample.xml</suiteXmlFile>
+						<!-- <suiteXmlFile>suites-test-testng.xml</suiteXmlFile> -->
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+			<!-- Compiler plugin configures the java version to be used for compiling 
+				the code -->
+      		<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                    <!-- <executable>${JAVA_1_7_HOME}/bin/javac</executable>
+                    <encoding>UTF-8</encoding> -->
+                </configuration>
+            </plugin>
+            <plugin>
+            	<artifactId>maven-compiler-plugin</artifactId>
+            	<version>3.1</version>
+            	<configuration>
+                <fork>true</fork>
+                <executable>C:\Program Files\Java\jdk1.8.0_91\bin\javac.exe</executable>
+            </configuration>
+        </plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>2.7</version>
+			</plugin>
+		</plugins>
+	</build>
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-report-plugin</artifactId>
+				<version>2.12.4</version>
+			</plugin>
+		</plugins>
+	</reporting>
+	<version>1.0</version>
+</project>

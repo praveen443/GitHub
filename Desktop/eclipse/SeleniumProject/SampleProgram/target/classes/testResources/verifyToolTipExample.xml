@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="verifyToolTipExample.xml">
+    <classes>
+      <class name="TestCases.verifyToolTipExample"/>
+    </classes>
+  </test> <!-- verifyToolTipExample.xml -->
+</suite> <!-- Suite -->

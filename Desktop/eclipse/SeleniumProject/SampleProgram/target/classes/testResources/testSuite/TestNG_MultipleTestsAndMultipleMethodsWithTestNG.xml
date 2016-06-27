@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Executing multiple test classes in Different packages using TestNG.xml file.">
+   <test name="Executing the Tests which resides under TestCases package.">
+    <classes>
+      <class name="TestCases.UtilityClassesExamples"/>
+      <class name="TestCases.Read_CSV_FileUsingJava"/>
+      <class name="TestCases.verifyToolTipExample">
+         <methods>
+         	<include name="launchWebPage"></include>
+            <include name="verifyToolTipText_Case2"></include>
+            <include name="closeBrowser"></include>
+            <exclude name="verifyToolTipText_Case1"></exclude>
+         </methods>
+      </class>
+    </classes>
+  </test> <!-- TestNG_TestCases -->
+  <test name="Executing the Tests which resides under jdbcPrograms package.">
+    <classes>
+      <class name="jdbcPrograms.ConnectJDBC"/>
+    </classes>
+  </test> <!-- TestNG_TestCases -->
+</suite> <!-- Suite -->

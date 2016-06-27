@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.191 sec <<< FAILURE!
+verifyToolTipText_Case1(TestCases.verifyToolTipExample)  Time elapsed: 7.277 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == #header>h1 a (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.17 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'vensakp51', ip: '192.168.8.126', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:22217/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 14d12b88-ef8a-4900-a6f4-a6548d6abdeb
+*** Element info: {Using=css selector, value=#header>h1 a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at TestCases.verifyToolTipExample.verifyToolTipText_Case1(verifyToolTipExample.java:58)
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Test-Suite">
+<listeners>
+    <listener class-name="Utils.TestListener"/>
+</listeners>
+  <test name="UploadFileUsingSelenium">
+ <!--  <parameter name="browserType" value="Chrome"/>
+  <parameter name="appURL" value="UploadFile"/>
+  <parameter name="appURL" value="UploadFileURL"/> -->
+    <classes>
+     <!--  <class name="fileUploading.UploadFiles"/> -->
+      <class name="fileUploading.uploadFile_Using_SendKeysMethod"/>
+    </classes>
+  </test> <!-- UploadFileUsingSelenium -->
+</suite> <!-- Suite -->
