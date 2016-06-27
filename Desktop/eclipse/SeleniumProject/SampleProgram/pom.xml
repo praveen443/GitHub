@@ -10,10 +10,10 @@
 		<url>www.vensaiinc.com</url>
 	</organization>
 	<name>Maven Project</name>
-	<!-- <properties>
-		<jre.level>1.8</jre.level>
-		<jdk.level>1.8</jdk.level>
-	</properties> -->
+	<properties>
+		<JAVA_HOME_JRE>C:\Program Files\Java\jre1.8.0_91</JAVA_HOME_JRE>
+		<JAVA_HOME_JDK>C:\Program Files\Java\jdk1.8.0_91</JAVA_HOME_JDK>
+	</properties>
 	<repositories>
 		<repository>
 			<id>praveen443</id>
@@ -153,12 +153,6 @@
 			<artifactId>selenium-firefox-driver</artifactId>
 			<version>2.53.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.kuali.maven.plugins/jenkins-maven-plugin -->
-		<!-- <dependency>
-    		<groupId>org.kuali.maven.plugins</groupId>
-    		<artifactId>jenkins-maven-plugin</artifactId>
-   		 	<version>1.2.8</version>
-		</dependency> --> 
 	</dependencies>
 	<build>
 		<!-- Source directory configuration -->
