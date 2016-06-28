@@ -38,11 +38,31 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>6.0.2</version>
 		</dependency>
-		<!-- http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<!-- Java API to access the Client Driver Protocols -->
 		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-server</artifactId>
-			<version>2.53.0</version>
+    		<groupId>org.seleniumhq.selenium</groupId>
+    		<artifactId>selenium-java</artifactId>
+    		<version>2.53.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
+		<dependency>
+    		<groupId>org.seleniumhq.selenium</groupId>
+    		<artifactId>selenium-server</artifactId>
+    		<version>2.53.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.maven/maven-ant-tasks -->
+		<!-- Ant Tasks used for Maven integration -->
+		<dependency>
+   			 <groupId>org.apache.maven</groupId>
+    		 <artifactId>maven-ant-tasks</artifactId>
+    		 <version>2.1.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.maven/maven-core -->
+		<dependency>
+    		<groupId>org.apache.maven</groupId>
+    		<artifactId>maven-core</artifactId>
+    		<version>3.3.9</version>
 		</dependency>
 		<!-- http://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
@@ -74,13 +94,22 @@
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
 		</dependency>
-		<!-- http://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<!-- Apache POI - Java API To Access Microsoft Format Files -->
 		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi</artifactId>
-			<version>3.15-beta1</version>
+    		<groupId>org.apache.poi</groupId>
+    		<artifactId>poi</artifactId>
+    		<version>3.14</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.sourceforge.jexcelapi/jxl -->
+		<!-- JExcelApi is a java library which provides the ability to read, write, and modify Microsoft Excel spreadsheets. -->
+		<dependency>
+    		<groupId>net.sourceforge.jexcelapi</groupId>
+    		<artifactId>jxl</artifactId>
+    		<version>2.6.12</version>
 		</dependency>
 		<!-- http://mvnrepository.com/artifact/com.sun.mail/javax.mail -->
+		<!-- Java Mail API used to send Mails. -->
 		<dependency>
 			<groupId>com.sun.mail</groupId>
 			<artifactId>javax.mail</artifactId>
@@ -91,6 +120,20 @@
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-dependency-plugin</artifactId>
 			<version>2.10</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<!-- MySQL JDBC Type 4 driver -->
+		<dependency>
+    		<groupId>mysql</groupId>
+    		<artifactId>mysql-connector-java</artifactId>
+    		<version>6.0.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.guava/guava-testlib -->
+		<!-- Guava testlib is a set of java classes used for more convenient unit testing - particularly to assist the tests for Guava itself. -->
+		<dependency>
+    		<groupId>com.google.guava</groupId>
+    		<artifactId>guava-testlib</artifactId>
+    		<version>19.0</version>
 		</dependency>
 		<!-- http://mvnrepository.com/artifact/commons-collections/commons-collections -->
 		<dependency>
@@ -159,7 +202,7 @@
 				<configuration>
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>
-						<suiteXmlFile>C:\Users\praveen\git\GitHub\LICENSE\Desktop\eclipse\SeleniumProject\SampleProgram\src\testResources\verifyToolTipExample.xml</suiteXmlFile>
+						<suiteXmlFile>C:/Users/praveen/git/GitHub/LICENSE/Desktop/eclipse/SeleniumProject/SampleProgram/src/testResources/verifyToolTipExample.xml</suiteXmlFile>
 						<!-- <suiteXmlFile>suites-test-testng.xml</suiteXmlFile> -->
 					</suiteXmlFiles>
 				</configuration>
