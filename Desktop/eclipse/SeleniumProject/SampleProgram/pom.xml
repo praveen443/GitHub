@@ -2,14 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>MavenProject</groupId>
+	<groupId>com.user.seleniumLearning</groupId>
 	<artifactId>POMfileConfiguration</artifactId>
 	<version>1.0</version>
 	<organization>
 		<name>Vensai Technologies</name>
 		<url>www.vensaiinc.com</url>
 	</organization>
-	<name>Maven Project</name>
 	<properties>
 		<JAVA_HOME_JRE>C:\Program Files\Java\jre1.8.0_91</JAVA_HOME_JRE>
 		<JAVA_HOME_JDK>C:\Program Files\Java\jdk1.8.0_91</JAVA_HOME_JDK>
