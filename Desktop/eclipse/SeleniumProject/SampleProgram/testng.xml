@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Test-Suite">
+  <test name="Entire_TestCases_Execution">
+    <classes>
+      <class name="jdbcPrograms.ConnectJDBC"/>
+      <class name="readDataFromPropertiesFile.RedditLogin_UsingChrome"/>
+      <class name="readDataFromPropertiesFile.RedditLogin_UsingFirefox"/>
+      <class name="TestCases.verifyToolTipExample"/>
+    </classes>
+  </test> <!-- Entire_TestCases_Execution -->
+</suite> <!-- TestNG Test-Suite -->

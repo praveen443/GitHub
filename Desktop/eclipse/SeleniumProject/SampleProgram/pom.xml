@@ -153,6 +153,25 @@
     		<artifactId>reportng</artifactId>
     		<version>1.1.4</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/velocity/velocity-dep -->
+		<dependency>
+    		<groupId>velocity</groupId>
+    		<artifactId>velocity-dep</artifactId>
+    		<version>1.4</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.maven.reporting/maven-reporting-api -->
+		<!-- API to manage report generation. -->
+		<dependency>
+   	 		<groupId>org.apache.maven.reporting</groupId>
+    		<artifactId>maven-reporting-api</artifactId>
+    		<version>3.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+		<dependency>
+    		<groupId>com.google.inject</groupId>
+    		<artifactId>guice</artifactId>
+    		<version>4.0</version>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.velocity/velocity -->
 		<!-- Apache Velocity is a general purpose template engine. -->
 		<dependency>
