@@ -1,175 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[2016-06-27 16:23:11.833 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
+      <![CDATA[<br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/>]]>
     </line>
     <line>
-      <![CDATA[2016-06-27 16:23:11.841 :: Launch the IE browser.<br />]]>
+      <![CDATA[<br/><b><font size = 4>Step: TestCase Name: redditUserLogin_UsingFirefox]]>
     </line>
     <line>
-      <![CDATA[2016-06-27 16:23:15.379 :: Maximize the browser window.<br />]]>
+      <![CDATA[<br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/>]]>
     </line>
     <line>
-      <![CDATA[2016-06-27 16:23:15.398 :: Launch the Application.<br />]]>
+      <![CDATA[2016-06-29 13:04:08.647 :: Launch the Firefox browser.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-27 16:23:26.56 :: Closing the browser instance.<br />]]>
+      <![CDATA[2016-06-29 13:04:13.725 :: Maximize the browser window.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-27 16:23:27.762 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
+      <![CDATA[2016-06-29 13:04:13.737 :: Navigate to Reddit application with the URL - https://www.reddit.com/<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-27 16:23:27.763 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
+      <![CDATA[2016-06-29 13:04:37.031 :: Enter the username - Test1506<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-27 16:23:27.763 :: Launch the IE browser.<br />]]>
+      <![CDATA[2016-06-29 13:04:40.161 :: Enter the password - Test1234<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-27 16:23:29.737 :: Maximize the browser window.<br />]]>
+      <![CDATA[2016-06-29 13:04:43.246 :: Click on Login button.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-27 16:23:29.749 :: Launch the Application.<br />]]>
+      <![CDATA[2016-06-29 13:04:54.448 :: Verifying the UserName after login.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-27 16:23:55.317 :: Closing the browser instance.<br />]]>
+      <![CDATA[2016-06-29 13:04:54.448 :: Click on Log-Out link.<br />]]>
     </line>
     <line>
-      <![CDATA[2016-06-27 16:23:56.053 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
+      <![CDATA[2016-06-29 13:04:59.86 :: Verifying that the user logged-out successfully.<br />]]>
+    </line>
+    <line>
+      <![CDATA[2016-06-29 13:04:59.87 :: Close the browser instance.<br />]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="44239" started-at="2016-06-27T10:53:11Z" finished-at="2016-06-27T10:53:56Z">
+  <suite name="Default suite" duration-ms="51717" started-at="2016-06-29T07:34:08Z" finished-at="2016-06-29T07:35:00Z">
     <groups>
-      <group name="TestNG Tests">
-        <method signature="verifyToolTipExample.verifyToolTipText_Case1()[pri:1, instance:TestCases.verifyToolTipExample@551aa95a]" name="verifyToolTipText_Case1" class="TestCases.verifyToolTipExample"/>
-        <method signature="verifyToolTipExample.verifyToolTipText_Case2()[pri:2, instance:TestCases.verifyToolTipExample@551aa95a]" name="verifyToolTipText_Case2" class="TestCases.verifyToolTipExample"/>
-      </group> <!-- TestNG Tests -->
     </groups>
-    <test name="verifyToolTipExample.xml" duration-ms="44239" started-at="2016-06-27T10:53:11Z" finished-at="2016-06-27T10:53:56Z">
-      <class name="TestCases.verifyToolTipExample">
-        <test-method status="PASS" signature="launchWebPage()[pri:0, instance:TestCases.verifyToolTipExample@551aa95a]" name="launchWebPage" is-config="true" duration-ms="3567" started-at="2016-06-27T16:23:11Z" finished-at="2016-06-27T16:23:15Z">
+    <test name="Default test" duration-ms="51717" started-at="2016-06-29T07:34:08Z" finished-at="2016-06-29T07:35:00Z">
+      <class name="readDataFromPropertiesFile.RedditLogin_UsingFirefox">
+        <test-method status="PASS" signature="redditUserLogin_UsingFirefox()[pri:0, instance:readDataFromPropertiesFile.RedditLogin_UsingFirefox@5bc79255]" name="redditUserLogin_UsingFirefox" duration-ms="51313" started-at="2016-06-29T13:04:08Z" finished-at="2016-06-29T13:04:59Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-06-27 16:23:11.833 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
+              <![CDATA[<br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/>]]>
             </line>
             <line>
-              <![CDATA[2016-06-27 16:23:11.841 :: Launch the IE browser.<br />]]>
+              <![CDATA[<br/><b><font size = 4>Step: TestCase Name: redditUserLogin_UsingFirefox]]>
             </line>
             <line>
-              <![CDATA[2016-06-27 16:23:15.379 :: Maximize the browser window.<br />]]>
+              <![CDATA[<br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/>]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-29 13:04:08.647 :: Launch the Firefox browser.<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-29 13:04:13.725 :: Maximize the browser window.<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-29 13:04:13.737 :: Navigate to Reddit application with the URL - https://www.reddit.com/<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-29 13:04:37.031 :: Enter the username - Test1506<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-29 13:04:40.161 :: Enter the password - Test1234<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-29 13:04:43.246 :: Click on Login button.<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-29 13:04:54.448 :: Verifying the UserName after login.<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-29 13:04:54.448 :: Click on Log-Out link.<br />]]>
+            </line>
+            <line>
+              <![CDATA[2016-06-29 13:04:59.86 :: Verifying that the user logged-out successfully.<br />]]>
             </line>
           </reporter-output>
-        </test-method> <!-- launchWebPage -->
-        <test-method status="FAIL" signature="verifyToolTipText_Case1()[pri:1, instance:TestCases.verifyToolTipExample@551aa95a]" name="verifyToolTipText_Case1" duration-ms="11138" started-at="2016-06-27T16:23:15Z" finished-at="2016-06-27T16:23:26Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to find element with css selector == #header>h1 a (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.06 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'vensakp51', ip: '192.168.8.126', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:45506/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: dbfaf316-18c7-45de-878f-2455717ecb3a
-*** Element info: {Using=css selector, value=#header>h1 a}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == #header>h1 a (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.06 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'vensakp51', ip: '192.168.8.126', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:45506/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: dbfaf316-18c7-45de-878f-2455717ecb3a
-*** Element info: {Using=css selector, value=#header>h1 a}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at TestCases.verifyToolTipExample.verifyToolTipText_Case1(verifyToolTipExample.java:58)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        </test-method> <!-- redditUserLogin_UsingFirefox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:readDataFromPropertiesFile.RedditLogin_UsingFirefox@5bc79255]" name="tearDown" is-config="true" duration-ms="364" started-at="2016-06-29T13:04:59Z" finished-at="2016-06-29T13:05:00Z">
           <reporter-output>
             <line>
-              <![CDATA[2016-06-27 16:23:15.398 :: Launch the Application.<br />]]>
+              <![CDATA[2016-06-29 13:04:59.87 :: Close the browser instance.<br />]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyToolTipText_Case1 -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.verifyToolTipExample@551aa95a]" name="closeBrowser" is-config="true" duration-ms="1202" started-at="2016-06-27T16:23:26Z" finished-at="2016-06-27T16:23:27Z">
-          <reporter-output>
-            <line>
-              <![CDATA[2016-06-27 16:23:26.56 :: Closing the browser instance.<br />]]>
-            </line>
-            <line>
-              <![CDATA[2016-06-27 16:23:27.762 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="launchWebPage()[pri:0, instance:TestCases.verifyToolTipExample@551aa95a]" name="launchWebPage" is-config="true" duration-ms="1985" started-at="2016-06-27T16:23:27Z" finished-at="2016-06-27T16:23:29Z">
-          <reporter-output>
-            <line>
-              <![CDATA[2016-06-27 16:23:27.763 :: <-------- Started the TestCase execution - verifyToolTipExample. --------><br />]]>
-            </line>
-            <line>
-              <![CDATA[2016-06-27 16:23:27.763 :: Launch the IE browser.<br />]]>
-            </line>
-            <line>
-              <![CDATA[2016-06-27 16:23:29.737 :: Maximize the browser window.<br />]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- launchWebPage -->
-        <test-method status="PASS" signature="verifyToolTipText_Case2()[pri:2, instance:TestCases.verifyToolTipExample@551aa95a]" name="verifyToolTipText_Case2" duration-ms="25568" started-at="2016-06-27T16:23:29Z" finished-at="2016-06-27T16:23:55Z">
-          <reporter-output>
-            <line>
-              <![CDATA[2016-06-27 16:23:29.749 :: Launch the Application.<br />]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyToolTipText_Case2 -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.verifyToolTipExample@551aa95a]" name="closeBrowser" is-config="true" duration-ms="736" started-at="2016-06-27T16:23:55Z" finished-at="2016-06-27T16:23:56Z">
-          <reporter-output>
-            <line>
-              <![CDATA[2016-06-27 16:23:55.317 :: Closing the browser instance.<br />]]>
-            </line>
-            <line>
-              <![CDATA[2016-06-27 16:23:56.053 :: <-------- Ended the TestCase execution - verifyToolTipExample. --------><br />]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- TestCases.verifyToolTipExample -->
-    </test> <!-- verifyToolTipExample.xml -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- readDataFromPropertiesFile.RedditLogin_UsingFirefox -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
