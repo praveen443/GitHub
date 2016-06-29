@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Regression Tests"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.155">
+  <properties />
+  
+  
+            <testcase name="setJDBCConnection" time="0.155" classname="jdbcPrograms.ConnectJDBC" />
+      
+</testsuite>

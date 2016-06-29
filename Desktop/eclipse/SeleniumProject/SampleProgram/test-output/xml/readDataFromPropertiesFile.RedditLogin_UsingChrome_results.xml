@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Regression Tests"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="34.631">
+  <properties />
+  
+  
+            <testcase name="redditUserLogin_UsingChrome" time="34.631" classname="readDataFromPropertiesFile.RedditLogin_UsingChrome" />
+      
+</testsuite>
