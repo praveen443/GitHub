@@ -82,7 +82,7 @@ public class TestReporter {
 		Reporter.log("<br/><b><font size = 4>Data Scenario: " + Datatable.getCurrentScenario() + "</font></b><br/>");
 	}*/
 	public static void logStep(Integer step) {
-		Reporter.log("<br/><b><font size = 4>Step: " + step + "</font></b><br/>");
+		Reporter.log("<br/><b><font size = 3>Step: " + step + "</font></b><br/>");
 		System.out.println("Cus logStep: "+step);
 		
 	}
